@@ -1,0 +1,10 @@
+#name "Insight2"
+#participants 0
+
+say 1 "" "At first, Therium-2 didn't have a story arc."
+say 1 "" "It was simply a bunch of levels all chained together."
+say 1 "" "But after I made the map 'No Trial'..."
+say 1 "" "The dialogue editor really grew on me."
+say 1 "" "After experimenting with the editor in No Trial..."
+say 1 "" "I figured out how to manipulate characters and levels with it."
+say 1 "" "I'm glad I could actually turn all my ideas into real levels."

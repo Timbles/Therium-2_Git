@@ -1,0 +1,9 @@
+#name "To B2"
+#participants 1
+
+say 0 "Ghost" "..."
+say 1 "Ghost" "Dookie dumb dumb brain."
+say 1 "Ghost" "Stupid poo poo mouth."
+say 1 "Ghost" "No, I still feel stupid."
+say 0 "" "You've completed S1-C1."
+say 0 "" "Please load therium2-s1-c2.xml"

@@ -1,0 +1,19 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-164.346" t1="125.6" t2="260.782" s0="4.31873" s1="7.70734" s2="12.3673" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1572" version="1">
+        <parameters />
+        <EnvObject t0="-164.345" t1="126.422" t2="255.91" s0="2.15326" s1="3.02699" s2="1.30657" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1528" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-164.344" t1="126.422" t2="265.654" s0="2.1503" s1="3.02699" s2="1.30657" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1529" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-164.351" t1="122.752" t2="258.862" s0="2.14926" s1="1" s2="1.83237" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1571" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-164.351" t1="122.752" t2="262.525" s0="2.14926" s1="1" s2="1.83237" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1527" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

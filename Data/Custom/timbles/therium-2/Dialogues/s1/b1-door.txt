@@ -1,0 +1,14 @@
+set_character_pos 2 101.287 -18.286 66.9818 100
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 103.429 -17.996 68.4042 0 57.29 0 56.219
+#name "Hut Door"
+#participants 2
+
+say 0 "" "..."
+set_character_pos 2 101.22 -18.286 66.7832 100
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 101.529 -44.7402 67.1418 90
+say 0 "" "..."
+set_character_pos 2 101.035 -18.286 65.1592 100
+send_character_message 2 "set_animation \"Data/Animations/r_fetal.anm\""
+say 0 "" "..."

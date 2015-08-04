@@ -1,0 +1,12 @@
+set_character_pos 1 235.21 36.8344 -66.9899 87
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 235.656 37.1816 -67.8486 1"
+set_cam 235.948 37.4419 -66.5473 0 28.14 0 90
+#name "AngeNote"
+#participants 1
+
+say 1 "Ghost" "Two letters, presumably from friends."
+set_cam 235.428 37.4419 -67.8901 -90 -0.02 28.16 51.9099
+say 1 "" "..."
+set_cam 235.714 37.5543 -68.0126 -90 -88.7 101.78 35.7157
+say 1 "" "..."

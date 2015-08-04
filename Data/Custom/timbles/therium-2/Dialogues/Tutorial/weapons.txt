@@ -1,0 +1,14 @@
+set_character_pos 1 -132.537 131.679 50.949 -9
+set_cam -133.44 131.908 51.1064 0 -100.05 0 51.96
+#name "Weapons"
+#participants 1
+
+say 0 "Timbles" "To go into the armory..."
+set_cam -119.666 134.973 51.0906 0 -162.86 0 51.96
+say 0 "Timbles" "Walk through this hallway."
+set_cam -115.492 135.048 68.9032 -15.55 -39.89 0 73.6541
+say 0 "Timbles" "The armory contains one of any weapon..."
+set_cam -108.638 134.972 65.5109 -34.45 -86.61 1.04 43.3375
+say 0 "Timbles" "Including the Therium-2 exclusive Mallet."
+set_cam -108.255 138.087 63.852 -34.8 -177.48 -0.03 61.9466
+say 0 "Timbles" "There is also a table for you to add custom weapons."

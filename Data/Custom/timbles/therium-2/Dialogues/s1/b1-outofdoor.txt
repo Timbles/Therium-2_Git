@@ -1,0 +1,15 @@
+set_character_pos 2 101.544 -43.837 68.2819 -88
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_character_pos 1 101.724 -44.3493 70.4581 0
+set_cam 100.146 -43.4484 67.5183 0 -126.68 0 57.8488
+#name "Get Out"
+#participants 2
+
+say 0 "" "..."
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 2 101.521 -43.8363 68.4474 -88
+set_character_pos 1 101.48 -18.8608 67.8492 -82
+say 0 "" "..."
+send_character_message 2 "set_animation \"Data/Animations/r_fetal.anm\""
+set_character_pos 2 101.591 -43.8363 70.4528 -88
+say 0 "" "..."

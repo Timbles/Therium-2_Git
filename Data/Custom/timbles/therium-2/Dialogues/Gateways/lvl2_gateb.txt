@@ -1,0 +1,9 @@
+#name Gate-B
+#participants 1
+
+say 1 "Ghost" "Butt-poop eye."
+say 1 "Ghost" "Dummy dumb dumb"
+say 1 "Ghost" "...I felt a brain cell deteriorate just now."
+say 2 "" "You have completed Level 2: 'Tall Bushes'!"
+say 2 "" "To progress, type in the main menu..."
+say 2 "" "therium2-s1-b.xml"

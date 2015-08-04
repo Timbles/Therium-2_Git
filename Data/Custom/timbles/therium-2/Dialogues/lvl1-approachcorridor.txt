@@ -1,0 +1,28 @@
+set_character_pos 2 38.5135 -6.76378 67.3046 26
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_character_pos 1 25.5308 -6.62972 75.7945 0
+set_cam 21.0487 -6.17059 79.388 0 -55.35 0 37.9098
+#name "Approach Corridor"
+#participants 2
+
+say 1 "Ghost" "Now what's in here?"
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 1 "Ghost" "Let's take a look..."
+set_character_pos 1 39.685 -1.58128 76.3699 0
+set_cam 18.4204 -6.52459 75.1831 0 169.97 0 37.9098
+say 2 "" "..."
+set_cam 14.8987 -6.52459 84.9605 0 -155.72 0 25.3835
+send_character_message 1 "set_animation \"Data/Animations/r_actionidlecrouch.anm\""
+set_character_pos 1 16.409 -6.69394 89.4619 98
+say 2 "" "..."
+set_cam 14.837 -6.47583 87.8974 0 -131.05 0 25.3835
+say 1 "???" "That looks like one of the prisoners."
+set_cam 16.3078 -5.92881 87.8279 0 177.29 0 25.3835
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+say 1 "???" "If he's out of his cell..."
+say 1 "???" "And wearing his street clothes..."
+set_cam 16.5144 -6.02327 86.7151 0 177.29 0 25.3835
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 2 "???" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_actionidlethreat.anm\""
+say 1 "???" "It's going to be some extra pay for me."

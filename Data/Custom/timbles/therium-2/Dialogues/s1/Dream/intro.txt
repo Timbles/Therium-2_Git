@@ -1,0 +1,55 @@
+set_character_pos 3 82.8285 2.21462 101.164 0
+set_character_pos 2 30.0847 -15.5993 -2.50516 16
+set_character_pos 1 32.3805 -15.6336 -3.76802 -127
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_eye_dir 31.4586 -14.5526 -1.67172 1"
+send_character_message 1 "set_head_target 31.5845 -14.455 -1.25227 1"
+set_cam 32.0531 -15.0167 -4.43235 0 -168.48 0 46.6079
+#name "Part 1"
+#participants 3
+
+say 0 "Captain" "..."
+set_cam 32.0531 -15.0167 -4.43235 0 -168.48 0 46.6079
+send_character_message 1 "set_eye_dir 30.3979 -14.7747 -2.40925 1"
+send_character_message 1 "set_head_target 30.6537 -14.6315 -2.21562 1"
+say 2 "Commander" "We have received an update, sir."
+set_cam 32.0531 -15.0167 -4.43235 0 -168.48 0 46.6079
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.976616"
+send_character_message 1 "set_head_target 31.7702 -14.6322 -1.30368 1"
+say 1 "Captain" "From whom?"
+send_character_message 1 "set_head_target 31.7702 -14.6322 -1.30368 1"
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.976616"
+set_cam 32.0531 -15.0167 -4.43235 0 -168.48 0 46.6079
+say 2 "Commander" "Our benefactors."
+send_character_message 1 "set_head_target 31.7702 -14.6322 -1.30368 1"
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.976616"
+set_cam 29.1477 -15.0749 -2.52644 0 -73.52 0 46.6079
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+say 2 "Commander" "We have to imprison..."
+set_cam 29.1477 -15.0749 -2.52644 0 -73.52 0 46.6079
+send_character_message 1 "set_head_target 31.7702 -14.6322 -1.30368 1"
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.976616"
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+say 2 "Commander" "One of these citizens, actually."
+set_cam 29.1477 -15.0749 -2.52644 0 -73.52 0 46.6079
+send_character_message 1 "set_head_target 31.7702 -14.6322 -1.30368 1"
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.976616"
+say 2 "Commander" "The hooded fellow."
+send_character_message 1 "set_head_target 31.7702 -14.6322 -1.30368 1"
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.634199"
+set_cam 31.5465 -14.9475 -3.50524 0 -73.13 0 46.6079
+say 2 "Commander" "They didn't exactly explain why..."
+set_cam 31.5465 -14.9475 -3.50524 0 -73.13 0 46.6079
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.634199"
+send_character_message 1 "set_head_target 31.7702 -14.6322 -1.30368 1"
+say 2 "Commander" "But he needs to be sent to the ruin prison grounds."
+set_cam 31.5465 -14.9475 -3.50524 0 -73.13 0 46.6079
+send_character_message 1 "set_head_target 31.6545 -14.9841 -2.10457 1"
+send_character_message 1 "set_eye_dir 31.4185 -14.7747 -1.86639 0.825703"
+say 1 "Captain" "The jail is barely complete."
+set_cam 32.7325 -14.9475 -0.565097 0 29.53 0 63.665
+say 1 "Captain" "Hopefully we can just keep him under guard."
+set_cam 32.7325 -14.9475 -0.565097 0 29.53 0 63.665
+say 2 "Commander" "Understood."
+set_cam 33.3337 -15.77 6.44187 0 14.54 0 35.6211
+say 1 "Captain" "Send a squad to take him away."

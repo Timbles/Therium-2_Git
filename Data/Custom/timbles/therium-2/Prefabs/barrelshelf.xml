@@ -1,0 +1,82 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="0.418862" t1="21.826" t2="-151.616" s0="3.43176" s1="3.88016" s2="1.28873" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1158" version="1">
+        <parameters />
+        <EnvObject t0="-0.720791" t1="20.5322" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1159" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.413668" t1="20.1116" t2="-151.646" s0="1.24237" s1="1.71362" s2="1.9707" r0="2.38419e-007" r1="2.38419e-007" r2="1" r3="0" r4="-1" r5="2.38419e-007" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="-1" r10="2.38419e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="1160" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Fence1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.00157946" t1="20.5322" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1161" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.719572" t1="20.5322" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1162" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="1.48616" t1="20.5322" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1163" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.413668" t1="21.0013" t2="-151.646" s0="1.24237" s1="1.71362" s2="1.9707" r0="2.38419e-007" r1="2.38419e-007" r2="1" r3="0" r4="-1" r5="2.38419e-007" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="-1" r10="2.38419e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="1164" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Fence1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.413668" t1="21.9036" t2="-151.646" s0="1.24237" s1="1.71362" s2="1.9707" r0="2.38419e-007" r1="2.38419e-007" r2="1" r3="0" r4="-1" r5="2.38419e-007" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="-1" r10="2.38419e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="1165" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Fence1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.413668" t1="22.7933" t2="-151.646" s0="1.24237" s1="1.71362" s2="1.9707" r0="2.38419e-007" r1="2.38419e-007" r2="1" r3="0" r4="-1" r5="2.38419e-007" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="-1" r10="2.38419e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="1166" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Fence1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-0.720791" t1="21.4157" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1167" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.00157958" t1="21.4157" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1168" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.719572" t1="21.4157" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1169" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="1.48616" t1="21.4157" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1170" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-0.720791" t1="22.3122" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1171" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.00157958" t1="22.3122" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1172" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.719572" t1="22.3122" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1173" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="1.48616" t1="22.3122" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1174" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-0.720791" t1="23.2037" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1175" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.00157958" t1="23.2037" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1176" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.719572" t1="23.2037" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1177" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="1.48616" t1="23.2037" t2="-151.645" s0="1" s1="1" s2="1" r0="0" r1="1" r2="0" r3="0" r4="0" r5="0" r6="1" r7="0" r8="1" r9="0" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="1178" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/barrel_rope/Objects/Environments/jims_barrel_rope.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="2.01439" t1="21.826" t2="-152.161" s0="1" s1="1.42006" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1179" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.413669" t1="23.626" t2="-151.646" s0="1.24237" s1="1.71362" s2="1.9707" r0="2.38419e-007" r1="2.38419e-007" r2="1" r3="0" r4="-1" r5="2.38419e-007" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="-1" r10="2.38419e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="1180" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Fence1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-1.17667" t1="21.826" t2="-152.161" s0="1" s1="1.42006" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1181" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="2.01439" t1="21.826" t2="-151.071" s0="1" s1="1.42006" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1182" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-1.17667" t1="21.826" t2="-151.071" s0="1" s1="1.42006" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1183" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

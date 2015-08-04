@@ -1,0 +1,64 @@
+set_character_pos 2 104.949 56.9034 125.863 -118
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_eye_dir 102.824 57.369 128.153 1"
+set_character_pos 1 102.766 56.7252 128.478 58
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 1 "set_eye_dir 104.835 57.6093 126.164 1"
+send_character_message 1 "set_head_target 105.808 55.978 132.594 0"
+set_cam 103.892 57.318 128.1 0 108.23 0 45.0375
+#name "Manly Man"
+#participants 2
+
+say 0 "Ghost" "..."
+set_cam 104.837 57.5377 126.856 0 -3.37 0 45.0375
+say 0 "???" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_handneck.anm\""
+set_cam 103.761 57.2874 127.472 0 140.83 0 45.0375
+say 1 "Ghost" "Uh, hi-"
+send_character_message 2 "set_head_target 104.621 57.5815 126.423 1"
+set_cam 104.823 57.5973 126.695 0 -4.7 0 45.0375
+say 2 "???" "I don't think you know who you are talking to."
+set_cam 104.102 57.1707 127.859 0 115.63 0 45.0375
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 1 "Ghost" "...I guess not-"
+set_cam 102.136 57.1707 130.179 0 -28.53 0 24.6151
+say 2 "???" "What you are looking at is a man..."
+send_character_message 2 "set_head_target 104.322 57.9139 126.34 1"
+say 2 "???" "A man of wisdom, courage, and strength."
+send_character_message 2 "set_head_target 104.322 57.491 126.34 1"
+say 2 "???" "A man who knows how to get his hands dirty."
+send_character_message 2 "set_head_target 104.494 57.6081 126.436 1"
+say 2 "???" "A man who can get the right thing done..."
+send_character_message 2 "set_head_target 104.494 57.8347 126.436 1"
+say 2 "???" "A man who knows his values."
+send_character_message 2 "set_head_target 104.582 57.7388 126.47 1"
+say 2 "???" "A man who respects his women truely..."
+send_character_message 2 "set_head_target 104.43 57.4711 126.435 1"
+say 2 "???" "And a man who delivers justice freely."
+set_cam 104.012 57.2981 127.719 0 116.31 0 24.6151
+say 0 "Ghost" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+say 1 "Ghost" "Okay?"
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 1 "Ghost" "Well uh, what's your name?"
+send_character_message 2 "set_eye_dir 102.824 57.369 128.153 0.681439"
+send_character_message 2 "set_head_target 104.525 57.8383 126.539 1"
+set_cam 105.193 57.5209 127.621 0 14.3 0 24.6151
+say 2 "???" "Those who call me names are fools and dimwits."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+set_cam 104.956 57.1619 127.552 0 114.65 0 24.6151
+say 1 "Ghost" "No, I'm not calling you names, I just-"
+set_cam 105.371 57.6068 126.786 0 29.33 0 24.6151
+say 2 "???" "I go by no name, faithful traveller."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_facepalm.anm\""
+set_cam 104.439 57.1923 127.751 0 111.89 0 24.6151
+say 1 "Ghost" "Right, manly man."
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_cam 111.521 57.1577 134.79 0 45.48 0 24.6151
+say 2 "Manly Man" "If I am ever to assist you in hardships..."
+say 2 "Manly Man" "Just expect me to be firm."
+say 2 "Manly Man" "I know how to grasp the biggest weights."
+say 1 "Ghost" "Yeah. Uhuh. Mm. Agreed."
+say 1 "Ghost" "Well look at the time!"
+say 1 "Ghost" "It's just about time for me to walk away."
+say 2 "Manly Man" "Be vigilant, as I always am."

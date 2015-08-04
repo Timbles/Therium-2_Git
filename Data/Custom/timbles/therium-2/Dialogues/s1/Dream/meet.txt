@@ -1,0 +1,49 @@
+set_character_pos 5 30.9096 -18.2819 101.222 -179
+set_character_pos 4 82.7403 -3.85601 101.164 0
+set_character_pos 3 28.8933 -17.8597 119.64 -90
+set_character_pos 2 30.2595 -17.6889 120.133 -120
+set_character_pos 1 28.0222 -17.6774 123.609 60
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+set_cam 29.3308 -17.3489 121.909 0 144.94 0 34.686
+#name "Meet"
+#participants 5
+
+say 1 "You" "What the hell do you mean!?"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 1 "You" "I haven't done anything!"
+send_character_message 1 "set_head_target 28.1982 -17.2426 122.801 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+say 1 "You" "All I've even done was-"
+send_character_message 2 "set_eye_dir 29.3719 -17.0769 121.749 1"
+send_character_message 2 "set_head_target 29.3542 -16.9921 121.856 0.801112"
+send_character_message 3 "set_head_target 27.9882 -17.2486 122.377 1"
+send_character_message 3 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 29.348 -17.3485 123.339 0 -5.06 0 34.686
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+say 2 "Commander" "It doesn't matter what you've done."
+say 2 "Commander" "This is under direct order of the Captain."
+set_cam 28.156 -17.3485 125.484 0 -5.06 0 34.686
+say 1 "You" "Well fuck the captain!"
+send_character_message 1 "set_torso_target 27.417 -17.4594 121.251 1"
+set_character_pos 1 28.0202 -17.6784 123.61 60
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_point.anm\""
+say 1 "You" "You are not going to take me!"
+send_character_message 2 "set_eye_dir 28.9265 -17.0769 119.8 1"
+send_character_message 2 "set_head_target 28.8952 -16.9921 120.682 0.801112"
+send_character_message 3 "set_head_target 29.3488 -17.2486 121.127 1"
+set_cam 27.8633 -17.1087 119.961 0 -83.93 0 34.686
+say 2 "Commander" "You really think that's a good idea?"
+send_character_message 1 "set_torso_target 27.417 -17.4594 121.251 0.64607"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 28.6797 -17.3363 121.734 0 163.02 0 34.686
+say 1 "You" "Well it certainly is to me."
+send_character_message 1 "set_animation \"Data/Animations/r_combatidle2.anm\""
+say 1 "You" "I'll stand up for myself!"
+set_character_pos 4 27.9854 -17.8969 123.49 67
+set_character_pos 1 28.3222 -17.6782 134.155 60
+send_character_message 3 "set_head_target 30.0667 -17.2486 120.551 1"
+set_cam 30.9681 -17.1914 121.301 0 45.73 0 34.686
+say 2 "Commander" "Apprehend him."
+send_character_message 3 "set_head_target 29.025 -17.2486 121.131 1"
+send_character_message 3 "set_animation \"Data/Animations/r_combatidle.anm\""
+say 0 "???" "*nod*"

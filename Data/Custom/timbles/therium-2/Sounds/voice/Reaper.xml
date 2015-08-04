@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<voice>
+	<hit path="Data/Sounds/voice/animal/bunny_get_hit.xml"/>
+	<block_hit path="Data/Sounds/voice/animal/bunny_get_hit.xml"/>
+	<land_hit path="Data/Sounds/voice/animal/bunny_get_hit.xml"/>
+	<attack path="Data/Sounds/voice/animal/bunny_attack.xml"/>
+	<death path="Data/Sounds/voice/animal2/voice_bunny_death.xml"/>
+	<suspicious path="Data/Sounds/voice/animal2/voice_bunny_light_block.xml"/>
+	<engage path="Data/Sounds/voice/animal2/voice_bunny_heavy_block.xml"/>
+</voice>

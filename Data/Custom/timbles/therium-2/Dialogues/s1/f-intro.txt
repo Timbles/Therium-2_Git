@@ -1,0 +1,7 @@
+#name "Intro"
+#participants 1
+
+say 1 "Ghost" "...what?"
+say 1 "Ghost" "What is this place?"
+say 0 "Ghost" "..."
+say 1 "Ghost" "There's something over on that block..."

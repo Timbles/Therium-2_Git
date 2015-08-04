@@ -1,0 +1,43 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-85.7258" t1="39.7736" t2="-62.3277" s0="5.87011" s1="5.73844" s2="5.59347" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="229" version="1">
+        <parameters />
+        <EnvObject t0="-85.7167" t1="39.6054" t2="-61.7363" s0="1" s1="1" s2="1" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="0.616147" r6="-0.787631" r7="0" r8="0" r9="0.787631" r10="0.616147" r11="0" r12="0" r13="0" r14="0" r15="1" id="198" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/shops/shop_tarp.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-82.9514" t1="38.568" t2="-63.8394" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="199" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-82.9514" t1="41.2701" t2="-63.8394" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="200" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <Group t0="-88.5355" t1="39.9191" t2="-63.8394" s0="0.240698" s1="5.43751" s2="0.199049" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="203" version="1">
+            <parameters />
+            <EnvObject t0="-88.5355" t1="38.568" t2="-63.8394" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="201" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-88.5355" t1="41.2701" t2="-63.8394" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="202" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="-88.5355" t1="42.1916" t2="-62.4007" s0="0.240698" s1="5.43751" s2="0.199049" r0="1" r1="0" r2="0" r3="0" r4="0" r5="5.96046e-008" r6="1" r7="0" r8="0" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="204" version="1">
+            <parameters />
+            <EnvObject t0="-88.5355" t1="42.1916" t2="-63.7518" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="5.96046e-008" r6="1" r7="0" r8="0" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="205" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-88.5355" t1="42.1916" t2="-61.0496" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="5.96046e-008" r6="1" r7="0" r8="0" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="208" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="-82.9549" t1="42.1916" t2="-62.4007" s0="0.240698" s1="5.43751" s2="0.199049" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="209" version="1">
+            <parameters />
+            <EnvObject t0="-82.9549" t1="42.1916" t2="-63.7518" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="210" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-82.9549" t1="42.1916" t2="-61.0496" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="218" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+    </Group>
+</ActorObjects>

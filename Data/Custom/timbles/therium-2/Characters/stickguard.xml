@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<character>
+    <appearance obj_path = "Data/Objects/IGF_Characters/base_guard.xml"
+                skeleton = "Data/Skeletons/r_rig.xml"
+                channel_0 = "cloth"
+                channel_1 = "fur"
+                channel_2 = "cloth"
+                channel_3 = "cloth"/>
+    <animations idle = "Data/Animations/r_weaponidlestance.xml"
+                jump = "Data/Animations/r_jump.xml"
+                roll = "Data/Animations/r_roll.xml"
+                movement = "Data/Custom/timbles/therium-2/Animations/stickmove.xml"
+                wall = "Data/Animations/r_wall.xml"
+                ledge = "Data/Animations/r_ledge.anm"
+                medrightblock = "Data/Animations/r_dogswordparryright.anm"
+                medleftblock = "Data/Animations/r_dogswordparryleft.anm"
+                highrightblock = "Data/Animations/r_dogswordparryright.anm"
+                highleftblock = "Data/Animations/r_dogswordparryleft.anm"
+                lowrightblock = "Data/Animations/r_activeblocklowright.anm"
+                lowleftblock = "Data/Animations/r_activeblocklowleft.anm"
+                blockflinch = "Data/Animations/r_dogswordflinch.anm"/>
+    <attacks moving_close = "Data/Custom/timbles/therium-2/Attacks/sticksideclose.xml"
+             stationary_close = "Data/Custom/timbles/therium-2/Attacks/sticksideclose.xml"
+             moving = "Data/Custom/timbles/therium-2/Attacks/stickoverhead.xml"
+             stationary = "Data/Custom/timbles/therium-2/Attacks/stickoverhead.xml"
+             moving_low = "Data/Attacks/soccerkick.xml"
+             low = "Data/Attacks/sweep.xml"
+             air = "Data/Attacks/legcannon.xml" />
+    <morphs>
+        <fist_l num_steps = "4"/>
+        <fist_r num_steps = "4"/>
+        <mouth_open />
+        <ah />
+        <oh />
+        <w />
+        <sneer />
+        <frown />
+        <wink_l />
+        <wink_r />
+        <look_u start_x = "-0.051" start_y = "-0.092" start_z = "1.386"
+                  end_x = "-0.146"   end_y = "-0.158"   end_z = "1.527"/>
+        <look_d start_x = "-0.057" start_y = "-0.085" start_z = "1.367"
+                  end_x = "-0.223"   end_y = "-0.125"   end_z = "1.306"/>
+        <look_f start_x = "-0.050" start_y = "-0.103" start_z = "1.372"
+                  end_x = "-0.119"   end_y = "-0.271"   end_z = "1.379"/>
+        <look_b start_x = "-0.057" start_y = "-0.081" start_z = "1.380"
+                  end_x = "-0.226"   end_y = "-0.074"   end_z = "1.437"/>
+        <look_c default = "true"
+                start_x = "-0.057" start_y = "-0.090" start_z = "1.376"
+                  end_x = "-0.221"   end_y = "-0.150"   end_z = "1.427"/>
+    </morphs>
+    <visemes>
+        <AH>ah</AH>
+        <AO>oh</AO>
+        <EH>ah</EH>
+        <IY>ah</IY>
+        <r>w</r>
+        <l>ah</l>
+        <w>w</w>
+        <n>ah</n>
+    </visemes>
+    <team>guard</team>
+    <tags species = "rabbit"/>
+    <voice path = "Data/Sounds/voice/rabbit2.xml"
+           pitch = "1.0"/>
+    <clothing>Data/Materials/cloth_leather.xml</clothing>
+ </character>

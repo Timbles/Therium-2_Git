@@ -1,0 +1,9 @@
+set_character_pos 1 -148.554 -27.882 36.1448 -14
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam -150.039 -27.6611 36.6357 0 -86.33 0 48.3854
+#name "See Basket"
+#participants 1
+
+say 1 "Ghost" "I bet I could hide in that basket."
+set_cam -148.104 -27.863 37.0838 0 -86.33 0 48.3854
+say 1 "Ghost" "But it won't work if they get too close..."

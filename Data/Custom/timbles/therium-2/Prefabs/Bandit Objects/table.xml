@@ -1,0 +1,13 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-211.97" t1="136.667" t2="-106.176" s0="1.86165" s1="1.28638" s2="1.62357" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1575" version="1">
+        <parameters />
+        <EnvObject t0="-211.991" t1="136.656" t2="-106.155" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1573" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/shops/sign_post_h.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-211.97" t1="137.274" t2="-106.176" s0="1.72884" s1="1" s2="0.999999" r0="5.96046e-008" r1="2.98023e-008" r2="-1" r3="0" r4="1" r5="0" r6="-2.98023e-008" r7="0" r8="-8.9407e-008" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="1574" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Fence1.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

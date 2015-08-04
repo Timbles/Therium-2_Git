@@ -1,0 +1,5 @@
+#name "Enemies"
+#participants 0
+
+say 0 "Timbles" "These are the different enemy types..."
+say 0 "Timbles" "That you might encounter in Therium-2."

@@ -1,0 +1,18 @@
+set_character_pos 1 25.9802 23.4505 39.6089 82
+send_character_message 1 "set_head_target 27.5058 22.6899 36.3014 1"
+set_cam 25.0904 23.6726 40.6803 -5.62 -29.32 0 41.2996
+#name "Beginning"
+#participants 1
+
+say 1 "You" "Damn... that was tough."
+send_character_message 1 "set_head_target 26.2562 23.2903 36.0327 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 26.9559 23.605 38.7151 -0.42 126.75 0.19 41.2996
+say 1 "You" "They nearly saw me."
+set_cam 25.6809 23.6046 38.0662 -0.26 -153.59 -0.38 41.2996
+send_character_message 1 "set_head_target 27.5272 23.7864 38.6384 1"
+say 1 "You" "Not sure who the hell got me in prison, but..."
+send_character_message 1 "set_head_target 27.1576 24.1662 38.5341 1"
+say 1 "You" "I wish I didn't piss them off."
+send_character_message 1 "set_head_target 25.5129 23.6603 38.7708 1"
+say 1 "You" "I'm innocent, as far as I can tell."

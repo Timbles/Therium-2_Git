@@ -1,0 +1,36 @@
+set_character_pos 2 -28.5005 117.729 -65.7211 90
+set_character_pos 1 -28.0895 117.618 -68.6909 170
+set_cam -24.8358 118.269 -67.9442 0 72.59 0 25.3618
+#name "Intro"
+#participants 2
+
+say 1 "Ghost" "Woah... what is this place?"
+send_character_message 1 "set_head_target -30.5846 118.517 -67.5172 1"
+say 2 "Jared" "You'll especially have to be careful here."
+send_character_message 1 "set_head_target -28.9206 118.517 -67.2363 1"
+set_character_pos 1 -28.0895 117.618 -68.6909 -115
+send_character_message 2 "set_head_target -28.422 118.279 -64.7935 0.000829071"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam -28.5192 118.33 -67.5034 0 -177.29 0 25.3618
+say 2 "Jared" "This is a bandit camp."
+set_cam -28.9983 118.33 -70.5248 0 -163.1 0 25.3618
+send_character_message 2 "set_head_target -28.5146 118.603 -66.6444 1"
+say 1 "Ghost" "So I'm a bit further away from the rest of the uh..."
+send_character_message 2 "set_head_target -28.3115 118.693 -66.397 1"
+say 2 "Jared" "Yeah, but not that far away."
+send_character_message 2 "set_head_target -29.3537 118.693 -67.1206 1"
+say 2 "Jared" "Just look out for these guys."
+set_cam -28.9982 118.33 -68.5157 0 -163.1 0 25.3618
+send_character_message 2 "set_head_target -28.2843 118.443 -67.0891 1"
+say 2 "Jared" "They have a lot of knives, and a couple mallets."
+send_character_message 2 "set_head_target -28.2843 118.332 -67.0891 1"
+say 2 "Jared" "I'd advise stealth, but of course..."
+set_character_pos 1 -28.0895 117.618 -68.6909 155
+send_character_message 2 "set_head_target -29.0627 118.396 -66.5319 1"
+say 2 "Jared" "Approach them in any way you can handle."
+send_character_message 1 "set_head_target -28.9922 118.326 -69.2893 1"
+send_character_message 2 "set_head_target -29.1311 118.396 -66.7296 1"
+set_cam -30.1991 118.33 -69.7109 0 -111.69 0 25.3618
+say 1 "Ghost" "Alright, noted."
+send_character_message 1 "set_head_target -28.9922 118.501 -69.2893 1"
+say 1 "Ghost" "This might be a bit tough."

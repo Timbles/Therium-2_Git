@@ -1,0 +1,10 @@
+#name "FromF GateB"
+#participants 1
+
+say 1 "Ghost" "What did that crazy guy say about the shrines?"
+say 1 "Ghost" "God give my self-dignity strength..."
+say 2 "" "..."
+say 1 "Ghost" "Dumbo poopy idiotbrain."
+say 2 "" "..."
+say 1 "Ghost" "What the hell..."
+say 2 "" "..."

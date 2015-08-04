@@ -1,0 +1,14 @@
+#name "Insight3"
+#participants 0
+
+say 1 "" "I also got inspired from the original Lugaru campaign."
+say 1 "" "I made sure to follow the 'challenge level in a story' style."
+say 1 "" "As you might be able to tell from some levels..."
+say 1 "" "The story path's levels reflect the ending you get."
+say 1 "" "The A path reflects its ending by becoming more and more linear..."
+say 1 "" "While the B and C paths are more open."
+say 1 "" "The secret levels are entirely either parkour or stealth..."
+say 1 "" "Meaning you can take many, many ways to complete them."
+say 1 "" "And though there are 6 endings in the game..."
+say 1 "" "Technically there's 8."
+say 1 "" "But I'm not going to spoil it."

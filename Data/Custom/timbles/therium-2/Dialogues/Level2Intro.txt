@@ -1,0 +1,132 @@
+#name "Level 2 Intro"
+#participants 2
+
+set_cam 34.0534 49.4594 48.0415 -0.38 79.83 -0.72 34.3404
+set_character_pos 1 32.5397 49.1823 47.5024 -167
+set_character_pos 2 31.7127 49.3441 49.5336 69
+say 1 "You" "Woah.[wait 0.2].[wait0.2].[wait 0.4] what just happened?"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 33.3995 49.4289 50.3535 0.47997"
+say 2 "Jared" "The lost spirits of these ruins..."
+set_cam 31.9671 49.4387 48.2979 0 172.28 0 34.3404
+say 2 "Jared" "Sung you a ballad personally."
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam 33.8458 49.4387 49.3073 0 43.06 0 34.3404
+set_character_pos 1 32.5397 49.1823 47.5024 -74
+say 1 "You" "Holy smokes... that sounds like it makes me a hero!"
+set_character_pos 2 33.1218 49.3441 49.7915 102
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam 33.4146 49.3082 45.6892 0.68 164.45 -0.45 34.3404
+say 2 "Jared" "Well, to them, you are a hero."
+say 2 "Jared" "They hate these workers."
+say 2 "Jared" "They're disrupting their Therium."
+say 2 "Jared" "They need their own place of rest."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 34.0534 49.4594 48.0415 -0.38 79.83 -0.72 34.3404
+set_character_pos 1 32.5397 49.1824 47.5022 -75
+say 1 "You" "Interesting.[wait 0.1] Am I a hot shot now?"
+send_character_message 2 "set_eye_dir 32.2437 50.3377 48.564 1"
+send_character_message 2 "set_head_target 32.267 50.2286 48.5735 0.91692"
+send_character_message 2 "set_animation \"ó\""
+set_cam 33.7394 49.4615 48.2968 0.56 151.17 -0.59 34.3404
+say 2 "Jared" ".[wait 0.2].[wait 0.2].[wait 0.2]"
+send_character_message 2 "set_eye_dir 32.0712 49.6897 47.4992 1"
+send_character_message 2 "set_head_target 32.2524 49.4702 47.5003 0.91692"
+set_character_pos 1 32.1343 48.9772 47.093 -114
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_handneck.anm\""
+say 2 "Jared" "Maybe. You need to prove yourself first."
+set_cam 32.6296 49.3361 49.1177 -0.4 20.97 2.72 34.3404
+say 1 "You" "And my quest was to..."
+send_character_message 2 "set_head_target 31.7337 49.4105 48.125 0.836427"
+send_character_message 2 "set_eye_dir 31.6511 49.2569 48.3378 1"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 33.5264 49.4443 48.2337 -1.35 163.4 -2.4 34.3404
+say 2 "Jared" "Break out of here..."
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 2 "set_eye_dir 31.7516 49.4349 48.1849 1"
+send_character_message 2 "set_head_target 31.8342 49.5885 47.9721 0.836427"
+say 2 "Jared" "And break their bones."
+set_cam 33.5264 49.4443 48.2337 -1.68 50.35 2.18 34.3404
+say 1 "You" "I have a question."
+say 1 "You" "How is that going to disrupt their settling?"
+send_character_message 1 "set_head_target 31.6835 49.5496 48.3335 0.47997"
+set_character_pos 2 31.6799 49.3441 48.6561 56
+send_character_message 2 "set_head_target 31.8342 49.5764 47.9721 0.836427"
+send_character_message 2 "set_eye_dir 31.7516 49.6238 48.1849 1"
+set_cam 32.9223 49.5043 48.0057 -2.68 115.46 -0.61 34.3404
+say 2 "Jared" "Soon, they're going to share stories..."
+say 2 "Jared" "Stories of the hooded rabbit who attacked them."
+send_character_message 2 "set_eye_dir 31.8773 49.4929 47.6538 1"
+send_character_message 2 "set_head_target 31.9599 49.6465 47.441 0.836427"
+say 2 "Jared" "Just look at you. You're ghastly white."
+send_character_message 1 "set_head_target 31.5733 49.584 48.3115 1"
+send_character_message 1 "set_eye_dir 31.5704 49.6084 48.4123 1"
+set_cam 32.2782 49.5042 48.2034 0.02 12.15 2.75 34.3404
+say 1 "You" "...your point?"
+set_cam 32.2514 49.5603 48.1062 -2.55 124.47 -1.03 34.3404
+say 2 "Jared" "The spirits within this Therium..."
+say 2 "Jared" "They cannot materialize into a physical form."
+send_character_message 2 "set_head_target 31.9599 49.5544 47.4361 0.836427"
+say 2 "Jared" "The settlers, however, do not know that."
+send_character_message 2 "set_head_target 31.9599 49.6296 47.4329 0.836427"
+say 2 "Jared" "You will appear to be a ghost among them."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 32.2975 49.4829 48.5152 -0.05 13.45 2.75 34.3404
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 32.2975 49.4829 48.5152 -0.05 13.45 2.75 28.7369
+say 1 "You" "That's a little badass."
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+set_character_pos 2 31.7127 49.3441 49.5336 69
+set_cam 33.1331 49.5183 48.883 -2.7 113.64 -0.54 33.1707
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 1 "set_head_target 32.0298 49.5903 47.5735 1"
+say 2 "Jared" "In fact, what is your name?"
+set_character_pos 1 31.8523 48.9772 46.9988 -99
+send_character_message 1 "set_eye_dir 32.1107 49.1064 47.4338 1"
+send_character_message 1 "set_head_target 32.2983 49.343 47.7246 1"
+set_cam 33.1122 49.5411 46.5652 -2.7 113.64 -0.54 33.1707
+say 1 "You" "I think some stupid civilian name isn't gonna cut it."
+send_character_message 1 "set_eye_dir 32.2559 49.552 47.6482 1"
+send_character_message 1 "set_head_target 32.2983 49.6784 47.7246 1"
+say 1 "You" "Call me 'The Ghost'."
+send_character_message 2 "set_head_target 32.0496 49.7639 49.0716 1"
+set_cam 33.2123 49.5219 48.8956 -2.7 113.64 -0.54 33.1707
+say 2 "Jared" "A fitting title."
+send_character_message 2 "set_torso_target 32.3123 49.2331 48.4504 1"
+set_cam 32.158 49.4515 50.927 0.13 9.72 2.75 33.1707
+send_character_message 1 "set_eye_dir 31.8671 49.558 47.5805 1"
+send_character_message 1 "set_head_target 31.9095 49.6844 47.6569 0.999982"
+send_character_message 2 "set_head_target 31.8554 49.7639 48.2773 1"
+say 2 "Jared" "Whether or not you actually act like a ghost..."
+set_cam 32.1818 49.453 50.8879 0.13 9.72 2.75 33.1707
+send_character_message 2 "set_torso_target 32.3088 49.2331 48.4489 1"
+send_character_message 2 "set_head_target 31.8554 49.8593 48.2773 1"
+say 2 "Jared" "Punching them in the face, choking them out, it's your choice."
+set_cam 32.1818 49.453 50.8879 0.13 9.72 2.75 33.1707
+send_character_message 2 "set_torso_target 32.3088 49.2331 48.4489 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 1 "Ghost" "Both sound nice."
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 1 "set_head_target 31.7552 49.5002 48.8464 1"
+send_character_message 2 "set_head_target 38.3801 49.2191 54.7485 0"
+send_character_message 2 "set_torso_target 32.0493 49.2331 48.3798 1"
+set_cam 32.8984 49.5358 48.9152 -2.69 115.03 -0.6 35.6184
+say 2 "Jared" "It might be a while until you escape this Therium."
+set_character_pos 1 32.002 48.9772 46.8714 -99
+send_character_message 2 "set_torso_target 32.0493 49.2331 48.3798 1"
+send_character_message 1 "set_head_target 31.7552 49.5002 48.8464 1"
+send_character_message 2 "set_head_target 38.3801 49.2191 54.7485 0"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 32.7616 49.4525 48.384 -0.9 31.58 2.6 35.6184
+say 1 "Ghost" "I'm sorry, but what is a Therium?"
+send_character_message 2 "set_head_target 31.9825 49.2191 48.5505 1"
+send_character_message 1 "set_head_target 31.7552 49.6642 48.8464 1"
+send_character_message 2 "set_torso_target 32.2173 49.2331 48.5452 1"
+set_cam 32.7616 49.4525 48.3841 -2.29 136.29 -1.53 35.6184
+say 2 "Jared" ".[wait 0.2].[wait 0.2].[wait 0.2]It's complicated."
+set_cam 32.7616 49.4525 48.3841 -2.29 136.29 -1.53 35.6184
+send_character_message 2 "set_head_target 31.8816 49.5088 47.2872 1"
+say 1 "Ghost" "Alright, I understand.[wait 0.2] I have places to be."
+set_cam 36.7136 49.3955 48.207 -2.68 89.48 0.62 50.232
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 2 "Jared" "See you soon..."

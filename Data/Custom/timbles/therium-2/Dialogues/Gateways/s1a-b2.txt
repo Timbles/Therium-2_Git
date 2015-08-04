@@ -1,0 +1,17 @@
+set_character_pos 1 -46.745 1.85647 76.2553 36
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam -46.9539 2.33564 77.6819 0 -20.44 0 63.2009
+#name "To B2"
+#participants 1
+
+say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 -46.0244 1.85647 75.852 36
+say 1 "Ghost" "You're a butt.[wait 0.6] A butt-dumb."
+say 1 "Ghost" "Poopy butt-brain."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam -45.7591 2.33564 76.4057 0 83.29 0 63.2009
+set_character_pos 1 -46.886 1.85647 76.3298 36
+say 1 "Ghost" "...[wait 0.5]I still think this is stupid."
+say 0 "" "You've completed S1-A1."
+say 0 "" "Please load therium2-s1-b2.xml"

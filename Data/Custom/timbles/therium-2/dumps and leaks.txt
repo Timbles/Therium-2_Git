@@ -1,0 +1,22 @@
+Basically, my campaign will kinda be open world.
+
+
+[img]http://i.imgur.com/hFLUw8S.png[/img]
+
+In layman's terms, imagine it like a choose your own adventure book with less bullshit deaths. You can choose each path you take and each path will be different in level layouts, storyline and (most importantly) endings.
+
+The A path is more violent, linear, and results in more enemies wielding weapons. The visual style will look like the Lugaru Challenge maps.
+[spoiler=Screenshot][img]http://i.gyazo.com/2a792b0ee63815abfcb108abe31e0f04.jpg[/img]
+
+S1-A1[/spoiler]
+
+The B path is less violent, more open, and results in more stealth and hand-to-hand combat. This'll be way more open, more grassy fields, trees, etc.
+[spoiler=Screenshot][img]http://i.gyazo.com/af1479790a7f32fbc552c04b4e47cc8e.jpg[/img]
+
+S1-B1[/spoiler]
+
+The C path takes place completely indoors and plays like Doom, but still keeping Overgrowth combat and style (explore indoors hallways, etc.) The visual style almost makes it look like it came straight out of a Thief game.
+I edited out the terrain on indoors maps, so it'll load way easier.
+[spoiler=Screenshot][img]http://i.gyazo.com/43ff9e8da76e3c99952ff03451fb53ff.jpg[/img][/spoiler]
+
+There are also two more paths, but you have to find them for yourself (D path and F path).

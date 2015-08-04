@@ -1,0 +1,48 @@
+set_character_pos 2 88.3593 -16.7533 -6.8428 -172
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 2 "set_head_target 86.5093 -16.428 -7.50511 1"
+set_character_pos 1 86.4806 -17.1913 -7.69557 -86
+send_character_message 1 "set_eye_dir 88.1427 -16.3694 -6.78101 1"
+send_character_message 1 "set_head_target 87.9355 -16.4197 -6.8269 1"
+set_cam 84.678 -16.6691 -6.26061 0 -65.51 0 42.9039
+#name "Intro"
+#participants 2
+
+say 1 "Ghost" "Hey Jared."
+set_character_pos 1 86.4806 -17.1913 -7.69557 -37
+send_character_message 2 "set_head_target 87.2872 -16.428 -5.71813 1"
+set_cam 86.961 -16.5484 -6.10462 0 -54.93 0 42.9039
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 2 "Jared" "Hey, there's something you should know."
+set_cam 86.961 -16.5484 -6.10462 0 18.14 0 42.9039
+say 0 "Ghost" "?"
+send_character_message 2 "set_head_target 87.347 -16.6652 -6.22922 1"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 88.7803 -16.5484 -5.31684 0 29.24 0 42.9039
+say 2 "Jared" "There are these reapers around, and uh."
+send_character_message 2 "set_head_target 86.7635 -16.5124 -7.30254 1"
+say 2 "Jared" "They're kind of invincible."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+say 1 "Ghost" "...what?"
+say 1 "Ghost" "What do you mean?"
+set_cam 101.16 -16.3517 40.0108 0 -33.27 0 24.0249
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target 87.0088 -16.5075 -6.39198 1"
+say 2 "Jared" "It's near impossible to kill reapers."
+send_character_message 2 "set_head_target 87.0088 -16.4271 -6.39198 1"
+
+say 2 "Jared" "Normal, conventional means won't do anything to them."
+send_character_message 2 "set_head_target 87.1103 -16.6545 -6.18201 1"
+say 2 "Jared" "The only possible way to kill them..."
+send_character_message 2 "set_head_target 86.9438 -16.435 -7.18655 1"
+say 2 "Jared" "Is to slit their throats."
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam 87.4114 -16.558 -6.10584 0 -41.26 0 42.9039
+send_character_message 2 "set_head_target 86.9438 -16.3392 -7.18655 1"
+say 2 "Jared" "So you should probably approach them from stealth."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 87.4114 -16.558 -6.10584 0 28.19 0 42.9039
+say 1 "Ghost" "Alright, good idea."
+send_character_message 1 "set_head_target 86.0388 -16.4197 -4.7346 1"
+send_character_message 1 "set_eye_dir 86.0357 -16.3694 -4.5526 1"
+say 1 "Ghost" "I'll keep my eye out."

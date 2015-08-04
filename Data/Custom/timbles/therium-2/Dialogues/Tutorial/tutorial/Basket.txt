@@ -1,0 +1,9 @@
+set_cam -95.2781 132.249 23.9345 0 -57.93 0 90
+#name "Baskets"
+#participants 0
+
+say 0 "Timbles" "This is a basket."
+say 0 "Timbles" "You can hop into one at any time."
+say 0 "Timbles" "They will provide cover so you can hide."
+say 0 "Timbles" "This won't work against enemies who are..."
+say 0 "Timbles" "...either too close or are already aggressive."

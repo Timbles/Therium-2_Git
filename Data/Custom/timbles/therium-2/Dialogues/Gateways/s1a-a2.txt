@@ -1,0 +1,19 @@
+set_character_pos 1 -86.7916 -25.2951 5.45242 34
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam -86.7885 -25.2303 7.1285 0 -15.19 0 71.1817
+#name "A to A2"
+#participants 1
+
+say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 -86.3415 -25.2951 5.19951 37
+say 1 "Ghost" "Poopy dookie-brain."
+say 1 "Ghost" "Dummy fatty. You have cooties."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_character_pos 1 -86.7586 -25.2951 5.5501 37
+say 1 "Ghost" "...call me crazy..."
+say 1 "Ghost" "But I think I'm getting used to this."
+set_character_pos 1 -86.7586 -25.421 5.5501 37
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 0 "" "You've completed S1-A1."
+say 0 "" "Please load therium2-s1-a2.xml"

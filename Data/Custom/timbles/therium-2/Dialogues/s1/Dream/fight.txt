@@ -1,0 +1,25 @@
+set_character_pos 4 83.1432 -11.8392 101.125 0
+set_character_pos 3 91.6935 -16.0928 8.21388 -45
+set_character_pos 2 28.493 -17.8047 121.107 -70
+set_character_pos 1 29.8951 -17.7822 123.541 81
+send_character_message 1 "set_animation \"Data/Animations/r_woundedidle.anm\""
+set_cam 28.4472 -18.1547 120.043 4.68 -158.14 0 31.735
+#name "Fight"
+#participants 4
+
+say 1 "You" "Okay, okay!"
+send_character_message 1 "set_animation \"Data/Animations/r_halfwoundedarmed.anm\""
+say 1 "You" "That's enough..."
+set_character_pos 1 29.8951 -17.9158 123.541 81
+send_character_message 1 "set_animation \"Data/Animations/r_halfwoundedarmed2.anm\""
+set_cam 30.0278 -17.3696 122.22 0 175.73 0 31.735
+say 1 "You" "Fine..."
+send_character_message 1 "set_head_target 29.6347 -17.3824 121.411 0.846517"
+say 1 "You" "I'll go."
+set_cam 35.8136 -18.2367 132.551 0 175.73 0 31.735
+set_character_pos 3 200.769 -16.4749 4.29666 -50
+say 0 "" "..."
+set_character_pos 3 290.132 -9.84034 -24.6753 -160
+set_cam 73.9492 -14.7793 16.5864 0 -69.76 0 31.735
+say 0 "" "..."
+say 0 "" "Please load Therium2-lvl2-fromF.xml"

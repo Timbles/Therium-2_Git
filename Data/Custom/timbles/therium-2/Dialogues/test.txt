@@ -1,0 +1,5 @@
+#name "Test"
+#participants 3
+
+say 1 "Auisyudfgeirgepgis" "Test!"
+say 1 "Auisyudfgeirgepgis" "..."

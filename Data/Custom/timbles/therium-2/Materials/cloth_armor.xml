@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<material>
+    <events>
+        <leftrunstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_run.xml" attached="true"/>
+        <rightrunstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_run.xml" attached="true"/>
+        <leftwallstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_run.xml" attached="true"/>
+        <rightwallstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_run.xml" attached="true"/>
+        <leftwalkstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_walk.xml" attached="true"/>
+        <rightwalkstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_walk.xml" attached="true"/>
+        <leftcrouchwalkstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_crouchwalk.xml" attached="true"/>
+        <rightcrouchwalkstep soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_crouchwalk.xml" attached="true"/>
+        <land soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_jump_land.xml" attached="true"/>
+        <land_soft soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_jump_land.xml" attached="true"/>
+        <land_slide soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_jump_land.xml" attached="true"/>
+        <kick soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_kick.xml" attached="true"/>
+        <sweep soundgroup="Data/Sounds/cloth_foley/cloth_leather_sweep.xml" attached="true"/>
+        <jump soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_jump.xml" attached="true"/>
+        <roll soundgroup="Data/Sounds/cloth_foley/cloth_leather_roll.xml" attached="true"/>
+        <flip soundgroup="Data/Custom/timbles/therium-2/Sounds/cloth_armor/cloth_leather_jumpflip.xml" attached="true"/>
+        <edge_grab soundgroup="Data/Sounds/cloth_foley/cloth_leather_edge_grab.xml" attached="true"/>
+        <edge_crawl soundgroup="Data/Sounds/cloth_foley/cloth_leather_edge_crawl.xml" attached="true"/>
+        <choke_move soundgroup="Data/Sounds/cloth_foley/cloth_leather_choke_move.xml" attached="true"/>
+        <choke_grab soundgroup="Data/Sounds/cloth_foley/cloth_leather_choke_grab.xml" attached="true"/>
+        <choke_fall soundgroup="Data/Sounds/cloth_foley/cloth_leather_choke_fall.xml" attached="true"/>
+    </events>
+</material>

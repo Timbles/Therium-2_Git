@@ -1,0 +1,10 @@
+set_character_pos 1 -138.475 -30.6976 -4.40803 -174
+send_character_message 1 "set_animation \"Data/Animations/r_sit_cross_legged.anm\""
+send_character_message 1 "set_head_target -139.245 -30.6449 -4.42412 1"
+set_cam -138.418 -30.2367 -3.58776 -17.68 23.66 0 66.0337
+#participants 1
+#name "Watch For Ghost Note"
+
+say 1 "Ghost" "A note for the guards around here."
+set_cam -138.975 -30.0139 -4.44144 -63.96 100.34 6.15 28.5408
+say 1 "" "..."

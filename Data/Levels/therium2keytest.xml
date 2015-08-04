@@ -1,0 +1,219 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Custom/aaorris/debug/Textures/heightmap.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Custom/aaorris/debug/Textures/white.tga</ColorMap>
+    <WeightMap>Data/Custom/aaorris/debug/Textures/black.tga</WeightMap>
+    <ModelOverride>Data/Custom/aaorris/debug/Models/terrain.obj</ModelOverride>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
+<OutOfDate Shadow="true" AO="true" NavMesh="true" />
+<SpawnPoints>
+    <SpawnPoint t0="0" t1="200" t2="0" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" />
+</SpawnPoints>
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="Level Boundaries" type="int" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Custom/aaorris/debug/Textures/white.tga</DomeTexture>
+    <SunAngularRad>0.290701</SunAngularRad>
+    <SunColorAngle>325.411</SunColorAngle>
+    <RayToSun r0="-0.677266" r1="0.231329" r2="0.698425" />
+    <ExtraAO>0.4</ExtraAO>
+    <SkyRotation>0</SkyRotation>
+</Sky>
+<ActorObjects>
+    <EnvObject t0="8.4863" t1="-4.70877e-006" t2="-63.4478" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.48747" t1="-0.00846428" t2="-63.2869" s0="0.996323" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="3" color_r="1" color_g="0" color_b="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="8.42569" t1="4" t2="-63.3064" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" type_file="Data/Custom/timbles/therium-2/Objects/IGF_Characters/ghost.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Teams" type="string" val="player, Ghost" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="26.1412" t1="0.708533" t2="-54.7708" s0="6.0175" s1="1" s2="3.04171" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="4" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="26.4487" t1="-1.67754" t2="-58.0723" s0="3.87652" s1="1" s2="5.24136" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="25.6949" t1="2.70859" t2="-54.5319" s0="1" s1="1" s2="1" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="6" type_file="Data/Objects/IGF_Characters/IGF_RabbitCivActor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="0" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Left handed" type="string" val="0" />
+            <parameter name="Lives" type="string" val="1" />
+            <parameter name="Movement Speed" type="string" val="0.1" />
+            <parameter name="Muscle" type="string" val="0.5" />
+            <parameter name="Teams" type="string" val="Ghost" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <EnvObject t0="26.344" t1="0.520593" t2="-57.7725" s0="3.0718" s1="0.647525" s2="0.238087" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="26.344" t1="0.520593" t2="-52.0713" s0="3.0718" s1="0.647525" s2="0.238087" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="32.4213" t1="1.32241" t2="-54.9454" s0="0.238128" s1="0.389305" s2="1.6803" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="19.9364" t1="1.32241" t2="-54.9454" s0="0.238128" s1="0.389305" s2="1.6803" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="26.344" t1="5.13964" t2="-57.7725" s0="3.0718" s1="0.385002" s2="0.238087" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="26.344" t1="5.13964" t2="-52.0713" s0="3.0718" s1="0.385002" s2="0.238087" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="32.4213" t1="5.15389" t2="-54.9454" s0="0.238128" s1="0.389305" s2="1.6803" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="16" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="19.9364" t1="5.15389" t2="-54.9454" s0="0.238128" s1="0.389305" s2="1.6803" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="17" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="26.1557" t1="3.23414" t2="-57.7964" s0="6.69383" s1="0.830911" s2="0.459697" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="26.1557" t1="3.23414" t2="-52.0783" s0="6.69383" s1="0.830911" s2="0.459697" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="32.4363" t1="3.22583" t2="-54.9539" s0="3.38868" s1="0.830911" s2="0.459697" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="20.0232" t1="3.22583" t2="-54.9539" s0="3.38868" s1="0.830911" s2="0.459697" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="29.5087" t1="-1.35399" t2="-63.7537" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" color_r="1" color_g="0" color_b="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <PlaceholderObject t0="25.2603" t1="1.86031" t2="-60.1962" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Dialogues\test.txt" />
+            <parameter name="DisplayName" type="string" val="Test" />
+            <parameter name="NumParticipants" type="int" val="1" />
+            <parameter name="Script" type="string" val='set_cam 25.3505 2.48505 -60.8235 0 -178.97 0 90&#x0A;#name &quot;Test&quot;&#x0A;#participants 1&#x0A;&#x0A;say 1 &quot;Auisyudfgeirgepgis&quot; &quot;Test!&quot;&#x0A;set_character_pos 1 30.5109 6.66892 -56.4414 0&#x0A;say 1 &quot;Auisyudfgeirgepgis&quot; &quot;...&quot;&#x0A;' />
+            <parameter name="obj_1" type="int" val="24" />
+        </parameters>
+        <Connections>
+            <Connection id="23" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="25.2603" t1="2.56031" t2="-60.1962" s0="0.3" s1="0.3" s2="0.3" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="6" />
+        </Connections>
+    </PlaceholderObject>
+    <Hotspot t0="29.42" t1="0.00539672" t2="-63.9743" s0="0.803962" s1="1.09138" s2="0.751027" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" type_file="Data/Objects/Hotspots/start_dialogue.xml">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Test" />
+        </parameters>
+    </Hotspot>
+    <EnvObject t0="30.4375" t1="1.01001" t2="-57.6958" s0="0.513969" s1="0.283168" s2="1.15252" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="0.0196078" color_g="0.631373" color_b="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot t0="30.4249" t1="0.0509071" t2="-57.7005" s0="0.501395" s1="1.499" s2="1.09995" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" type_file="Data/Custom/timbles/therium-2/Objects/Hotspots/start_dialoguealivedead.xml">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Test2" />
+            <parameter name="Play Once" type="string" val="1" />
+        </parameters>
+    </Hotspot>
+    <PlaceholderObject t0="28.0893" t1="1.83824" t2="-59.673" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Dialogues\test2.txt" />
+            <parameter name="DisplayName" type="string" val="Test2" />
+            <parameter name="NumParticipants" type="int" val="1" />
+            <parameter name="Script" type="string" val='set_character_pos 1 30.3769 2.33228 -59.2162 -92&#x0A;send_character_message 1 &quot;set_animation \&quot;Data/Animations/r_actionidle.anm\&quot;&quot;&#x0A;set_cam 31.4059 2.87338 -62.902 0 168.61 0 28.8127&#x0A;#name &quot;Test2&quot;&#x0A;#participants 1&#x0A;&#x0A;say 1 &quot;Ghost&quot; &quot;I am opening this door now!&quot;&#x0A;set_cam 40.8687 4.09423 -59.6883 0 168.61 0 28.8127&#x0A;set_character_pos 1 40.194 3.23011 -57.4418 -92&#x0A;say 1 &quot;Ghost&quot; &quot;Yipee!&quot;&#x0A;' />
+            <parameter name="obj_1" type="int" val="26" />
+        </parameters>
+        <Connections>
+            <Connection id="9" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="28.0893" t1="2.53824" t2="-59.673" s0="0.3" s1="0.3" s2="0.3" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="26" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="2" />
+        </Connections>
+    </PlaceholderObject>
+    <EnvObject t0="40.4229" t1="-3.8147e-006" t2="-57.7833" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="32" color_r="0.14902" color_g="0.14902" color_b="0.14902" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="40.4491" t1="4.81875" t2="-54.8836" s0="1.98753" s1="1.88721" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="33" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="37.4664" t1="4.81875" t2="-57.8028" s0="1.98753" s1="1.88721" s2="1" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="34" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="40.4283" t1="4.81875" t2="-60.7841" s0="1.98753" s1="1.88721" s2="1" r0="-1" r1="0" r2="5.96046e-008" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-5.96046e-008" r9="-0" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="35" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="43.3808" t1="4.81877" t2="-57.8241" s0="1.98753" s1="1.88721" s2="1" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="36" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot t0="30.4967" t1="4.34386" t2="-56.1098" s0="0.832133" s1="0.0442777" s2="0.642918" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="37" type_file="Data/Custom/steelraven7/steelraven_hotspot_pack/Objects/Hotspots/wipeoutTrigger.xml">
+        <parameters>
+            <parameter name="Damage dealt" type="string" val="1.0" />
+            <parameter name="Ragdoll type" type="string" val="0" />
+            <parameter name="Recovery time" type="string" val="5.0" />
+            <parameter name="Upward force" type="string" val="0.0" />
+        </parameters>
+    </Hotspot>
+</ActorObjects>

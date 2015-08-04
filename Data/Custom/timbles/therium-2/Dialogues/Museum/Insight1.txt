@@ -1,0 +1,8 @@
+#name "Insight1"
+#participants 0
+
+say 1 "" "I first got the inspiration for Therium-2..."
+say 1 "" "From a map made by iDubbbz for the Viking Map Jam."
+say 1 "" "It was called 'Viking Biomes'."
+say 1 "" "The fact that you could take any route..."
+say 1 "" "Really gave me the idea for Therium-2."

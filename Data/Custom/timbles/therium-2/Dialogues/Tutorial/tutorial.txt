@@ -1,0 +1,22 @@
+set_character_pos 1 -137.611 131.238 50.8126 -94
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_cam -138.271 131.655 50.007 0 -160.49 0 67.2071
+#name "Tutorial"
+#participants 1
+
+say 0 "Timbles" "Hello, and welcome to Therium-2."
+say 0 "Timbles" "This is the tutorial."
+set_cam -190.377 133.666 25.6298 -9.95 -167.42 0 40.6837
+say 0 "Timbles" "This level can also be used as training."
+set_cam -126.626 134.299 55.0532 -0.04 -58.63 0.12 40.6837
+say 0 "Timbles" "To learn the ins and outs of Therium-2..."
+set_cam -125.914 134.439 57.1977 -0.09 -28.24 0.08 40.6837
+say 0 "Timbles" "Go through this hallway."
+set_cam -165.093 134.873 54.3475 -0.12 18.55 -0.01 40.6837
+say 0 "Timbles" "To practice fighting other enemies..."
+set_cam -163.843 135.125 40.1759 -0.06 71.84 -0.1 40.6837
+say 0 "Timbles" "Go through this hallway."
+set_cam -165.338 134.285 50.0488 0.11 172.68 -0.05 40.6837
+set_cam -134.056 133.846 52.9364 -0.11 -12.56 0.06 40.6837
+say 0 "Timbles" "To learn about the armory..."
+say 0 "Timbles" "Go ahead and walk into this."

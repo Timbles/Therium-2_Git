@@ -1,0 +1,25 @@
+set_character_pos 1 61.4057 32.4551 133.327 -90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_torso_target 60.3399 32.3668 134.002 0"
+send_character_message 1 "set_head_target 61.4864 34.5557 133.816 0.576354"
+set_cam 63.1771 32.9246 132.531 9.81 128.17 0 90
+#name "First Shrine Warp"
+#participants 2
+
+say 1 "You" "Total bullshit...."
+send_character_message 1 "set_torso_target 60.6753 33.1761 133.615 0.69007"
+send_character_message 1 "set_animation \"Data/Animations/r_actionidlethreat.anm\""
+send_character_message 1 "set_head_target 61.4888 32.9744 134.366 0.576354"
+set_character_pos 1 61.4585 32.4551 133.774 -90
+say 2 " " "You press your warm hand against the cold stone lantern."
+say 1 "You" "Stupid little poopy face butthead. You're dumb."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_facepalm.anm\""
+say 1 "You" ".[wait 0.2].[wait 0.2].[wait 0.2]*sigh*,[wait 0.2] this is so stupid.
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+send_character_message 1 "set_head_target 61.5366 32.8578 134.058 0.576354"
+set_character_pos 1 61.4647 32.4551 133.549 -90
+send_character_message 1 "set_torso_target 60.6753 33.1761 133.615 0"
+say 1 "You" ".[wait 0.1].[wait 0.1].[wait0.1]I feel weird...[wait 0.2]hmm..."
+say 2 " " "You completed the first level!"
+say 2 " " "Please go to the Main Menu and load..."
+say 2 " " "therium2-lvl2.xml"

@@ -1,0 +1,13 @@
+send_character_message 1 "set_eye_dir -56.154 133.396 47.3491 1"
+set_character_pos 1 -56.1517 132.793 47.832 90
+send_character_message 1 "set_animation \"Data/Animations/r_bigdogswordarmstance.anm\""
+send_character_message 1 "set_head_target -56.1182 133.341 46.9086 1"
+set_cam -56.3168 133.257 46.6218 0 -162.06 0 46.012
+#name "Reaper"
+#participants 1
+
+say 0 "Timbles" "This is the Reaper."
+say 0 "Timbles" "It's an extremely dangerous enemy."
+say 0 "Timbles" "Not only can it strike extremely fast..."
+say 0 "Timbles" "But it's impossible to kill in combat."
+say 0 "Timbles" "The only way to kill a Reaper is to slit its throat."

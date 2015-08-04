@@ -1,0 +1,20 @@
+set_character_pos 1 209.468 67.7268 45.1046 -55
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+send_character_message 1 "set_torso_target 209.303 67.9581 46.0389 1"
+send_character_message 1 "set_head_target 209.615 68.4622 45.5516 0.339795"
+set_cam 211.331 68.1997 39.2568 0 155.58 0 56.2639
+#name Gate-A
+#participants 1
+
+say 1 "Ghost" "Stupid poopy butthead."
+say 1 "Ghost" "Four-eyed dumbbrain."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_facepalm.anm\""
+send_character_message 1 "set_head_target 209.506 68.2509 44.6818 0.339795"
+send_character_message 1 "set_torso_target 209.508 67.9581 45.0226 1"
+set_character_pos 1 209.176 67.7268 44.145 -55
+say 1 "Ghost" "...I cannot believe this is really how it works."
+send_character_message 1 "set_head_target 209.506 70.1948 44.6818 0.339795"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 2 "" "You have completed Level 2: 'Tall Bushes'!"
+say 2 "" "To progress, type in the main menu..."
+say 2 "" "therium2-s1-a.xml"

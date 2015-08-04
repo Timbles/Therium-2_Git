@@ -1,0 +1,10 @@
+#name "MuseumIn"
+#participants 0
+
+say 1 "" "Hello!"
+say 1 "" "Welcome to the Museum."
+say 1 "" "This isn't actually any gameplay, so."
+say 1 "" "All this level is is developer commentary."
+say 1 "" "If you're curious on the development and/or details..."
+say 1 "" "Go ahead and browse around."
+say 1 "" "If you stand on a Red Block, press G to trigger dialogue."

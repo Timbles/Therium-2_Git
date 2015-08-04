@@ -1,0 +1,12 @@
+set_character_pos 1 95.7208 5.35674 -31.068 0
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 96.6 5.63954 -31.0513 0.965792"
+set_cam 95.4792 5.91204 -29.8625 0 -26.55 0 50.4484
+#name "Religious Doc"
+#participants 1
+
+say 1 "Ghost" "This is interesting."
+set_cam 68.4742 19.4242 -29.3463 0 -79.87 0 50.4484
+say 1 "Ghost" "Seems to be referring to this statue."
+set_cam 96.5795 6.39402 -31.0811 -90 0 -89.31 50.4484
+say 0 "" "..."

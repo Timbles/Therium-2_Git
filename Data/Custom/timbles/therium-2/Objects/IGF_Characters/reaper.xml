@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<Actor>
+	<Character>Data/Custom/timbles/therium-2/Characters/reaper.xml</Character>
+    <ControlScript>enemycontrol.as</ControlScript>
+</Actor>

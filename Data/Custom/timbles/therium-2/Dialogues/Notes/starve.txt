@@ -1,0 +1,15 @@
+set_character_pos 1 62.5801 -24.3041 -114.468 37
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_eye_dir 63.9242 -24.0075 -115.495 1"
+send_character_message 1 "set_head_target 63.2287 -23.8985 -115.053 1"
+set_cam 61.4665 -23.8099 -114.285 -0.42 -79.55 1.92 58.7985
+#name "Starve"
+#participants 1
+
+say 1 "Ghost" "A lost note from..."
+send_character_message 1 "set_head_target 61.2683 -23.4991 -115.172 1"
+say 1 "Ghost" "Oerrr..."
+set_cam 60.6616 -23.0276 -115.317 -88.03 178.12 -128.5 58.7985
+say 1 "Ghost" "Gross."
+set_cam 63.0876 -23.7388 -115.165 -88.03 178.12 113.08 58.7985
+say 0 "" "..."

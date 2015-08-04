@@ -1,0 +1,399 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/dead_volcano/dead_volcano_hm.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/Terrain/scrubby_hills/scrubby_hills_c.tga</ColorMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_normal.png" materialpath="Data/Materials/grass.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass_stones_c.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_stones_n.tga" materialpath="Data/Materials/gravel.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/rubble_rocks_c.tga" normalpath="Data/Textures/Terrain/DetailTextures/rubble_rocks_n.tga" materialpath="Data/Materials/rocks.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/gray_rock.tga" normalpath="Data/Textures/Terrain/DetailTextures/gray_rock_normal.tga" materialpath="Data/Materials/rock.xml" />
+    </DetailMaps>
+    <DetailObjects>
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/WildGrass.xml" weight_path="Data/Textures/Terrain/scrubby_hills/scrubby_hills_grass.png" normal_conform="0.5" density="7" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="2" view_distance="30" jitter_degrees="10" overbright="0" />
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Groundcover1.xml" weight_path="Data/Textures/Terrain/scrubby_hills/scrubby_hills_groundcover.png" normal_conform="0.8" density="3" min_embed="0" max_embed="0" min_scale="0.5" max_scale="1.5" view_distance="40" jitter_degrees="10" overbright="0.2" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_c.xml" weight_path="Data/Textures/Terrain/scrubby_hills/scrubby_hills_rocks.png" normal_conform="0.9" density="0.6" min_embed="0.4" max_embed="0.6" min_scale="0.2" max_scale="0.8" view_distance="30" jitter_degrees="30" overbright="0.3" collision_type="static" />
+    </DetailObjects>
+</Terrain>
+<OutOfDate Shadow="true" AO="true" NavMesh="true" />
+<SpawnPoints>
+    <SpawnPoint t0="0" t1="200" t2="0" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" />
+</SpawnPoints>
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="Level Boundaries" type="int" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Custom/timbles/therium-2/Textures/a1.tga</DomeTexture>
+    <SunAngularRad>0.214086</SunAngularRad>
+    <SunColorAngle>38.0014</SunColorAngle>
+    <RayToSun r0="0.922011" r1="0.340379" r2="0.184494" />
+    <ExtraAO>0</ExtraAO>
+    <SkyRotation>0</SkyRotation>
+</Sky>
+<ActorObjects>
+    <EnvObject t0="-14.6512" t1="-8.23565" t2="-19.4983" s0="1" s1="1" s2="1" r0="-0.127982" r1="2.27846e-007" r2="0.991777" r3="0" r4="2.69676e-007" r5="1" r6="-1.94935e-007" r7="0" r8="-0.991777" r9="2.4251e-007" r10="-0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/stairs1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-15.5798" t1="-9.07665" t2="-19.6002" s0="1" s1="1" s2="1" r0="-0.127982" r1="3.47055e-007" r2="0.991777" r3="0" r4="3.88383e-007" r5="1" r6="-2.99814e-007" r7="0" r8="-0.991777" r9="3.46818e-007" r10="-0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="3" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/stairs1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.3041" t1="-13.4761" t2="-19.1903" s0="1" s1="0.758583" s2="1" r0="0.127982" r1="-2.57766e-007" r2="-0.991776" r3="0" r4="1.00336e-007" r5="1" r6="-2.46956e-007" r7="0" r8="0.991776" r9="-6.79046e-008" r10="0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="4" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/cat_town/babylon_tower.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-14.9254" t1="-9.25135" t2="-19.5686" s0="0.332379" s1="0.37192" s2="0.281086" r0="0.127982" r1="1.78814e-007" r2="-0.991777" r3="0" r4="0.779169" r5="0.618697" r6="0.100546" r7="0" r8="0.613609" r9="-0.78563" r10="0.0791817" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.3312" t1="-6.12975" t2="-19.0899" s0="1" s1="1" s2="1" r0="0.127982" r1="-2.57766e-007" r2="-0.991776" r3="0" r4="1.00336e-007" r5="1" r6="-2.46956e-007" r7="0" r8="0.991776" r9="-6.79046e-008" r10="0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="6" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <Group t0="-10.7321" t1="-6.43886" t2="-22.1538" s0="1.13952" s1="3.08375" s2="0.613638" r0="0.127982" r1="-2.57766e-007" r2="-0.991776" r3="0" r4="1.00336e-007" r5="1" r6="-2.46956e-007" r7="0" r8="0.991776" r9="-6.79046e-008" r10="0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" version="1">
+        <parameters />
+        <EnvObject t0="-10.7525" t1="-7.21105" t2="-22.1361" s0="0.0892544" s1="0.25997" s2="0.139608" r0="0.110836" r1="-0.5" r2="-0.858904" r3="0" r4="0.0639914" r5="0.866025" r6="-0.495888" r7="0" r8="0.991776" r9="2.98023e-008" r10="0.127983" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-10.7084" t1="-6.44265" t2="-22.4153" s0="0.0892536" s1="0.0904314" s2="0.13397" r0="0.11835" r1="0.380589" r2="-0.91714" r3="0" r4="-0.0487079" r5="0.924744" r6="0.377459" r7="0" r8="0.991777" r9="-3.57628e-007" r10="0.127981" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-10.6947" t1="-6.07655" t2="-22.4437" s0="0.0892536" s1="0.0904314" s2="0.150911" r0="-0.117193" r1="0.40184" r2="0.908179" r3="0" r4="-0.0514277" r5="-0.915709" r6="0.398536" r7="0" r8="0.991776" r9="2.08616e-007" r10="0.127981" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-10.7342" t1="-5.48866" t2="-22.2159" s0="0.0811756" s1="0.202908" s2="0.142785" r0="-0.103136" r1="-0.592108" r2="0.799231" r3="0" r4="0.0757784" r5="-0.805858" r6="-0.587239" r7="0" r8="0.991776" r9="-1.2219e-006" r10="0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-8.85737" t1="-6.58976" t2="-18.9609" s0="0.613645" s1="3.08375" s2="1.13904" r0="0.127982" r1="-2.57766e-007" r2="-0.991776" r3="0" r4="1.00336e-007" r5="1" r6="-2.46956e-007" r7="0" r8="0.991776" r9="-6.79046e-008" r10="0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" version="1">
+        <parameters />
+        <EnvObject t0="-8.87488" t1="-7.36195" t2="-18.9811" s0="0.0892544" s1="0.25997" s2="0.139608" r0="0.858904" r1="-0.5" r2="0.110836" r3="0" r4="0.495888" r5="0.866025" r6="0.063991" r7="0" r8="-0.127982" r9="2.01166e-007" r10="0.991776" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.59523" t1="-6.59355" t2="-18.937" s0="0.0892536" s1="0.0904314" s2="0.13397" r0="0.91714" r1="0.380588" r2="0.118349" r3="0" r4="-0.377458" r5="0.924745" r6="-0.0487075" r7="0" r8="-0.12798" r9="-1.3411e-007" r10="0.991777" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.56772" t1="-6.22746" t2="-18.9235" s0="0.0892536" s1="0.0904314" s2="0.150911" r0="-0.908179" r1="0.40184" r2="-0.117193" r3="0" r4="-0.398536" r5="-0.915709" r6="-0.0514283" r7="0" r8="-0.127981" r9="-4.80562e-007" r10="0.991777" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.79554" t1="-5.63955" t2="-18.963" s0="0.0811756" s1="0.202908" s2="0.142785" r0="-0.799232" r1="-0.592108" r2="-0.103135" r3="0" r4="0.587239" r5="-0.805859" r6="0.0757787" r7="0" r8="-0.127982" r9="-2.98023e-007" r10="0.991777" r11="0" r12="0" r13="0" r14="0" r15="1" id="16" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-11.7423" t1="-6.43961" t2="-16.4037" s0="1.13942" s1="3.08385" s2="0.613638" r0="0.127982" r1="-2.57766e-007" r2="-0.991776" r3="0" r4="1.00336e-007" r5="1" r6="-2.46956e-007" r7="0" r8="0.991776" r9="-6.79046e-008" r10="0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="17" version="1">
+        <parameters />
+        <EnvObject t0="-11.7219" t1="-7.21185" t2="-16.4213" s0="0.0892544" s1="0.25997" s2="0.139608" r0="-0.110836" r1="-0.499999" r2="0.858904" r3="0" r4="-0.0639892" r5="0.866026" r6="0.495887" r7="0" r8="-0.991777" r9="1.2815e-006" r10="-0.127981" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-11.766" t1="-6.44345" t2="-16.1422" s0="0.0892536" s1="0.0904314" s2="0.13397" r0="-0.11835" r1="0.380589" r2="0.91714" r3="0" r4="0.0487081" r5="0.924744" r6="-0.377459" r7="0" r8="-0.991776" r9="-2.08616e-007" r10="-0.127981" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-11.7797" t1="-6.07735" t2="-16.1138" s0="0.0892536" s1="0.0904314" s2="0.150911" r0="0.117194" r1="0.40184" r2="-0.90818" r3="0" r4="0.0514288" r5="-0.91571" r6="-0.398535" r7="0" r8="-0.991777" r9="-8.34465e-007" r10="-0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-11.7403" t1="-5.48935" t2="-16.3416" s0="0.0811756" s1="0.202908" s2="0.142785" r0="0.103135" r1="-0.592108" r2="-0.799231" r3="0" r4="-0.0757792" r5="-0.805858" r6="0.587239" r7="0" r8="-0.991777" r9="-2.98023e-008" r10="-0.127982" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <EnvObject t0="-16.0597" t1="-14.5772" t2="-19.8625" s0="1.69239" s1="1.72758" s2="1.32479" r0="0.990065" r1="-1.27315e-007" r2="0.140612" r3="0" r4="1.10511e-007" r5="1" r6="1.27315e-007" r7="0" r8="-0.140612" r9="-1.10511e-007" r10="0.990065" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="-13.727" t1="-6.83025" t2="-19.4045" s0="1" s1="1" s2="1" r0="-0.149932" r1="7.77181e-008" r2="0.988696" r3="0" r4="-7.77181e-008" r5="1" r6="-9.03923e-008" r7="0" r8="-0.988696" r9="-9.03923e-008" r10="-0.149932" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Teams" type="string" val="guard" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="-24.4847" t1="-6.70587" t2="-23.1861" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" type_file="Data/Objects/IGF_Characters/IGF_RabbitCivActor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Teams" type="string" val="guard, turner" />
+        </parameters>
+        <Connections>
+            <Connection id="24" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <PathPointObject t0="-17.5773" t1="-8.80032" t2="-22.0306" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" type_file="">
+        <parameters>
+            <parameter name="Type" type="string" val="Stand" />
+            <parameter name="Wait" type="string" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="25" />
+        </Connections>
+    </PathPointObject>
+    <PathPointObject t0="-18.5592" t1="-8.89301" t2="-20.9292" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" type_file="">
+        <parameters>
+            <parameter name="Type" type="string" val="Stand there and look pretty!" />
+            <parameter name="Wait" type="string" val="99999999999999999999" />
+        </parameters>
+        <Connections>
+            <Connection id="24" />
+        </Connections>
+    </PathPointObject>
+    <EnvObject t0="-18.3482" t1="-11.8226" t2="-25.8051" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="26" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+        <parameters />
+    </EnvObject>
+    <Group t0="-40.7828" t1="-0.41833" t2="-34.9532" s0="13.6701" s1="14.1388" s2="11.948" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="27" version="1">
+        <parameters />
+        <EnvObject t0="-39.5754" t1="0.89372" t2="-36.0068" s0="2.21351" s1="2.21351" s2="2.21351" r0="-0.996736" r1="0.06058" r2="-0.0533618" r3="0" r4="0.0689699" r5="0.982532" r6="-0.172839" r7="0" r8="0.0419591" r9="-0.175955" r10="-0.983503" r11="0" r12="0" r13="0" r14="0" r15="1" id="28" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Plants/Trees/temperate/medium_deciduous.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-40.7828" t1="0.0160956" t2="-34.9532" s0="3.1112" s1="3.1112" s2="3.1112" r0="-0.440968" r1="-0.0888584" r2="0.893113" r3="0" r4="-0.284845" r5="0.957499" r6="-0.0453756" r7="0" r8="-0.851123" r9="-0.274408" r10="-0.447538" r11="0" r12="0" r13="0" r14="0" r15="1" id="29" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Plants/Trees/temperate/medium_deciduous.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-40.4511" t1="-4.38283" t2="-35.5295" s0="1.76177" s1="1.76177" s2="1.76177" r0="0.112841" r1="0.993613" r2="0" r3="0" r4="-0.993613" r5="0.112841" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="30" color_r="0.435294" color_g="0.341176" color_b="0.286275" type_file="Data/Objects/Plants/Trees/temperate/broken_branch_bleached.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-38.854" t1="-2.84582" t2="-36.024" s0="1.53023" s1="1.53023" s2="1.53023" r0="0.747027" r1="-0.561018" r2="-0.356665" r3="0" r4="0.638604" r5="0.754683" r6="0.150459" r7="0" r8="0.184759" r9="-0.340165" r10="0.922037" r11="0" r12="0" r13="0" r14="0" r15="1" id="31" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Plants/Trees/temperate/small_deciduous.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-42.0614" t1="0.147184" t2="-35.209" s0="1.94086" s1="1.94086" s2="1.94086" r0="-0.265525" r1="-0.14753" r2="0.952749" r3="0" r4="-0.486789" r5="0.87352" r6="-0.000403449" r7="0" r8="-0.832186" r9="-0.463895" r10="-0.303757" r11="0" r12="0" r13="0" r14="0" r15="1" id="32" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Plants/Trees/temperate/medium_deciduous.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-40.5832" t1="-5.00155" t2="-36.0272" s0="1.53023" s1="1.53023" s2="1.53023" r0="0.832769" r1="2.98023e-008" r2="-0.553621" r3="0" r4="-0.36073" r5="0.758577" r6="-0.542618" r7="0" r8="0.419964" r9="0.651583" r10="0.63172" r11="0" r12="0" r13="0" r14="0" r15="1" id="33" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Plants/Trees/temperate/small_deciduous.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <ActorObject t0="-237.498" t1="-35.5767" t2="-18.4891" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="34" type_file="Data/Custom/timbles/therium-2/Objects/IGF_Characters/beetle.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Teams" type="string" val="guard" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Clothes" channel="0" red="1" green="1" blue="1" />
+            <Color label="Fur" channel="1" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="2" red="1" green="1" blue="1" />
+            <Color label="Armor" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="9" num_connections="1" m0="0.0201045" m1="0.17091" m2="0.985081" m3="0" m4="0.831652" m5="-0.549734" m6="0.0784046" m7="0" m8="0.554933" m9="0.817669" m10="-0.153189" m11="0" m12="0.624969" m13="0.0966034" m14="-0.0273514" m15="1" />
+                <BoneConnect bone_id="8" num_connections="1" m0="0.0671915" m1="0.249016" m2="0.966166" m3="0" m4="0.831758" m5="-0.548807" m6="0.0836035" m7="0" m8="0.551057" m9="0.797999" m10="-0.243996" m11="0" m12="0.625031" m13="0.0960083" m14="-0.0302277" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="19" num_connections="1" m0="0.29743" m1="-0.213173" m2="0.930641" m3="0" m4="0.380215" m5="0.920572" m6="0.0893508" m7="0" m8="-0.875769" m9="0.327268" m10="0.354858" m11="0" m12="-0.147583" m13="0.392593" m14="-0.032608" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject t0="-237.089" t1="-36.0094" t2="-18.5364" s0="1.00002" s1="1.28524" s2="1.00011" r0="0.125703" r1="0.254335" r2="0.958912" r3="0" r4="0.0679003" r5="-0.966518" r6="0.247452" r7="0" r8="0.989742" r9="0.0340049" r10="-0.138764" r11="0" r12="0" r13="0" r14="0" r15="1" id="35" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Weapons/flint_knife_c2.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-237.539" t1="-35.4575" t2="-18.5221" s0="0.0185016" s1="0.00726178" s2="0.0214969" r0="0.462631" r1="0.0239978" r2="0.886226" r3="0" r4="-0.485469" r5="0.843296" r6="0.230591" r7="0" r8="-0.741817" r9="-0.536914" r10="0.401785" r11="0" r12="0" r13="0" r14="0" r15="1" id="36" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Rocks/rock1a.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+    <PlaceholderObject t0="-18.7982" t1="-8.57938" t2="-18.3591" s0="1" s1="1" s2="1" r0="0.990806" r1="4.11637e-008" r2="0.135294" r3="0" r4="-5.73292e-008" r5="1" r6="1.15588e-007" r7="0" r8="-0.135294" r9="-1.22282e-007" r10="0.990806" r11="0" r12="0" r13="0" r14="0" r15="1" id="37" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Dialogues\BeetleIntro.txt" />
+            <parameter name="DisplayName" type="string" val="Beetle Intro" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="Script" type="string" val='set_character_pos 2 -18.4473 -8.45584 -20.7117 -88&#x0A;send_character_message 2 &quot;set_animation \&quot;Data/Animations/r_dialogue_armcross.anm\&quot;&quot;&#x0A;send_character_message 2 &quot;set_head_target -17.381 -8.09806 -19.3807 0.426936&quot;&#x0A;set_character_pos 1 -17.389 -9.0047 -18.8726 123&#x0A;send_character_message 1 &quot;set_head_target -18.2205 -8.05871 -20.0393 0.692768&quot;&#x0A;set_cam -18.4426 -8.2529 -19.3269 0 0 0 32.7581&#x0A;#name &quot;Beetle Intro&quot;&#x0A;#participants 4&#x0A;&#x0A;say 2 &quot;Jared&quot; &quot;Hey, Ghost.&quot;&#x0A;send_character_message 1 &quot;set_animation \&quot;Data/Animations/r_idle.anm\&quot;&quot;&#x0A;send_character_message 1 &quot;set_eye_dir -18.2436 -7.95587 -20.0892 1&quot;&#x0A;set_cam -18.578 -8.23989 -19.4114 0 -110.4 0 32.7581&#x0A;say 1 &quot;Ghost&quot; &quot;What?&quot;&#x0A;send_character_message 2 &quot;set_head_target -17.381 -8.67872 -19.3807 0.426936&quot;&#x0A;set_cam -19.0952 -8.23989 -19.3855 0 -33.31 0 32.7581&#x0A;say 2 &quot;Jared&quot; &quot;There&apos;s something you should know about this place.&quot;&#x0A;send_character_message 1 &quot;set_head_target -17.9968 -7.89527 -20.1707 0.692768&quot;&#x0A;set_cam -18.8135 -8.23989 -19.2823 0 -101.85 0 32.7581&#x0A;say 1 &quot;Ghost&quot; &quot;?&quot;&#x0A;set_cam -18.8135 -8.23989 -19.2823 0 -20.44 0 32.7581&#x0A;send_character_message 2 &quot;set_head_target -16.6445 -8.14659 -20.9749 0.426936&quot;&#x0A;send_character_message 1 &quot;set_head_target -18.0642 -8.30179 -20.1204 0.692768&quot;&#x0A;say 2 &quot;Jared&quot; &quot;There&apos;s a cave nearby, and that can only mean one thing.&quot;&#x0A;send_character_message 2 &quot;set_head_target -16.7007 -8.48026 -20.8587 0.426936&quot;&#x0A;say 2 &quot;Jared&quot; &quot;This area&apos;s almost definitely populated with Beetles.&quot;&#x0A;send_character_message 1 &quot;set_animation \&quot;Data/Animations/r_dialogue_welcome.anm\&quot;&quot;&#x0A;set_cam -19.2841 -8.40424 -19.339 0 -97.96 0 36.583&#x0A;say 1 &quot;Ghost&quot; &quot;...[wait 0.3]and why should I care?&quot;&#x0A;send_character_message 2 &quot;set_animation \&quot;Data/Animations/r_idle.anm\&quot;&quot;&#x0A;send_character_message 2 &quot;set_head_target -17.8501 -8.48026 -19.2114 0.426936&quot;&#x0A;set_character_pos 2 -18.4474 -8.45581 -20.7117 -79&#x0A;set_cam -19.2006 -8.19324 -19.6273 0 -41.25 0 28.3045&#x0A;say 2 &quot;Jared&quot; &quot;I&apos;m not talking about the bug, you fruit.&quot;&#x0A;send_character_message 2 &quot;set_head_target -17.8501 -8.06373 -19.2114 0.426936&quot;&#x0A;send_character_message 1 &quot;set_head_target -18.0702 -8.26964 -20.259 0.692768&quot;&#x0A;say 2 &quot;Jared&quot; &quot;There&apos;s a certain type of fighter that resides in this Therium.&quot;&#x0A;say 2 &quot;Jared&quot; &quot;I call them beetles.&quot;&#x0A;set_cam -18.4426 -8.2529 -19.3269 0 -105.65 0 32.7581&#x0A;send_character_message 1 &quot;set_animation \&quot;Data/Animations/r_dialogue_armcross.anm\&quot;&quot;&#x0A;say 1 &quot;Ghost&quot; &quot;And what do they do?&quot;&#x0A;send_character_message 2 &quot;set_head_target -17.381 -9.06625 -19.3807 0.426936&quot;&#x0A;set_cam -18.5997 -8.2529 -19.5049 0 -11.51 0 32.7581&#x0A;say 2 &quot;Jared&quot; &quot;Well, they got bored with their fists...&quot;&#x0A;send_character_message 2 &quot;set_head_target -17.6599 -8.20419 -19.288 0.426936&quot;&#x0A;say 2 &quot;Jared&quot; &quot;So they took up some other measure.&quot;&#x0A;set_cam -18.5997 -8.2529 -19.5049 0 -110.37 0 32.7581&#x0A;say 1 &quot;Ghost&quot; &quot;So, they have blades?&quot;&#x0A;set_cam -18.672 -8.20372 -19.6525 0 -13.54 0 29.6602&#x0A;say 2 &quot;Jared&quot; &quot;On their hands.&quot;&#x0A;say 2 &quot;Jared&quot; &quot;They will stab you and you can&apos;t pick up their weapon.&quot;&#x0A;send_character_message 1 &quot;set_animation \&quot;Data/Animations/r_idle.anm\&quot;&quot;&#x0A;set_cam -18.672 -8.19153 -19.6525 0 -117.28 0 29.6602&#x0A;say 1 &quot;Ghost&quot; &quot;Ah. Sounds tough.&quot;&#x0A;send_character_message 2 &quot;set_animation \&quot;Data/Animations/r_idle.anm\&quot;&quot;&#x0A;set_cam -18.8542 -8.28063 -18.9128 0 -13.78 0 29.6602&#x0A;say 2 &quot;Jared&quot; &quot;Just be careful.&quot;&#x0A;set_cam -101.996 53.0895 51.3123 -30 -43.78 0 29.6602&#x0A;say 1 &quot;&quot; &quot;...&quot;&#x0A;send_character_message 4 &quot;set_animation \&quot;Data/Animations/r_idle.anm\&quot;&quot;&#x0A;send_character_message 4 &quot;set_torso_target -270.837 43.797 144.139 0.550493&quot;&#x0A;send_character_message 3 &quot;set_head_target -266.699 43.4934 142.615 1&quot;&#x0A;send_character_message 3 &quot;set_animation \&quot;Data/Animations/r_dialogue_shade.anm\&quot;&quot;&#x0A;set_character_pos 4 -271.332 43.6397 143.748 0&#x0A;set_character_pos 3 -270.101 43.3854 144.798 15&#x0A;set_cam -273.983 44.4316 143.913 -9.9 -92.41 0.57 29.6602&#x0A;say 1 &quot;&quot; &quot;...&quot;&#x0A;send_character_message 3 &quot;set_animation \&quot;Data/Animations/r_dialogue_armcross.anm\&quot;&quot;&#x0A;say 1 &quot;???&quot; &quot;...&quot;&#x0A;send_character_message 3 &quot;set_head_target -270.092 44.1342 142.948 1&quot;&#x0A;say 3 &quot;???&quot; &quot;Yep.&quot;&#x0A;say 3 &quot;???&quot; &quot;That&apos;s the one.&quot;&#x0A;set_cam -266.661 44.1088 144.385 -2.91 89.12 -0.31 29.6602&#x0A;send_character_message 3 &quot;set_head_target -267.368 44.1342 143.062 1&quot;&#x0A;say 3 &quot;???&quot; &quot;And with him.&quot;&#x0A;send_character_message 4 &quot;set_animation \&quot;Data/Animations/r_dialogue_welcome.anm\&quot;&quot;&#x0A;say 4 &quot;????&quot; &quot;Him?&quot;&#x0A;send_character_message 4 &quot;set_animation \&quot;Data/Animations/r_dialogue_thoughtful.anm\&quot;&quot;&#x0A;say 4 &quot;????&quot; &quot;I didn&apos;t even think I&apos;d see him again.&quot;&#x0A;send_character_message 4 &quot;set_head_target -270.401 44.1649 144.445 1&quot;&#x0A;send_character_message 3 &quot;set_head_target -270.303 44.1342 143.362 1&quot;&#x0A;say 1 &quot;???&quot; &quot;...&quot;&#x0A;say 3 &quot;???&quot; &quot;You&apos;re about to see a lot more.&quot;&#x0A;set_cam -275.158 43.603 144.239 2.89 -87.83 0.46 29.6602&#x0A;send_character_message 3 &quot;set_head_target -264.186 44.1342 141.956 1&quot;&#x0A;send_character_message 4 &quot;set_head_target -264.748 44.1649 142.31 1&quot;&#x0A;send_character_message 4 &quot;set_animation \&quot;Data/Animations/r_dialogue_armcross.anm\&quot;&quot;&#x0A;say 1 &quot;&quot; &quot;...&quot;&#x0A;send_character_message 3 &quot;set_animation \&quot;Data/Animations/r_walk.anm\&quot;&quot;&#x0A;send_character_message 4 &quot;set_animation \&quot;Data/Animations/r_walk.anm\&quot;&quot;&#x0A;set_cam -264.567 44.2335 143.482 -2.83 97.75 -0.74 29.6602&#x0A;set_character_pos 4 -272.385 43.1389 144.287 -171&#x0A;send_character_message 4 &quot;set_head_target -264.748 44.1649 142.31 0&quot;&#x0A;send_character_message 3 &quot;set_head_target -264.186 44.1342 141.956 0&quot;&#x0A;send_character_message 4 &quot;set_torso_target -270.837 43.797 144.139 0.00113353&quot;&#x0A;set_character_pos 3 -272.563 43.3858 145.644 -176&#x0A;say 1 &quot;&quot; &quot;...&quot;&#x0A;' />
+            <parameter name="obj_1" type="int" val="38" />
+            <parameter name="obj_2" type="int" val="39" />
+            <parameter name="obj_3" type="int" val="40" />
+            <parameter name="obj_4" type="int" val="41" />
+        </parameters>
+        <Connections>
+            <Connection id="37" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-18.278" t1="-7.87938" t2="-18.2881" s0="0.3" s1="0.3" s2="0.3" r0="0.990806" r1="4.11637e-008" r2="0.135294" r3="0" r4="-5.73292e-008" r5="1" r6="1.15588e-007" r7="0" r8="-0.135294" r9="-1.22282e-007" r10="0.990806" r11="0" r12="0" r13="0" r14="0" r15="1" id="38" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="22" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-18.6248" t1="-7.87938" t2="-18.3354" s0="0.3" s1="0.3" s2="0.3" r0="0.990806" r1="4.11637e-008" r2="0.135294" r3="0" r4="-5.73292e-008" r5="1" r6="1.15588e-007" r7="0" r8="-0.135294" r9="-1.22282e-007" r10="0.990806" r11="0" r12="0" r13="0" r14="0" r15="1" id="39" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="23" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-18.9716" t1="-7.87938" t2="-18.3828" s0="0.3" s1="0.3" s2="0.3" r0="0.990806" r1="4.11637e-008" r2="0.135294" r3="0" r4="-5.73292e-008" r5="1" r6="1.15588e-007" r7="0" r8="-0.135294" r9="-1.22282e-007" r10="0.990806" r11="0" r12="0" r13="0" r14="0" r15="1" id="40" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="45" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-19.3184" t1="-7.87938" t2="-18.4301" s0="0.3" s1="0.3" s2="0.3" r0="0.990806" r1="4.11637e-008" r2="0.135294" r3="0" r4="-5.73292e-008" r5="1" r6="1.15588e-007" r7="0" r8="-0.135294" r9="-1.22282e-007" r10="0.990806" r11="0" r12="0" r13="0" r14="0" r15="1" id="41" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="46" />
+        </Connections>
+    </PlaceholderObject>
+    <EnvObject t0="-276.432" t1="40.4012" t2="141.715" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="42" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-290.01" t1="33.5968" t2="143.329" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="5.96046e-008" r6="1" r7="0" r8="0" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="43" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-292.142" t1="33.5787" t2="143.408" s0="4.37644" s1="1.00957" s2="3.91967" r0="2.38419e-007" r1="2.38419e-007" r2="-1" r3="0" r4="-1" r5="2.38419e-007" r6="-2.38419e-007" r7="0" r8="2.38419e-007" r9="1" r10="2.38419e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="44" type_file="Data/Objects/Decals/WolfireLogo.xml" i="0" color_r="31" color_g="31" color_b="31">
+        <parameters />
+    </Decal>
+    <ActorObject t0="-269.846" t1="44.004" t2="144.588" s0="1" s1="1" s2="1" r0="-0.36608" r1="-9.8522e-008" r2="-0.930583" r3="0" r4="-9.8522e-008" r5="1" r6="-6.71139e-008" r7="0" r8="0.930583" r9="6.71139e-008" r10="-0.36608" r11="0" r12="0" r13="0" r14="0" r15="1" id="45" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Left handed" type="string" val="0" />
+            <parameter name="Lives" type="string" val="1" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="string" val="0.5" />
+            <parameter name="Teams" type="string" val="guard, player" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="47" type="1" mirrored="1" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.556863" green="0.384314" blue="0.184314" />
+            <Color label="Pants" channel="1" red="0.137255" green="0.180392" blue="0.12549" />
+            <Color label="Shirt" channel="2" red="0.392157" green="0.278431" blue="0.278431" />
+            <Color label="Leather" channel="3" red="0.0352941" green="0.00784314" blue="0.00784314" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="-271.636" t1="44.004" t2="143.807" s0="1" s1="1" s2="1" r0="-0.413962" r1="0" r2="-0.910294" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.910294" r9="0" r10="-0.413962" r11="0" r12="0" r13="0" r14="0" r15="1" id="46" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Left handed" type="string" val="0" />
+            <parameter name="Lives" type="string" val="1" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="string" val="0.5" />
+            <parameter name="Teams" type="string" val="guard, player" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="49" type="1" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.133333" green="0.133333" blue="0.133333" />
+            <Color label="Pants" channel="1" red="0.27451" green="0.168627" blue="0.168627" />
+            <Color label="Shirt" channel="2" red="0.0666667" green="0.0666667" blue="0.0666667" />
+            <Color label="Leather" channel="3" red="0.572549" green="0.133333" blue="0.133333" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="-273.879" t1="42.1072" t2="146.195" s0="1" s1="1" s2="1" r0="0.906001" r1="0.423275" r2="-1.58325e-008" r3="0" r4="-0.422816" r5="0.905019" r6="-0.0465487" r7="0" r8="-0.0197029" r9="0.0421732" r10="0.998916" r11="0" r12="0" r13="0" r14="0" r15="1" id="48" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Plants/Trees/temperate/short_green_bush.xml">
+        <parameters />
+    </EnvObject>
+    <ItemObject t0="-270.063" t1="42.8206" t2="142.533" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="47" type_file="Data/Items/MainGauche.xml" color_r="1" color_g="1" color_b="1">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="-269.938" t1="42.7715" t2="140.84" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="49" type_file="Data/Items/DogWeapons/DogSword.xml" color_r="1" color_g="1" color_b="1">
+        <parameters />
+    </ItemObject>
+    <Hotspot t0="-23.2186" t1="-7.24786" t2="-13.3384" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="50" type_file="Data/Objects/Hotspots/start_dialogue.xml">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Beetle Intro" />
+        </parameters>
+    </Hotspot>
+    <EnvObject t0="-59.0564" t1="-5.69975" t2="-8.44139" s0="1" s1="1" s2="1" r0="-0.196877" r1="0.0890611" r2="0.976373" r3="0" r4="-0.531033" r5="0.827452" r6="-0.182556" r7="0" r8="-0.82416" r9="-0.554428" r10="-0.115612" r11="0" r12="0" r13="0" r14="0" r15="1" id="51" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-56.6484" t1="-7.64807" t2="-11.4726" s0="1" s1="1" s2="1" r0="0.642279" r1="0.620722" r2="-0.449654" r3="0" r4="-0.688866" r5="0.210243" r6="-0.69374" r7="0" r8="-0.336076" r9="0.755325" r10="0.562623" r11="0" r12="0" r13="0" r14="0" r15="1" id="52" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockBroken.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-168.978" t1="-30.6086" t2="-205.652" s0="1.79254" s1="1.79254" s2="1.79254" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="53" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-116.042" t1="-42.2032" t2="-204.28" s0="1" s1="1" s2="1" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="0.960154" r6="-0.279472" r7="0" r8="0" r9="0.279472" r10="0.960154" r11="0" r12="0" r13="0" r14="0" r15="1" id="54" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/DesertRock1a.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-141.466" t1="-49.159" t2="-191.237" s0="1.22208" s1="1" s2="1" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="0.947996" r6="-0.318282" r7="0" r8="0" r9="0.318282" r10="0.947996" r11="0" r12="0" r13="0" r14="0" r15="1" id="55" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-231.902" t1="-45.2436" t2="-30.1035" s0="1.81469" s1="1.81469" s2="1.81469" r0="0.210675" r1="1.11759e-007" r2="-0.977556" r3="0" r4="-0.209886" r5="0.976679" r6="-0.0452329" r7="0" r8="0.954759" r9="0.214705" r10="0.205762" r11="0" r12="0" r13="0" r14="0" r15="1" id="56" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/DesertRock1a.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-241.731" t1="-45.7268" t2="-24.5245" s0="1.88173" s1="1.88173" s2="1.88173" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="57" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/rocks/rock1a.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>

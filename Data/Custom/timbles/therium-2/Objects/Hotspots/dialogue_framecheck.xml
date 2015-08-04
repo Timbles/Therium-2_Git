@@ -1,0 +1,6 @@
+<?xml version="2.0" ?>
+<Type>generic</Type>
+<Hotspot>
+	<BillboardColorMap>Data/UI/spawner/thumbs/Hotspot/sign_icon.png</BillboardColorMap>
+	<Script>hotspots/timbles/dialogue_framecheck.as</Script>
+</Hotspot>

@@ -1,0 +1,11 @@
+#name "ReaperIntro"
+#participants 0
+
+say 1 "" "When I was first making S1-A..."
+say 1 "" "I was making a puzzle for the Reaper Intro."
+say 1 "" "Once you approach where the Reaper is, you'd see him."
+say 1 "" "Ghost would make a noise too loud while behind a bush..."
+say 1 "" "And you'd have to sneak out of cover while the Reaper's not looking."
+say 1 "" "It worked well and was totally awesome..."
+say 1 "" "But severe technical difficulties and bugginess of the dialogue editor..."
+say 1 "" "I couldn't have it implemented."

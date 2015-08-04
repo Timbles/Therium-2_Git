@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/Gear/DogTools/DogToolHammer.obj</Model>
+	<ColorMap>Data/Textures/Gear/DogTools/DogTools_Color.tga</ColorMap>
+	<NormalMap>Data/Textures/Gear/DogTools/DogTools_Normal.tga</NormalMap>
+	<ShaderName>cubemapobj</ShaderName>
+</Object>

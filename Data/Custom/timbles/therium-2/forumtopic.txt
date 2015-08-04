@@ -1,0 +1,58 @@
+[img]http://i.imgur.com/XONKe8v.png[/img]
+
+Hi guys and gals, I made a new level campaign for Overgrowth.
+There are 32 levels and 6 (8?) different endings. Every level has two or more different gateways to more levels, as in you can go to different levels from one level.
+There's a real storyline, backstory and lore that's only explained if you take your time and search for easter eggs, secret levels and notes around the Therium. Two (or four??) of the endings are secret (you have to go through secret levels to get them!)
+
+[size=150]Download![/size]
+Begin the campaign by typing therium2.xml
+You can also go through a tutorial by typing therium2-tutorial.xml
+
+
+[spoiler=Installation Video]faewsfsedf[/spoiler]
+[spoiler=Important Gameplay Info]Before you load therium2.xml, try playing through the prologue! therium2-prologue.xml
+THERE IS A TUTORIAL LEVEL! therium2-tutorial.xml
+Baked Shadows will cause most levels to run slowly and have terrible framerate, so keep Baked Shadows to off for Dynamic Shadows instead. Baked Shadows is especially framerate hungry on indoors levels, so either keep baked shadows not calcualated on those levels or just have dynamic shadows.[/spoiler]
+
+[spoiler=Requirements]- Ruined Arches
+- Watchtower
+- Sky Temple
+- Steelraven 7's Hotspot pack
+- River Fight[/spoiler]
+
+[spoiler=Inspirations]- The Tower series by Elegaro
+- Jade: Diamask Pass (quite a while back)
+- Viking Biomes by iDubbbz (it first gave me the idea of non-linearity)
+- Last of Us (you'll definitely see it on the D path)
+- Mysterious Mountain by Elegaro
+- Oddworld: Abe's Oddysee (when you first arrive in the F path levels, I wanted to replicate the feeling that you get when you first enter the wilderness part of Oddworld).
+- A serious lack of storytelling and narrative in Overgrowth maps
+- To inspire you guys![/spoiler]
+
+-------------------------------------
+
+After being framed, you find yourself imprisoned in some place you barely recognize. Most of it is in disrepair, and a lot of people are going around, setting things up.
+Thankfully, you give them the slip and manage to escape your cell. Someone named Jared aids you and you go through the Therium, which seems to be a huge expanse of ruins being taken over by some civilization of Rabbits.
+
+[spoiler=Screenshots]yayaya[/spoiler]
+
+[list]- Three new enemy types (Reaper, Heavy and Beetle)
+- 2 new weapons (Mallet and Kendostick)
+- 4 different paths
+- 20 levels
+- 6 (8?) endings
+- Open-World style progression
+- Dev commentary map
+- Detailed backstory and lore
+- A lot of secrets and easter eggs
+- Seriously, try to find the secrets
+- More dialogue then all community made dialogue put together
+- A ton of prefabs of objects and assets I used in Therium-2!
+- Non-linear progression[/list]
+
+
+PM me if you have any questions and stuff.
+I really hope you guys take the time to find and figure out the backstory, I put a lot of thought into it.
+Please report bugs, PM me feedback (I'll fix anything that's really gamebreaking in any way).
+Serious props to Thomason for making some dialogue scripts.
+And honestly, if it weren't for Mr. Gay Retard's (iDubbbz) level, Viking Biomes, I wouldn't have even made this. Seriously, that was the first time I've seen something that non-linear in Overgrowth and it really inspired me to make something even bigger. Which is odd, of course but whatever.

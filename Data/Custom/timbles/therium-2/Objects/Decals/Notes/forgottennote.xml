@@ -1,0 +1,7 @@
+<?xml version="2.0" ?>
+<Type>generic</Type>
+<DecalObject>
+		<ColorMap>Data/Custom/timbles/therium-2/Textures/Notes/new/forgottennote.tga</ColorMap>
+	<NormalMap>Data/Custom/timbles/therium-2/Textures/Notes/normal.tga</NormalMap>
+	<ShaderName>decal</ShaderName>
+</DecalObject>

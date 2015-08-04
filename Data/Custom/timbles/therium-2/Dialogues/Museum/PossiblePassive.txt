@@ -1,0 +1,15 @@
+#name "Possible Passive"
+#participants 0
+
+say 1 "" "When I made the first Therium map..."
+say 1 "" "I made sure you could complete it without harming anyone in any way."
+say 1 "" "Or even being seen by anyone."
+say 1 "" "Sadly, it was a little obvious how you could do it."
+say 1 "" "Before David made the Stealth AI really dumb (in comparison to earlier alphas)..."
+say 1 "" "I made the non-detected path harder to see, and more challenging."
+say 1 "" "But once the AI became half-blind and nearly deaf..."
+say 1 "" "I had to compromise."
+say 1 "" "But in a way, there's still a non-detected challenge."
+say 1 "" "Before every single shrine (not counting secrets), there are enemies guarding it."
+say 1 "" "You can sneak onto the shrine and complete the shrine cutscene without being seen."
+say 1 "" "It's just a puzzle."

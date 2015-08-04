@@ -1,0 +1,95 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <ActorObject t0="11.1914" t1="6.03593" t2="-7.33587" s0="1" s1="1" s2="1" r0="-1" r1="-2.78181e-008" r2="5.96046e-008" r3="0" r4="-2.78181e-008" r5="1" r6="8.29043e-016" r7="0" r8="-5.96046e-008" r9="-8.29043e-016" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="52" type_file="Data/Custom/timbles/therium-2/Objects/IGF_Characters/ghost.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1.4000000000000001" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1.3" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Left handed" type="string" val="0" />
+            <parameter name="Lives" type="string" val="1" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="string" val="0.5" />
+            <parameter name="Teams" type="string" val="Ghost" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="32.4376" t1="5.97288" t2="-8.00122" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" type_file="Data/Objects/IGF_Characters/IGF_RabbitCivActor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1.4000000000000001" />
+            <parameter name="Attack Speed" type="string" val="1.1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.8" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1.4000000000000001" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Left handed" type="string" val="0" />
+            <parameter name="Lives" type="string" val="1" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="string" val="0.5" />
+            <parameter name="Teams" type="string" val="Jared" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <EnvObject t0="21.9883" t1="10.555" t2="-7.13601" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/hanging_garden_arena/hanging_garden_arena.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="21.9619" t1="16.0216" t2="-7.13308" s0="1" s1="1" s2="0.972573" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="0.211765" color_g="0.270588" color_b="0.329412" type_file="Data/Objects/Buildings/cat_town/babylon_tower.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="15.8029" t1="8.27993" t2="-7.05568" s0="1" s1="1" s2="1" r0="-1.19209e-007" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="21.8622" t1="8.28" t2="-1.42865" s0="1" s1="1" s2="1" r0="1" r1="0" r2="-5.96046e-008" r3="0" r4="0" r5="1" r6="0" r7="0" r8="5.96046e-008" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="27.7407" t1="8.28" t2="-6.99153" s0="1" s1="1" s2="1" r0="-1.19209e-007" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="22.8722" t1="8.28" t2="-12.9526" s0="1" s1="1" s2="1" r0="-1" r1="-2.78181e-008" r2="1.19209e-007" r3="0" r4="-2.78181e-008" r5="1" r6="1.65808e-015" r7="0" r8="-1.19209e-007" r9="-1.65808e-015" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="20.6915" t1="8.28" t2="-12.9526" s0="1" s1="1" s2="1" r0="-1" r1="-2.78181e-008" r2="1.19209e-007" r3="0" r4="-2.78181e-008" r5="1" r6="1.65808e-015" r7="0" r8="-1.19209e-007" r9="-1.65808e-015" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="22.8753" t1="8.47973" t2="-13.1586" s0="2.58608" s1="2.58608" s2="2.58608" r0="-1" r1="2.78181e-008" r2="-5.96046e-008" r3="0" r4="2.78181e-008" r5="1" r6="8.29043e-016" r7="0" r8="5.96046e-008" r9="-8.29043e-016" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="16" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/DogGrave/DogGravePlank5.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="20.6892" t1="8.47973" t2="-13.1586" s0="2.58608" s1="2.58608" s2="2.58608" r0="-1" r1="2.78181e-008" r2="-5.96046e-008" r3="0" r4="2.78181e-008" r5="1" r6="8.29043e-016" r7="0" r8="5.96046e-008" r9="-8.29043e-016" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="17" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/DogGrave/DogGravePlank5.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="15.6072" t1="8.43119" t2="-7.04292" s0="3.19643" s1="3.19643" s2="3.19643" r0="-1.19209e-007" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/DogGrave/DogGravePlank6.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="21.8606" t1="8.40951" t2="-1.24665" s0="2.59155" s1="2.59155" s2="2.59155" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/DogGrave/DogGravePlank3.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="27.922" t1="8.42312" t2="-6.99586" s0="2.4732" s1="2.4732" s2="2.4732" r0="-1.19209e-007" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/DogGrave/DogGravePlank9.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>

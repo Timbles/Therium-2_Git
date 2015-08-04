@@ -1,0 +1,8 @@
+#name "A1-Intro"
+#participants 2
+
+say 1 "You" "...damn..."
+say 1 "You" "What even happened?"
+say 1 "You" "Oh, I remember now."
+say 1 "You" "Damn... who was that guy?"
+say 1 "You" "I hope I meet him again."

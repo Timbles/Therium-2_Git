@@ -1,0 +1,11 @@
+set_character_pos 1 102.665 -44.8436 66.4912 19
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 103.359 -44.4545 66.2279 1"
+set_cam 102.497 -44.4274 67.2454 0 -31.37 0 72.3015
+#name "Reaper Note"
+#participants 1
+
+say 1 "Ghost" "Seems to be a received letter."
+say 1 "Ghost" "Probably from another guard, somewhere else."
+set_cam 103.325 -44.2432 66.198 -89.98 -20.56 -45.16 92.3652
+say 0 "" "..."

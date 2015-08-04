@@ -1,0 +1,9 @@
+#name "MuseumIns"
+#participants 0
+
+say 1 "" "You might've figured this out..."
+say 1 "" "But the inspiration for this Museum level..."
+say 1 "" "Was from the game The Stanley Parable."
+say 1 "" "I realised how much there is to say about this..."
+say 1 "" "And I didn't really have any way to talk about it."
+say 1 "" "So I made this level."

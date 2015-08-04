@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/box.obj</Model>
+	<ColorMap>Data/Textures/Terrain/DetailTextures/sandwaves.tga</ColorMap>
+	<NormalMap>Data/Textures/Terrain/DetailTextures/sandwaves_normal.tga</NormalMap>
+	<ShaderPath>Data/GLSL/cubemap</ShaderPath>
+	<ShaderName>cubemap</ShaderName>
+</Object>

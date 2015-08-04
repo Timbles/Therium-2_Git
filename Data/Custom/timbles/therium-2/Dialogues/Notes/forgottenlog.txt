@@ -1,0 +1,10 @@
+send_character_message 1 "set_head_target 107.74 -16.07 14.0901 1"
+set_character_pos 1 108.502 -16.417 13.9699 -166
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 109.076 -15.9568 13.0384 0 135.73 0 65.1462
+#name "Forgotten Log"
+#participants 1
+
+say 1 "Ghost" "Seems to be a lost part of a diary entry."
+set_cam 107.71 -15.7827 14.1956 -88.15 177.43 -75.31 61.8912
+say 0 "" "..."

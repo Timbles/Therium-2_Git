@@ -1,0 +1,9 @@
+set_character_pos 1 65.156 44.0959 63.4838 -18
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 63.8877 44.2102 63.9744 0 -83.37 0 87.1326
+#name "Bush Intro"
+#participants 1
+
+say 1 "Ghost" "Hmm..."
+set_cam 68.5643 44.7685 66.0097 0 -83.37 0 87.1326
+say 1 "Ghost" "These bushes could provide cover..."

@@ -1,0 +1,58 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-130.5" t1="-31.0597" t2="-3.80628" s0="1.1895" s1="1.07826" s2="1.25198" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="886" version="1">
+        <parameters />
+        <EnvObject t0="-130.481" t1="-30.8376" t2="-3.69644" s0="0.328364" s1="0.328364" s2="0.328364" r0="0.998704" r1="-0.0353166" r2="0.0366476" r3="0" r4="-3.91155e-008" r5="0.720061" r6="0.69391" r7="0" r8="-0.0508951" r9="-0.693011" r10="0.719128" r11="0" r12="0" r13="0" r14="0" r15="1" id="142" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-130.511" t1="-30.7873" t2="-3.99803" s0="0.328364" s1="0.328364" s2="0.328364" r0="0.998704" r1="-0.0353166" r2="0.0366476" r3="0" r4="-0.0508872" r5="-0.680274" r6="0.731189" r7="0" r8="-0.000892717" r9="-0.732106" r10="-0.68119" r11="0" r12="0" r13="0" r14="0" r15="1" id="143" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-130.364" t1="-30.8048" t2="-3.90932" s0="0.328364" s1="0.328364" s2="0.328364" r0="0.610999" r1="0.557929" r2="0.561601" r3="0" r4="-0.133702" r5="-0.626501" r6="0.767867" r7="0" r8="0.780259" r9="-0.544253" r10="-0.308195" r11="0" r12="0" r13="0" r14="0" r15="1" id="144" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-130.608" t1="-30.8091" t2="-3.73368" s0="0.328364" s1="0.328364" s2="0.328364" r0="0.51581" r1="-0.705593" r2="-0.485879" r3="0" r4="0.563535" r5="-0.147725" r6="0.812776" r7="0" r8="-0.645266" r9="-0.693048" r10="0.321428" r11="0" r12="0" r13="0" r14="0" r15="1" id="145" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-130.549" t1="-30.97" t2="-3.77377" s0="0.328364" s1="0.328364" s2="0.328364" r0="0.847209" r1="-0.173174" r2="-0.502242" r3="0" r4="0.128715" r5="0.984123" r6="-0.122204" r7="0" r8="0.515431" r9="0.0388862" r10="0.856048" r11="0" r12="0" r13="0" r14="0" r15="1" id="146" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="-130.469" t1="-31.3141" t2="-3.7954" s0="0.52683" s1="0.559524" s2="0.593083" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="148" type_file="Data/Objects/Decals/PineBase.xml" i="0" color_r="1" color_g="1" color_b="1">
+            <parameters />
+        </Decal>
+        <Group t0="-130.5" t1="-31.0926" t2="-3.80628" s0="1.1795" s1="0.318476" s2="1.24198" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="141" version="1">
+            <parameters />
+            <EnvObject t0="-130.077" t1="-31.0926" t2="-3.80947" s0="0.0840633" s1="0.0850871" s2="0.0840633" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="132" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.219" t1="-31.0926" t2="-3.56835" s0="0.0840633" s1="0.0850871" s2="0.0840633" r0="0.0739511" r1="0" r2="-0.997262" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.997262" r9="0" r10="0.0739511" r11="0" r12="0" r13="0" r14="0" r15="1" id="133" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.401" t1="-31.0926" t2="-3.36059" s0="0.0840633" s1="0.0850871" s2="0.0840633" r0="0.107383" r1="0" r2="0.994218" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-0.994218" r9="-0" r10="0.107383" r11="0" r12="0" r13="0" r14="0" r15="1" id="134" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.687" t1="-31.0926" t2="-3.46492" s0="0.0840634" s1="0.0850872" s2="0.0840634" r0="0.927958" r1="0" r2="0.372685" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-0.372685" r9="-0" r10="0.927958" r11="0" r12="0" r13="0" r14="0" r15="1" id="135" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.856" t1="-31.0926" t2="-3.78252" s0="0.0840633" s1="0.0850871" s2="0.0840634" r0="0.839689" r1="-3.37502e-008" r2="-0.543067" r3="0" r4="-3.37502e-008" r5="1" r6="-1.14332e-007" r7="0" r8="0.543067" r9="1.14332e-007" r10="0.839689" r11="0" r12="0" r13="0" r14="0" r15="1" id="136" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.144" t1="-31.0926" t2="-4.02536" s0="0.0840633" s1="0.0850871" s2="0.0840634" r0="0.839689" r1="8.05817e-008" r2="-0.543067" r3="0" r4="-1.48082e-007" r5="1" r6="-8.05817e-008" r7="0" r8="0.543067" r9="1.48082e-007" r10="0.839689" r11="0" r12="0" r13="0" r14="0" r15="1" id="137" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.4" t1="-31.0926" t2="-4.18797" s0="0.0840633" s1="0.0850872" s2="0.0840633" r0="-0.91132" r1="-1.49703e-007" r2="0.411698" r3="0" r4="-1.99907e-007" r5="1" r6="-7.88836e-008" r7="0" r8="-0.411698" r9="-1.54189e-007" r10="-0.91132" r11="0" r12="0" r13="0" r14="0" r15="1" id="138" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.619" t1="-31.0926" t2="-4.19601" s0="0.0840634" s1="0.0850871" s2="0.0840633" r0="0.388604" r1="3.34201e-008" r2="-0.921405" r3="0" r4="-1.65242e-007" r5="1" r6="-3.34201e-008" r7="0" r8="0.921405" r9="1.65242e-007" r10="0.388604" r11="0" r12="0" r13="0" r14="0" r15="1" id="139" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="-130.824" t1="-31.0926" t2="-3.99405" s0="0.0840633" s1="0.0850871" s2="0.0840633" r0="0.027628" r1="-8.0792e-008" r2="-0.999618" r3="0" r4="-2.51692e-007" r5="1" r6="-8.77793e-008" r7="0" r8="0.999618" r9="2.54022e-007" r10="0.027628" r11="0" r12="0" r13="0" r14="0" r15="1" id="140" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/rocks/Rock1b.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <EnvObject t0="-130.452" t1="-30.8878" t2="-3.77598" s0="0.466093" s1="0.34277" s2="0.507973" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="885" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Objects\invisibleblock.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

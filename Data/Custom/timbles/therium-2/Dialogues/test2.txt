@@ -1,0 +1,5 @@
+#name "Test2"
+#participants 1
+
+say 1 "Ghost" "I am opening this door now!"
+say 1 "Ghost" "Yipee!"

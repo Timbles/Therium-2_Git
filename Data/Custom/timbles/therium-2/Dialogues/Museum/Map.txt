@@ -1,0 +1,4 @@
+#name "Map"
+#participants 0
+
+say 0 "" ""

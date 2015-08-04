@@ -1,0 +1,54 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <ActorObject t0="-237.498" t1="-35.5767" t2="-18.4891" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="34" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\IGF_Characters\beetle.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.75" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Teams" type="string" val="guard" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Clothes" channel="0" red="1" green="1" blue="1" />
+            <Color label="Fur" channel="1" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="2" red="1" green="1" blue="1" />
+            <Color label="Armor" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="9" num_connections="1" m0="0.0201045" m1="0.17091" m2="0.985081" m3="0" m4="0.831652" m5="-0.549734" m6="0.0784046" m7="0" m8="0.554933" m9="0.817669" m10="-0.153189" m11="0" m12="0.624969" m13="0.0966034" m14="-0.0273514" m15="1" />
+                <BoneConnect bone_id="8" num_connections="1" m0="0.0671915" m1="0.249016" m2="0.966166" m3="0" m4="0.831758" m5="-0.548807" m6="0.0836035" m7="0" m8="0.551057" m9="0.797999" m10="-0.243996" m11="0" m12="0.625031" m13="0.0960083" m14="-0.0302277" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="19" num_connections="1" m0="0.29743" m1="-0.213173" m2="0.930641" m3="0" m4="0.380215" m5="0.920572" m6="0.0893508" m7="0" m8="-0.875769" m9="0.327268" m10="0.354858" m11="0" m12="-0.147583" m13="0.392593" m14="-0.032608" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject t0="-237.095" t1="-36.0103" t2="-18.5076" s0="1.00002" s1="1.28524" s2="1.00011" r0="0.124986" r1="0.259715" r2="0.957563" r3="0" r4="0.0640446" r5="-0.96523" r6="0.253435" r7="0" r8="0.990089" r9="0.0296509" r10="-0.137273" r11="0" r12="0" r13="0" r14="0" r15="1" id="35" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Weapons/flint_knife_c2.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-237.548" t1="-35.4603" t2="-18.5361" s0="0.0185016" s1="0.00726178" s2="0.0214969" r0="0.367584" r1="0.0129564" r2="0.9299" r3="0" r4="-0.494906" r5="0.849285" r6="0.183801" r7="0" r8="-0.787369" r9="-0.527775" r10="0.318596" r11="0" r12="0" r13="0" r14="0" r15="1" id="36" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Rocks/rock1a.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+</ActorObjects>

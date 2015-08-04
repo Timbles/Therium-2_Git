@@ -1,0 +1,13 @@
+set_cam -95.0201 133.581 34.7306 0 -61.18 0 90
+#name "Gates"
+#participants 0
+
+say 0 "Timbles" "Every time you come across one of these shrines..."
+say 0 "Timbles" "It's a gateway to another level."
+say 0 "Timbles" "Whenever you find one..."
+say 0 "Timbles" "Make sure to secure all the enemies around it."
+say 0 "Timbles" "Once you use a shrine, it'll tell you a .xml file."
+say 0 "Timbles" "After that happens, go into the main menu..."
+say 0 "Timbles" "And type that level .xml into the custom level box."
+say 0 "Timbles" "And don't look at all the level .xml's Therium-2 installed!"
+say 0 "Timbles" "That will give you -MAJOR SPOILERS-."

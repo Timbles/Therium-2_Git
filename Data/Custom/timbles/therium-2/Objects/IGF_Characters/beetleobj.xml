@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/Characters/IGF_Guard/IGF_Guard.obj</Model>
+	<ColorMap>Data/Custom/timbles/therium-2/Textures/Characters/beetle.tga</ColorMap>
+	<NormalMap>Data/Textures/Characters/IGF_Guard/IGF_Guard_Normal.tga</NormalMap>
+	<PaletteMap 
+		label_red="Clothes" 
+                label_green="Fur" 
+                label_blue="Leather"
+		label_alpha="Armor">
+        	Data/Textures/Characters/IGF_Guard/base_guard_m.tga
+    	</PaletteMap>
+	<ShaderName>cubemapobjchar</ShaderName>
+</Object>

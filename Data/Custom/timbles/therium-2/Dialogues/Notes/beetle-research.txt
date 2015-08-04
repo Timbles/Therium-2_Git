@@ -1,0 +1,7 @@
+#name "Research on the Beetles"
+#participants 1
+
+say 1 "Ghost" "The note is pretty tattered."
+say 1 "Ghost" "There's signs of aging, but it's not yellow."
+say 1 "Ghost" "It seems it's a research journal on the Beetles."
+say 0 "" "..."

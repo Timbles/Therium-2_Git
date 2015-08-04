@@ -1,0 +1,104 @@
+set_character_pos 2 -18.4473 -8.45584 -20.7117 -88
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target -17.381 -8.09806 -19.3807 0.426936"
+set_character_pos 1 -17.389 -9.0047 -18.8726 123
+send_character_message 1 "set_head_target -18.2205 -8.05871 -20.0393 0.692768"
+set_cam -18.4426 -8.2529 -19.3269 0 0 0 32.7581
+#name "Beetle Intro"
+#participants 4
+
+say 2 "Jared" "Hey, Ghost."
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 1 "set_eye_dir -18.2436 -7.95587 -20.0892 1"
+set_cam -18.578 -8.23989 -19.4114 0 -110.4 0 32.7581
+say 1 "Ghost" "What?"
+send_character_message 2 "set_head_target -17.381 -8.67872 -19.3807 0.426936"
+set_cam -19.0952 -8.23989 -19.3855 0 -33.31 0 32.7581
+say 2 "Jared" "There's something you should know about this place."
+send_character_message 1 "set_head_target -17.9968 -7.89527 -20.1707 0.692768"
+send_character_message 1 "set_eye_target -18.0642 -8.30179 -20.1204 0.692768"
+set_cam -18.8135 -8.23989 -19.2823 0 -101.85 0 32.7581
+say 1 "Ghost" "?"
+set_cam -18.8135 -8.23989 -19.2823 0 -20.44 0 32.7581
+send_character_message 2 "set_head_target -16.6445 -8.14659 -20.9749 0.426936"
+send_character_message 1 "set_head_target -18.0642 -8.30179 -20.1204 0.692768"
+say 2 "Jared" "There's a cave nearby, and that can only mean one thing."
+send_character_message 2 "set_head_target -16.7007 -8.48026 -20.8587 0.426936"
+say 2 "Jared" "This area's almost definitely populated with Beetles."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+set_cam -19.2841 -8.40424 -19.339 0 -97.96 0 36.583
+say 1 "Ghost" "...[wait 0.3]and why should I care?"
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 2 "set_head_target -17.8501 -8.48026 -19.2114 0.426936"
+set_character_pos 2 -18.4474 -8.45581 -20.7117 -79
+set_cam -19.2006 -8.19324 -19.6273 0 -41.25 0 28.3045
+say 2 "Jared" "I'm not talking about the bug, you fruit."
+send_character_message 2 "set_head_target -17.8501 -8.06373 -19.2114 0.426936"
+send_character_message 1 "set_head_target -18.0702 -8.26964 -20.259 0.692768"
+say 2 "Jared" "There's a certain type of fighter in this Therium..."
+say 2 "Jared" "I call them beetles."
+set_cam -18.4426 -8.2529 -19.3269 0 -105.65 0 32.7581
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 1 "Ghost" "And what do they do?"
+send_character_message 2 "set_head_target -17.381 -9.06625 -19.3807 0.426936"
+set_cam -18.5997 -8.2529 -19.5049 0 -11.51 0 32.7581
+say 2 "Jared" "Well, they got bored with their fists..."
+send_character_message 2 "set_head_target -17.6599 -8.20419 -19.288 0.426936"
+say 2 "Jared" "So they took up some other measure."
+set_cam -18.5997 -8.2529 -19.5049 0 -110.37 0 32.7581
+say 1 "Ghost" "So, they have blades?"
+set_cam -18.672 -8.20372 -19.6525 0 -13.54 0 29.6602
+say 2 "Jared" "On their hands."
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 2 "Jared" "They will stab you and you can't pick up their weapon."
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam -18.672 -8.19153 -19.6525 0 -117.28 0 29.6602
+say 1 "Ghost" "Ah. Sounds tough."
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam -18.8542 -8.28063 -18.9128 0 -13.78 0 29.6602
+say 2 "Jared" "Just be careful."
+set_cam -101.996 53.0895 51.3123 -30 -43.78 0 29.6602
+say 1 "" "..."
+send_character_message 4 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 4 "set_torso_target -270.837 43.797 144.139 0.550493"
+send_character_message 3 "set_head_target -266.699 43.4934 142.615 1"
+send_character_message 3 "set_eye_target -266.699 43.4934 142.615 1"
+send_character_message 3 "set_animation \"Data/Animations/r_dialogue_shade.anm\""
+set_character_pos 4 -271.332 43.6397 143.748 0
+set_character_pos 3 -270.101 43.3854 144.798 15
+set_cam -273.983 44.4316 143.913 -9.9 -92.41 0.57 29.6602
+say 1 "" "..."
+send_character_message 3 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 1 "???" "..."
+send_character_message 3 "set_head_target -270.092 44.1342 142.948 1"
+send_character_message 3 "set_eye_target -270.092 44.1342 142.948 1"
+say 3 "???" "Yep."
+say 3 "???" "That's the one."
+set_cam -266.661 44.1088 144.385 -2.91 89.12 -0.31 29.6602
+send_character_message 3 "set_head_target -267.368 44.1342 143.062 1"
+send_character_message 3 "set_eye_target -267.368 44.1342 143.062 1"
+say 3 "???" "And with him."
+send_character_message 4 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+say 4 "????" "Him?"
+send_character_message 4 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+say 4 "????" "I didn't even think I'd see him again."
+send_character_message 4 "set_head_target -270.401 44.1649 144.445 1"
+send_character_message 3 "set_head_target -270.303 44.1342 143.362 1"
+send_character_message 3 "set_eye_target -270.303 44.1342 143.362 1"
+say 1 "???" "..."
+say 3 "???" "You're about to see a lot more."
+set_cam -275.158 43.603 144.239 2.89 -87.83 0.46 29.6602
+send_character_message 3 "set_head_target -264.186 44.1342 141.956 1"
+send_character_message 3 "set_eye_target -264.186 44.1342 141.956 1"
+send_character_message 4 "set_head_target -264.748 44.1649 142.31 1"
+send_character_message 4 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 1 "" "..."
+send_character_message 3 "set_animation \"Data/Animations/r_walk.anm\""
+send_character_message 4 "set_animation \"Data/Animations/r_walk.anm\""
+set_cam -264.567 44.2335 143.482 -2.83 97.75 -0.74 29.6602
+set_character_pos 4 -272.385 43.1389 144.287 -171
+send_character_message 4 "set_head_target -264.748 44.1649 142.31 0"
+send_character_message 3 "set_head_target -264.186 44.1342 141.956 0"
+send_character_message 4 "set_torso_target -270.837 43.797 144.139 0.00113353"
+set_character_pos 3 -272.563 43.3858 145.644 -176
+say 1 "" "..."

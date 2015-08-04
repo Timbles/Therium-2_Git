@@ -1,0 +1,18 @@
+set_character_pos 1 57.163 21.9911 -157.978 0
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 57.0987 22.149 -156.899 0"
+set_cam 55.3356 22.2511 -158.901 0 -104.37 0 69.5744
+#name "To B2"
+#participants 1
+
+say 0 "Ghost" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 57.7807 21.9911 -157.978 0
+say 1 "Ghost" "Poopie dookie brain."
+say 1 "Ghost" "Cootie poopdumb."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_facepalm.anm\""
+set_character_pos 1 57.0794 21.9911 -157.978 0
+say 1 "Ghost" "Okay, this is just stupid."
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 0 "" "You've completed S1-C1."
+say 0 "" "Please load therium2-s1-b2.xml"

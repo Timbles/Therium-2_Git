@@ -1,0 +1,9 @@
+#name "S2-B1"
+#participants 1
+
+say 0 "Ghost" "..."
+say 1 "Ghost" "You're a pain in the butt."
+say 1 "Ghost" "Your breath smells like poopy idiot stuff."
+say 1 "Ghost" "God, I really hate doing this."
+say 0 "" "You've completed S1-B2."
+say 0 "" "Please load therium2-s2b1.xml"

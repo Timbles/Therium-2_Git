@@ -1,0 +1,36 @@
+set_character_pos 2 104.796 56.9745 123.754 0
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_character_pos 1 103.097 57.3472 122.273 -147
+send_character_message 1 "set_head_target 101.86 57.7768 123.004 1"
+set_cam 101.937 57.8917 122.059 0 -109.01 0 36.8995
+#name "Manly Note"
+#participants 2
+
+say 1 "Ghost" "A note written by the Manly Man himself."
+send_character_message 1 "set_head_target 101.86 58.2859 123.004 1"
+send_character_message 2 "set_head_target 105.875 58.0742 123.397 1"
+say 2 "Manly Man" "Hm?"
+send_character_message 1 "set_eye_dir 102.527 57.964 121.86 1"
+send_character_message 2 "set_head_target 104.232 58.0742 123.321 1"
+set_character_pos 2 104.796 56.9745 123.754 165
+set_cam 102.116 57.8917 122.009 0 -111.99 0 33.5662
+send_character_message 1 "set_head_target 102.239 58.2859 123.747 1"
+say 1 "Ghost" "No, I uh, didn't mean-"
+say 2 "Manly Man" "Reading my notes, hm?"
+send_character_message 2 "set_head_target 104.212 57.6211 123.321 1"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+say 2 "Manly Man" "*chuckles softly*"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target 104.212 57.904 123.321 1"
+say 2 "Manly Man" "I understand."
+say 2 "Manly Man" "A man of mystery like myself..."
+say 2 "Manly Man" "Must be discovered one way or another."
+send_character_message 2 "set_head_target 104.614 57.904 125.375 1"
+set_character_pos 2 104.913 56.9745 124.102 -116
+say 0 "Ghost" "..."
+send_character_message 1 "set_eye_dir 104.88 57.964 125.304 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_facepalm.anm\""
+send_character_message 1 "set_head_target 102.35 57.7572 122.811 1"
+say 0 "Ghost" "..."
+set_cam 101.946 59.1213 122.961 -83.93 85.47 0 33.5662
+say 0 "" "..."

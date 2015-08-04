@@ -1,0 +1,298 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/red_hills/red_hills_hm.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Custom/timbles/therium-2/Textures/black.tga</ColorMap>
+    <WeightMap>Data/Textures/Terrain/red_desert/red_desert_w.png</WeightMap>
+    <ModelOverride>Data/Custom/timbles/therium-2/Models/flat.obj</ModelOverride>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/pebbles.tga" normalpath="Data/Textures/Terrain/DetailTextures/pebbles_normal.tga" materialpath="Data/Materials/rocks.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/pebbly_sand.tga" normalpath="Data/Textures/Terrain/DetailTextures/pebbly_sand_normal.tga" materialpath="Data/Materials/gravel.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/sandwaves.tga" normalpath="Data/Textures/Terrain/DetailTextures/sandwaves_normal.tga" materialpath="Data/Materials/sand.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/rubble.tga" normalpath="Data/Textures/Terrain/DetailTextures/rubble_normal.tga" materialpath="Data/Materials/rock.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
+<OutOfDate Shadow="true" AO="true" NavMesh="true" />
+<SpawnPoints>
+    <SpawnPoint t0="0" t1="200" t2="0" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" />
+</SpawnPoints>
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="Level Boundaries" type="int" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Textures/skies/Blue2.tga</DomeTexture>
+    <SunAngularRad>0.120124</SunAngularRad>
+    <SunColorAngle>322.534</SunColorAngle>
+    <RayToSun r0="-0.553741" r1="0.315763" r2="0.770496" />
+    <ExtraAO>0.5</ExtraAO>
+    <SkyRotation>-40</SkyRotation>
+</Sky>
+<ActorObjects>
+    <ActorObject t0="7.22931" t1="15.8845" t2="-62.8102" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" type_file="Data/Custom/timbles/therium-2/Objects/IGF_Characters/ghost.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Left handed" type="string" val="0" />
+            <parameter name="Lives" type="string" val="1" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="string" val="0.5" />
+            <parameter name="Teams" type="string" val="player, Ghost" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="8.32883" t1="-7.62939e-006" t2="-62.3982" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.32881" t1="9.53674e-007" t2="-55.6564" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="4" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.32883" t1="-7.62939e-006" t2="-75.8882" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.32881" t1="9.53674e-007" t2="-69.1464" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="1.58844" t1="-7.62939e-006" t2="-62.3982" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="6" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="1.58842" t1="9.53674e-007" t2="-55.6564" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="1.58844" t1="-7.62939e-006" t2="-75.8882" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="1.58842" t1="9.53674e-007" t2="-69.1464" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-5.15808" t1="-8.58307e-006" t2="-62.3982" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="3" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-5.1581" t1="0" t2="-55.6564" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-5.15808" t1="-8.58307e-006" t2="-75.8882" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-5.1581" t1="0" t2="-69.1464" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.8985" t1="-8.58307e-006" t2="-62.3982" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.8985" t1="0" t2="-55.6564" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.8985" t1="-8.58307e-006" t2="-75.8882" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="16" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.8985" t1="0" t2="-69.1464" s0="3.375" s1="3.375" s2="3.375" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="17" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="4.7464" t1="3.40814" t2="-74.6253" s0="4.38719" s1="0.0454501" s2="1.52474" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="4.7464" t1="3.40814" t2="-65.8565" s0="4.38719" s1="0.0454501" s2="1.52474" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="1.88305" t1="3.40814" t2="-59.948" s0="4.38719" s1="0.0454501" s2="1.52474" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="4.70338" t1="1.93452" t2="-59.9535" s0="1.63666" s1="1.63666" s2="1.63666" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" color_r="2.5" color_g="2.5" color_b="2.5" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-4.44629" t1="6.30072" t2="-51.6603" s0="4.19626" s1="2.95867" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-12.822" t1="6.30072" t2="-51.6603" s0="4.19626" s1="2.95867" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="12.3264" t1="6.30072" t2="-51.6604" s0="4.19626" s1="2.95867" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+        <parameters />
+    </EnvObject>
+    <Group t0="-15.5797" t1="6.30195" t2="-66.2469" s0="33.5509" s1="5.92735" s2="2.01001" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="27" version="1">
+        <parameters />
+        <EnvObject t0="-15.5797" t1="6.30195" t2="-62.0489" s0="4.19626" s1="2.95867" s2="1" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="28" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-15.5797" t1="6.30195" t2="-70.4454" s0="4.19626" s1="2.95867" s2="1" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="29" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-15.5797" t1="6.30195" t2="-78.8211" s0="4.19626" s1="2.95867" s2="1" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="30" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-15.5796" t1="6.30195" t2="-53.6727" s0="4.19626" s1="2.95867" s2="1" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="31" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="12.5607" t1="6.30197" t2="-66.6087" s0="33.5509" s1="5.92735" s2="2.01001" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="32" version="1">
+        <parameters />
+        <EnvObject t0="12.5607" t1="6.30197" t2="-62.4106" s0="4.19626" s1="2.95867" s2="1" r0="1.78814e-007" r1="-8.42937e-008" r2="1" r3="0" r4="8.42937e-008" r5="1" r6="8.42937e-008" r7="0" r8="-1" r9="8.42937e-008" r10="1.78814e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="33" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="12.5607" t1="6.30197" t2="-70.8072" s0="4.19626" s1="2.95867" s2="1" r0="1.78814e-007" r1="-8.42937e-008" r2="1" r3="0" r4="8.42937e-008" r5="1" r6="8.42937e-008" r7="0" r8="-1" r9="8.42937e-008" r10="1.78814e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="34" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="12.5607" t1="6.30197" t2="-79.1829" s0="4.19626" s1="2.95867" s2="1" r0="1.78814e-007" r1="-8.42937e-008" r2="1" r3="0" r4="8.42937e-008" r5="1" r6="8.42937e-008" r7="0" r8="-1" r9="8.42937e-008" r10="1.78814e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="35" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="12.5607" t1="6.30198" t2="-54.0345" s0="4.19626" s1="2.95867" s2="1" r0="1.78814e-007" r1="-8.42937e-008" r2="1" r3="0" r4="8.42937e-008" r5="1" r6="8.42937e-008" r7="0" r8="-1" r9="8.42937e-008" r10="1.78814e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="36" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-2.1161" t1="6.30222" t2="-79.9296" s0="33.5509" s1="5.92735" s2="2.01001" r0="-1" r1="0" r2="0" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="0" r9="-0" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="37" version="1">
+        <parameters />
+        <EnvObject t0="-6.31414" t1="6.30221" t2="-79.9296" s0="4.19626" s1="2.95867" s2="1" r0="-1" r1="-2.38419e-007" r2="2.38419e-007" r3="0" r4="-2.38419e-007" r5="1" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="2.38419e-007" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="38" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="2.08243" t1="6.30221" t2="-79.9296" s0="4.19626" s1="2.95867" s2="1" r0="-1" r1="-2.38419e-007" r2="2.38419e-007" r3="0" r4="-2.38419e-007" r5="1" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="2.38419e-007" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="39" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="10.4581" t1="6.30221" t2="-79.9296" s0="4.19626" s1="2.95867" s2="1" r0="-1" r1="-2.38419e-007" r2="2.38419e-007" r3="0" r4="-2.38419e-007" r5="1" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="2.38419e-007" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="40" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-14.6903" t1="6.30222" t2="-79.9296" s0="4.19626" s1="2.95867" s2="1" r0="-1" r1="-2.38419e-007" r2="2.38419e-007" r3="0" r4="-2.38419e-007" r5="1" r6="2.38419e-007" r7="0" r8="-2.38419e-007" r9="2.38419e-007" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="41" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatBrickWall.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <EnvObject t0="0.229003" t1="6.28422" t2="-74.035" s0="0.43093" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="42" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="0.228988" t1="6.28423" t2="-69.1034" s0="0.43093" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="43" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="0.228906" t1="6.28432" t2="-64.0341" s0="0.43093" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="44" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-2.98669" t1="6.28439" t2="-62.9186" s0="0.43093" s1="1" s2="1" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="45" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-7.34462" t1="6.28439" t2="-62.9186" s0="0.43093" s1="1" s2="1" r0="5.96046e-008" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="46" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-6.87534" t1="3.40814" t2="-59.948" s0="4.38719" s1="0.0454501" s2="1.52474" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="47" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.6341" t1="1.93452" t2="-59.9535" s0="1.63666" s1="1.63666" s2="1.63666" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="48" color_r="2.5" color_g="2.5" color_b="2.5" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.6616" t1="3.40814" t2="-65.8565" s0="4.38719" s1="0.0454501" s2="1.52474" r0="-1.19209e-007" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="49" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <Group t0="-7.70869" t1="1.47685" t2="-71.6338" s0="11.504" s1="4.45048" s2="10.3846" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="52" version="1">
+        <parameters />
+        <EnvObject t0="-10.5817" t1="1.47685" t2="-69.0408" s0="2.87422" s1="2.22024" s2="2.59497" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="50" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatfloor.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.8357" t1="1.47685" t2="-69.0408" s0="2.87422" s1="2.22024" s2="2.59497" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="51" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatfloor.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-10.5817" t1="1.47685" t2="-74.2268" s0="2.87422" s1="2.22024" s2="2.59497" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="54" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatfloor.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.8357" t1="1.47685" t2="-74.2268" s0="2.87422" s1="2.22024" s2="2.59497" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="55" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatfloor.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <EnvObject t0="-7.34462" t1="6.2844" t2="-64.7692" s0="0.43093" s1="1" s2="1" r0="-1.19209e-007" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="53" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-2.98355" t1="6.2844" t2="-64.7692" s0="0.43093" s1="1" s2="1" r0="-1.19209e-007" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="56" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="10.0269" t1="6.28422" t2="-74.035" s0="0.43093" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="57" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="10.0269" t1="6.28422" t2="-68.8363" s0="0.43093" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="58" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="10.0269" t1="6.28422" t2="-63.6284" s0="0.43093" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="59" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="10.0269" t1="6.28422" t2="-58.3079" s0="0.43093" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="60" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="7.21933" t1="6.5279" t2="-51.6754" s0="0.467608" s1="1.10957" s2="0.537802" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="0.629076" t1="6.5279" t2="-51.6754" s0="0.467608" s1="1.10957" s2="0.537802" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="26" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="3.89701" t1="10.1382" t2="-51.7267" s0="0.459307" s1="1.66387" s2="0.682984" r0="5.96046e-008" r1="-1" r2="-0" r3="0" r4="1" r5="5.96046e-008" r6="0" r7="0" r8="0" r9="-0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="61" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="3.93085" t1="3.09562" t2="-51.6578" s0="0.208418" s1="1.40309" s2="0.490726" r0="5.96046e-008" r1="1" r2="0" r3="0" r4="-1" r5="5.96046e-008" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="62" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-10.9456" t1="5.89804" t2="-80.8132" s0="0.735578" s1="0.826706" s2="1" r0="5.96046e-008" r1="-1" r2="-0" r3="0" r4="1" r5="5.96046e-008" r6="0" r7="0" r8="0" r9="-0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="63" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-4.63323" t1="5.80988" t2="-80.8132" s0="0.620672" s1="0.450216" s2="1" r0="-1.19209e-007" r1="-1" r2="-8.42937e-008" r3="0" r4="1" r5="-1.19209e-007" r6="-8.42937e-008" r7="0" r8="8.42937e-008" r9="-8.42937e-008" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="64" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-4.62203" t1="5.84748" t2="-78.7926" s0="2.99532" s1="0.417204" s2="2.99532" r0="2.38419e-007" r1="-1" r2="-5.96046e-008" r3="0" r4="-5.96046e-008" r5="1.19209e-007" r6="1" r7="0" r8="-1" r9="-5.96046e-008" r10="1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="65" type_file="Data/Objects/Decals/signs/glyph_rabbit.xml" i="0" color_r="1" color_g="1" color_b="1">
+        <parameters />
+    </Decal>
+    <EnvObject t0="-11.9973" t1="4.93753" t2="-54.985" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="66" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-7.59895" t1="4.93753" t2="-54.985" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="67" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-2.48001" t1="4.93753" t2="-54.985" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="68" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_lantern/jims_lantern.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-3.1949" t1="2.42774" t2="-54.9875" s0="1.34795" s1="1" s2="0.66141" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="69" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-5.88556" t1="2.42774" t2="-54.9875" s0="1.34795" s1="1" s2="0.66141" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="70" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-8.57556" t1="2.42774" t2="-54.9875" s0="1.34795" s1="1" s2="0.66141" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="73" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.2662" t1="2.42774" t2="-54.9875" s0="1.34795" s1="1" s2="0.66141" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="74" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blockCatroad.xml">
+        <parameters />
+    </EnvObject>
+    <Group t0="-0.923999" t1="3.43679" t2="-58.3523" s0="7.90462" s1="0.340712" s2="0.189283" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="75" version="1">
+        <parameters />
+        <EnvObject t0="1.04265" t1="3.43679" t2="-58.3523" s0="0.667177" s1="1.94317" s2="0.327897" r0="5.96046e-008" r1="1" r2="0" r3="0" r4="-1" r5="5.96046e-008" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="71" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-2.89065" t1="3.43679" t2="-58.3523" s0="0.667179" s1="1.94317" s2="0.327897" r0="-1.19209e-007" r1="1" r2="8.42937e-008" r3="0" r4="-1" r5="-1.19209e-007" r6="-8.42937e-008" r7="0" r8="-8.42937e-008" r9="-8.42937e-008" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="72" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <EnvObject t0="-6.84489" t1="3.43679" t2="-58.3523" s0="0.667177" s1="1.94317" s2="0.327897" r0="-1.19209e-007" r1="1" r2="8.42937e-008" r3="0" r4="-1" r5="-1.19209e-007" r6="-8.42937e-008" r7="0" r8="-8.42937e-008" r9="-8.42937e-008" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="77" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-9.42921" t1="3.43679" t2="-58.3523" s0="0.667176" s1="0.61973" s2="0.327897" r0="-1.19209e-007" r1="1" r2="8.42937e-008" r3="0" r4="-1" r5="-1.19209e-007" r6="-8.42937e-008" r7="0" r8="-8.42937e-008" r9="-8.42937e-008" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="78" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>

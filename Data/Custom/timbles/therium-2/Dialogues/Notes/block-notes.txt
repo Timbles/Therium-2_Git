@@ -1,0 +1,11 @@
+set_character_pos 1 14.0741 14.6151 -114.523 173
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 13.4457 14.9588 -114.616 1"
+set_cam 13.9221 15.1021 -113.743 0 15.13 0 90
+#name "Notes on Block"
+#participants 1
+
+say 1 "Ghost" "Seems to be part of a research log."
+say 1 "Ghost" "Has some notes on parts of ruins a research team found."
+set_cam 13.6233 15.2262 -114.597 -74.56 90.24 0 62.2036
+say 0 "" "..."

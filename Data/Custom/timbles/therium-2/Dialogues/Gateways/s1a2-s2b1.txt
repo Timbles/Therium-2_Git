@@ -1,0 +1,17 @@
+set_character_pos 1 -329.555 153.672 -117.438 139
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam -329.437 154.108 -115.467 0 22.99 0 55.6776
+#name "S2-B1"
+#participants 1
+
+say 0 "Ghost" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 -330.337 153.672 -117.906 139
+say 1 "Ghost" "Poopy peebrain."
+say 1 "Ghost" "Pee-pee dummy poo poo dumb."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_facepalm.anm\""
+set_character_pos 1 -329.92 153.672 -117.793 139
+say 1 "Ghost" "Egh, I still feel awkward with this."
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 0 "" "You've completed S1-A2."
+say 0 "" "Please load therium2-s2-a.xml"

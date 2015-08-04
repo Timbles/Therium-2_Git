@@ -1,0 +1,12 @@
+set_character_pos 1 -60.5254 132.783 47.6262 90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target -60.7842 133.141 46.9004 0.698816"
+set_cam -60.3163 133.015 46.364 0 165.63 0 45.8918
+#name "Heavy"
+#participants 1
+
+say 0 "Timbles" "This is the heavy guard."
+say 0 "Timbles" "The heavy has slightly faster Attack Speed..."
+say 0 "Timbles" "A higher DMG resistance..."
+say 0 "Timbles" "And higher DMG and knockback."
+say 0 "Timbles" "It'd be a good idea to watch out for them."

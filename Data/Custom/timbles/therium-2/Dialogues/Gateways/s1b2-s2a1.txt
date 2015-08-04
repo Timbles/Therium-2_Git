@@ -1,0 +1,10 @@
+#name "S2-A1"
+#participants 1
+
+say 0 "Ghost" "..."
+say 1 "Ghost" "You're a big stoopid poop poop."
+say 1 "Ghost" "Your head smells like big rotten cheese, dummy."
+say 0 "Ghost" "..."
+say 1 "Ghost" "...I wonder how big these ruins are..."
+say 0 "" "You've completed S1-B2."
+say 0 "" "Please load therium2-s2b1.xml"

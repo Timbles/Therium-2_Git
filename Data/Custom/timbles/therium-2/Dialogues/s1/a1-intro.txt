@@ -1,0 +1,35 @@
+set_character_pos 2 -157.54 -27.3143 32.8431 -47
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_character_pos 1 -155.76 -27.3738 35.1929 58
+send_character_message 1 "set_head_target -157.245 -26.5246 32.9447 1"
+set_cam -154.34 -27.0647 35.192 0 70.46 0 62.9167
+#name "A1-Intro"
+#participants 2
+
+say 2 "Jared" "Hey."
+say 0 "Ghost" "?"
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam -155.978 -26.8917 33.8459 0 70.46 0 62.9167
+say 2 "Jared" "This area's under construction."
+set_cam -118.562 -20.0383 20.9895 0 -46.83 0 62.9167
+say 2 "Jared" "There's a few people still building this area..."
+say 2 "Jared" "So watch for guys with mallets."
+set_cam -93.0772 -27.2033 3.39325 0 -38.71 0 51.5681
+say 1 "Ghost" "Mallets?"
+say 1 "Ghost" "As in..."
+say 2 "Jared" "Yeah. They know you're going the Therium."
+set_character_pos 1 -155.76 -27.3738 35.1929 133
+set_cam -93.0788 -27.2033 3.38574 0 -38.71 0 51.5681
+say 2 "Jared" "Once they see you, they'll just start hitting you."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+set_cam -157.051 -26.9854 34.4878 0 -116.63 0 51.5681
+say 1 "Ghost" "With mallets."
+send_character_message 2 "set_head_target -155.944 -26.6738 34.9438 0.783989"
+set_cam -156.303 -26.6969 33.7417 0 56.42 0 51.5681
+say 2 "Jared" "Just be careful."
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target -154.344 -26.3976 30.5403 0.783989"
+say 2 "Jared" "I'm pretty sure you can steal a knife off one of them..."
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 2 "set_head_target -156.342 -26.3976 35.0767 0.783989"
+say 2 "Jared" "So that's good."

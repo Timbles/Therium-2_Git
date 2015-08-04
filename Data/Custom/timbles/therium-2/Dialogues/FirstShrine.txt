@@ -1,0 +1,142 @@
+set_character_pos 2 65.3658 31.1599 130.301 88
+set_character_pos 1 61.5105 30.8053 120.214 -90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 62.1079 31.3346 124.568 0.999986"
+set_cam 62.4063 31.332 118.59 0 167.08 0 49.6247
+#name "Level 1 Shrine Encounter"
+#participants 2
+
+say 1 "You" "What the hell.[wait 0.2].[wait 0.2].[wait 0.6] what is that?"
+set_character_pos 1 61.5104 30.8053 120.214 -90
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 1 "set_head_target 64.9424 31.5661 130.135 0.999986"
+say 2 "???" "A sort of shrine, I'd say."
+set_character_pos 2 61.6397 31.1599 129.146 89
+send_character_message 1 "set_animation \"Data/Animations/r_combatidle.anm\""
+set_cam 60.3382 31.3499 120.966 0 -72.6 0 49.6247
+say 1 "You" "Oh great, another guard.[wait 0.2].[wait 0.2]."
+set_cam 61.2352 31.2249 127.675 0 -159.89 0 49.6247
+send_character_message 2 "set_eye_dir 61.4893 31.5516 121.103 1"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "???" "Oh please, you shouldn't get confused."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "???" "I'm a sort of nomad, you might say."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "???" "Nowhere near a guard."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "???" "I'm too keen of hearing and sight to be a guard."
+set_character_pos 2 61.5737 31.1598 129.096 88
+set_cam 60.8465 31.3215 121.414 0 -37.39 0 49.6247
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+say 1 "You" "Oh man, tell me about it."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 1 "You" "They're as blind as bats."
+set_character_pos 2 61.5737 31.1598 129.096 88
+set_cam 61.0507 31.3215 128.499 0 -130.6 0 49.6247
+say 2 "???" "You may call me Jared."
+set_character_pos 2 61.5737 31.1598 129.096 88
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+say 2 "Jared" "I've lived in these ruins that these guards call a fort..."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "Jared" "...for nearly a decade."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "Jared" "This empire had to take it over as an outpost."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "Jared" "I watched them scour and scout the ruins."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "Jared" "Personally, I have no idea why I didn't stop them."
+set_character_pos 2 61.5737 31.1598 129.096 88
+say 2 "Jared" "It took them quite a while to actually map out the territory."
+set_character_pos 2 61.5737 31.1598 129.096 88
+set_cam 60.8465 31.3215 121.414 0 -37.39 0 49.6247
+say 1 "You" "So why are you telling me this?"
+set_character_pos 2 62.1506 31.1598 125.197 88
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 61.6552 31.307 123.567 0 -158.81 0 28.9878
+say 2 "Jared" "Because honestly, I don't like the empire."
+send_character_message 2 "set_head_target 62.8164 31.1461 124.626 0.790543"
+say 2 "Jared" "Their organization and forms of intelligence..."
+say 2 "Jared" "I don't like it."
+send_character_message 2 "set_head_target 61.4987 31.3898 120.593 0.790543"
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam 59.2602 31.3375 120.268 0 -95.49 0 28.9878
+say 1 "You" "They're not corrupt at all, you know."
+send_character_message 2 "set_head_target 61.4987 32.2329 120.593 0.790543"
+set_cam 61.9746 31.3319 124.013 0 -165.31 0 39.6008
+say 2 "Jared" "I'm surprised to hear that from a guy who just came out of jail."
+send_character_message 2 "set_head_target 60.9722 30.7082 121.696 0.790543"
+say 2 "Jared" "Hell, this place wasn't even supposed to be a jail."
+send_character_message 2 "set_head_target 61.3593 31.5002 121.369 0.790543"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_handneck.anm\""
+set_cam 61.2702 31.4643 121.943 0 -9.88 0 28.9878
+say 1 "You" "...rat's tail, you even know about that?"
+send_character_message 2 "set_head_target 61.5649 31.5002 120.814 0.790543"
+set_cam 61.3302 31.3013 123.787 0 -145.95 0 28.9878
+say 2 "Jared" "I know everything about this place."
+send_character_message 2 "set_head_target 62.1885 31.2052 124.429 0.820518"
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+say 2 "Jared" "Everything except on how to dismantle it."
+say 2 "Jared" "And that is why I have a quest for you."
+set_cam 61.2702 31.4643 121.943 0 -9.88 0 28.9878
+say 1 "You" " I don't care about your little quest."
+say 1 "You" "I'm breaking out of here and that's that."
+send_character_message 2 "set_head_target 61.7606 31.9191 121.839 1"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 63.2205 31.2567 124.38 0 125.49 0 49.6247
+say 2 "Jared" "Except for the fact that by doing that..."
+say 2 "Jared" "You're literally doing exactly my quest."
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 1 "set_head_target 62.3532 31.1682 124.801 0.999986"
+set_cam 61.0753 31.2565 121.95 0 -14.03 0 49.6247
+say 1 "You" "?"
+set_cam 61.6341 31.2565 126.229 0 -14.03 0 49.6247
+say 2 "Jared" "My quest for you is to screw everything up."
+say 2 "Jared" "I hate their organizational spread, their manner..."
+say 2 "Jared" "They're not scattered out enough. They aren't independent."
+say 2 "Jared" "They're following their own little law like a book."
+say 1 "You" "How curious of you to hate that."
+set_cam 57.2896 32.1606 122.887 0 -157.27 0 49.6247
+send_character_message 1 "set_head_target 62.1079 31.6087 124.568 0.999986"
+say 2 "Jared" "It doesn't matter."
+say 2 "Jared" "You need to know something about this shrine..."
+say 1 "You" "Oh, yes. What the hell is this?"
+set_cam 59.1765 33.6072 127.774 0 -160.26 0 35.7925
+set_character_pos 1 61.5936 30.8053 125.304 -90
+send_character_message 1 "set_head_target 60.6947 31.6087 128.907 0.999986"
+set_character_pos 2 63.1164 31.1599 125.105 -92
+say 2 "Jared" "Right there is a lantern in the shrine."
+say 1 "You" ".[wait 0.5].[wait 0.5].[wait 0.5]okay?"
+say 2 "Jared" "Every lantern you find in here has a spirit."
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+set_cam 62.2589 31.0951 121.821 0 -177.81 0 35.7925
+say 2 "Jared" "There are multiple shrines throughout these ruins,"
+say 2 "Jared" "And the lanterns within them teleport you to different places."
+send_character_message 1 "set_head_target 62.7537 31.3889 125.266 0.999986"
+say 2 "Jared" "They figured out how to use them."
+send_character_message 2 "set_head_target 62.0281 31.3198 125.327 0.99995"
+say 2 "Jared" "If you encounter one, you should pray to it."
+send_character_message 1 "set_head_target 61.4209 31.2882 125.742 0.999986"
+say 2 "Jared" "Basically, make sure your hands are warm."
+say 2 "Jared" "But it doesn't really matter."
+say 2 "Jared" "The warmth only just helps."
+say 2 "Jared" "And then, [wait 0.2] you call the lantern insults."
+send_character_message 1 "set_head_target 62.7537 31.3889 125.266 0.999986"
+say 1 "You" ".[wait 0.2].[wait 0.2].[wait 0.2].[wait 0.2]what?
+send_character_message 2 "set_torso_target 62.2063 31.4793 126.041 1"
+set_cam 64.3512 31.339 124.093 0 119.29 0 35.7925
+say 2 "Jared" "I'm serious. Make it sound like you're fourty-eight moons old."
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+say 1 "You" "How much is that?"
+say 2 "Jared" "Four years old."
+send_character_message 1 "set_head_target 61.4209 31.2882 125.742 0.999986"
+set_character_pos 2 63.1165 31.1599 125.105 -92
+say 1 "You" "This is ridiculous."
+say 2 "Jared" "Don't believe me?"
+send_character_message 1 "set_head_target 62.7537 31.3889 125.266 0.999986"
+say 1 "You" "Precisely that.[wait 0.2] You're spitting shit."
+say 2 "Jared" "Then go do it, see what happens."
+send_character_message 2 "set_torso_target 62.9534 31.4793 126.359 1"
+set_cam 63.1852 31.339 122.278 0 166.74 0 35.7925
+send_character_message 1 "set_head_target 62.0402 31.6716 128.563 0.725815"
+say 1 "You" "Yeah, right..."

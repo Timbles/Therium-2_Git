@@ -1,0 +1,38 @@
+send_character_message 2 "set_eye_dir 3.70317 -4.19489 10.1568 1"
+send_character_message 1 "set_eye_dir 2.28543 -4.18204 10.4248 1"
+set_character_pos 2 1.46595 -5.06726 9.29238 -61
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target 3.69508 -4.06643 9.91662 1"
+set_character_pos 1 0.0855135 -5.10708 11.1152 -28
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 1 "set_torso_target 1.06569 -5.00639 11.9117 0.799097"
+send_character_message 1 "set_head_target 1.56414 -4.25365 10.6378 0.688895"
+set_cam -0.406345 -4.45085 12.6789 0 -29.6 0 33.7783
+#name "Intro"
+#participants 2
+
+say 1 "Ghost" "Woah, this area is huge..."
+send_character_message 2 "set_eye_dir 3.2007 -4.19489 10.4384 1"
+send_character_message 2 "set_head_target 2.74495 -4.11775 10.3815 1"
+say 2 "Jared" "Yeah, you've stumbled into a uh."
+send_character_message 2 "set_head_target 2.74495 -4.54347 10.3815 1"
+say 2 "Jared" "Rather unexplored part of the Therium."
+send_character_message 2 "set_head_target 4.01782 -4.36448 9.12696 1"
+say 2 "Jared" "There are still guards camping out here, though."
+set_cam 1.55947 -4.35746 11.3175 0 78.79 0 33.7783
+send_character_message 1 "set_torso_target 1.27415 -5.00639 11.2381 0.799097"
+set_character_pos 1 0.0855135 -5.10708 11.1152 18
+say 1 "Ghost" "Is there anything I need to look out for?"
+set_cam 2.47921 -4.20316 10.2062 0 52.72 0 33.7783
+send_character_message 2 "set_head_target 1.79055 -3.9499 10.2095 1"
+say 2 "Jared" "Yeah, actually."
+send_character_message 2 "set_head_target 1.94432 -4.05168 10.0687 1"
+say 2 "Jared" "There are these real big guys with armor on."
+send_character_message 2 "set_head_target 1.80659 -4.05168 10.1249 1"
+say 2 "Jared" "Watch out for 'em."
+send_character_message 2 "set_head_target 1.80659 -4.16682 10.1249 1"
+say 2 "Jared" "They're a bit slower but pack a bigger punch."
+set_cam 1.96442 -4.42661 10.8693 0 103.15 0 33.7783
+send_character_message 2 "set_head_target 1.80659 -4.13032 10.1249 1"
+say 2 "Jared" "It'll take a bit longer to take 'em down, too."
+say 1 "Ghost" "I'll look out for them."

@@ -1,0 +1,50 @@
+set_character_pos 2 26.2047 20.8668 -131.804 -95
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target 25.9389 21.2028 -129.12 1"
+set_character_pos 1 25.8513 20.5528 -128.614 90
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 1 "set_eye_dir 26.1888 21.2003 -131.629 1"
+send_character_message 1 "set_head_target 26.1951 21.2105 -131.182 0.559899"
+set_cam 25.6888 20.9092 -132.569 0 -166.55 0 59.4156
+#name "Meet Beetles"
+#participants 2
+
+say 1 "Ghost" "Oh hey Jared."
+send_character_message 2 "set_head_target 25.2636 21.2028 -131.463 1"
+set_cam 25.902 21.0966 -131.22 0 -19.8 0 59.4156
+say 2 "Jared" "I advise you keep your voice down."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+set_cam 25.4424 21.0966 -129.609 0 -138.16 0 59.4156
+say 0 "Ghost" "?"
+set_cam 25.4874 20.9478 -130.732 0 -22.21 0 59.4156
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+say 2 "Jared" "There are some Beetles nearby."
+send_character_message 2 "set_head_target 25.9081 20.8933 -131.124 1"
+say 2 "Jared" "Not like, the bugs, but these sort of..."
+send_character_message 1 "set_head_target 26.1951 21.2105 -131.182 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 25.4845 20.9478 -130.289 0 -158.85 0 59.4156
+send_character_message 2 "set_head_target 25.8444 21.1472 -128.962 1"
+say 2 "Jared" "Cave-dwellers."
+say 1 "Ghost" "Will they try to kill me?"
+set_cam 25.3397 21.0906 -127.716 0 -16.65 0 48.2436
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+say 2 "Jared" "Oh absolutely."
+say 2 "Jared" "They're being controlled by the civilization..."
+send_character_message 2 "set_head_target 25.8444 21.466 -128.962 1"
+say 2 "Jared" "So they've told the Beetles to kill you on sight."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 25.6884 21.1492 -129.642 0 -163.2 0 48.2436
+say 1 "Ghost" "Anything I should know about them?"
+send_character_message 2 "set_head_target 25.8444 20.9471 -129.399 1"
+set_cam 25.9003 21.0892 -130.711 0 -10.52 0 48.2436
+say 2 "Jared" "There's one big thing."
+send_character_message 2 "set_head_target 25.8444 21.3281 -129.399 1"
+say 2 "Jared" "They have knives strapped to their wrists."
+say 2 "Jared" "You can't rip them off or anything..."
+set_cam 26.009 21.0892 -129.977 0 175.73 0 48.2436
+say 2 "Jared" "So just watch out for them."
+set_cam 26.6504 21.0888 -129.658 0 21.33 0 48.2436
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+say 1 "Ghost" "And I bet they use them often."
+say 2 "Jared" "Good luck."

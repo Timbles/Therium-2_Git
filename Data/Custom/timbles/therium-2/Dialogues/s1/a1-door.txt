@@ -1,0 +1,17 @@
+set_character_pos 2 -108.422 -17.8133 25.0663 6
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_character_pos 1 -102.763 -13.0277 24.7642 0
+set_cam -109.757 -17.4323 26.9938 0 -41.63 0 55.9305
+#name "Door"
+#participants 2
+
+say 1 "" "..."
+set_character_pos 1 -86.6214 -43.1732 43.7414 -90
+set_character_pos 2 -107.978 -17.8133 25.17 6
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+say 1 "" "..."
+set_character_pos 1 325.88 -11.1473 -324.333 -86
+send_character_message 1 "set_animation \"Data/Animations/r_fetal.anm\""
+send_character_message 2 "set_animation \"Data/Animations/r_crouch.anm\""
+set_character_pos 2 -106.388 -17.8133 24.9552 6
+say 1 "" "..."

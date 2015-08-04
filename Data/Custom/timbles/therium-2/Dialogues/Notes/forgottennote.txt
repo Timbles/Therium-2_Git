@@ -1,0 +1,12 @@
+set_character_pos 1 0.0640135 18.0884 -96.9935 10
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_eye_dir 0.800731 18.3613 -97.0297 1"
+send_character_message 1 "set_head_target 0.622306 18.2688 -97.0441 0.805512"
+set_cam -0.422709 18.486 -95.9553 0 -34.37 0 56.3772
+#name "Note"
+#participants 1
+
+say 1 "Ghost" "A part of a diary entry."
+say 1 "Ghost" "Extremely aged."
+set_cam 0.747028 18.8648 -97.0757 -90 -11.31 -54.6 61.1847
+say 0 "" "..."

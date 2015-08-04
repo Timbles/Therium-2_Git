@@ -1,0 +1,12 @@
+#name "Begin"
+#participants 3
+
+say 1 "" "..."
+say 1 "" "..."
+say 1 "" "..."
+say 1 "???" "John?"
+say 2 "John" "Yes Sir?"
+say 1 "???" "Go outside. Check the time."
+say 2 "John" "Yes sir."
+say 1 "???" "And the clouds."
+say 3 "" "..."

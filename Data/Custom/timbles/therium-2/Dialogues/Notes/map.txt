@@ -1,0 +1,15 @@
+set_character_pos 1 -85.3225 37.5605 -65.486 177
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target -86.1156 38.0278 -65.7509 0.627425"
+set_cam -85.077 38.1704 -66.7015 0 142.47 0 69.0921
+#name "Map"
+#participants 1
+
+say 1 "Ghost" "Seems to be notes and a map."
+set_cam -86.1638 38.3839 -65.4565 -90 7.13 143.95 69.0921
+send_character_message 1 "set_head_target -85.6842 38.0278 -65.5606 0.627425"
+say 0 "" "..."
+set_cam -86.2156 38.3152 -65.9614 -90 180 -82.82 69.0921
+say 0 "" "..."
+set_cam -85.7882 38.3152 -66.2646 0 -142.82 0 69.0921
+say 1 "Ghost" "Probably written and made by the cartographer."
