@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<attack>
+    <animations unblocked = "Data/Animations/r_spearslashclose.xml"
+                blocked = "Data/Animations/r_spearslashcloseblocked.anm"/>
+    <flags height = "medium"
+           direction = "right"
+           swap_stance = "false"
+           swap_stance_blocked = "false"
+           mobile = "true"
+		   flesh_unblockable = "false"/>
+    <reaction>Data/Attacks/reaction_highright.xml</reaction>
+    <impact_dir x="1.0" y="-1.0" z="0.0"/>
+    <block_damage min="0.2" max="0.2"/>
+    <damage min="0.35" max="0.4"/>
+    <force val="8000"/>
+    <materialevent></materialevent>
+    <cut_plane type="light" x="1.0" y="0.5" z="0.0"/>
+</attack>

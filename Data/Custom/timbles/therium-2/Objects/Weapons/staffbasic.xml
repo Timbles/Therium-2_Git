@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<item>
+    <type>weapon</type>
+    <appearance obj_path = "Data/Objects/Weapons/staff_basic.xml"/>
+    <grip ik_attach = "rightarm"
+          anim = "Data/Animations/r_staffgrip.anm"
+          anim_base = "Data/Animations/r_dogweapongrip.anm"
+		  hands = "2"/>
+    <points>
+        <wood_base x="0" y="-1.0" z="0"/>
+        <wood_tip x="0" y="0.75" z="0"/>
+    </points>
+    <lines>
+        <wood start="wood_base" end="wood_tip"/>
+    </lines>
+    <label>spear</label>
+    <anim_blend idle = "Data/Animations/r_spearidle.xml"
+				movement = "Data/Animations/r_spearmove.xml"/>
+    <anim_override idle = "Data/Animations/r_weaponidlestance.xml"
+                   movement = "Data/Animations/r_spearmovestance.xml"
+                   blockflinch = "Data/Animations/r_spearblockflinch.anm"
+                   medleftblock = "Data/Animations/r_spearblockleft.anm"
+                   medrightblock = "Data/Animations/r_spearblockright.anm"
+                   highleftblock = "Data/Animations/r_spearblockhighleft.anm"
+                   highrightblock = "Data/Animations/r_spearblockhighright.anm"
+                   lowleftblock = "Data/Animations/r_spearblocklowleft.anm"
+                   lowrightblock = "Data/Animations/r_spearblocklowright.anm"/>
+    <attack_override stationary = "Data/Custom/timbles/therium-2/Attacks/staffstabfar.xml"
+                     moving = "Data/Custom/timbles/therium-2/Attacks/staffslash.xml"
+                     moving_close = "Data/Custom/timbles/therium-2/Attacks/staffslashclose.xml"
+                     stationary_close = "Data/Custom/timbles/therium-2/Attacks/staffstab.xml"
+                     low = "Data/Custom/timbles/therium-2/Attacks/staffsweep.xml"/>
+    <reaction_override>
+        <reaction old = "Data/Attacks/reaction_highleft.xml"
+                  new = "Data/Attacks/reaction_highleftspear.xml"/>
+        <reaction old = "Data/Attacks/reaction_highright.xml"
+                  new = "Data/Attacks/reaction_highrightspear.xml"/>
+        <reaction old = "Data/Attacks/reaction_medfront.xml"
+                  new = "Data/Attacks/reaction_medfrontspear.xml"/>
+    </reaction_override>
+    <physics mass = "0.5 kg"/>
+    <range extend = "0.6"/>
+</item>
