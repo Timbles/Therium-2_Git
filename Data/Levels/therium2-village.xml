@@ -1,0 +1,146 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/TerrainSculpt2/Terrain2_hm.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/Terrain/shielded_stands/shielded_stands_winter_c.tga</ColorMap>
+    <WeightMap>Data/Textures/Terrain/shielded_stands/shielded_stands_winter_w.tga</WeightMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_normal.png" materialpath="Data/Materials/grass.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass_stones_c.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_stones_n.tga" materialpath="Data/Materials/gravel.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/rubble_rocks_c.tga" normalpath="Data/Textures/Terrain/DetailTextures/rubble_rocks_n.tga" materialpath="Data/Materials/rocks.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/snow.tga" normalpath="Data/Textures/Terrain/DetailTextures/snow_normal.tga" materialpath="Data/Materials/snow.xml" />
+    </DetailMaps>
+    <DetailObjects>
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/WildGrass.xml" weight_path="Data/Textures/Terrain/shielded_stands/shielded_stands_winter_grass.png" normal_conform="0.5" density="8" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="1" view_distance="40" jitter_degrees="10" overbright="0.4" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_c.xml" weight_path="Data/Textures/Terrain/shielded_stands/shielded_stands_winter_rocks.png" normal_conform="0.9" density="0.6" min_embed="0.4" max_embed="0.6" min_scale="0.1" max_scale="0.8" view_distance="30" jitter_degrees="30" overbright="0.2" collision_type="static" />
+    </DetailObjects>
+</Terrain>
+<OutOfDate Shadow="true" AO="true" NavMesh="true" />
+<SpawnPoints>
+    <SpawnPoint t0="-42" t1="28" t2="44" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" />
+</SpawnPoints>
+<AmbientSounds>
+    <Ambient path="Data/Sounds/ambient/amb_grassfield_loop" />
+</AmbientSounds>
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_alert, no_injuries" />
+    <parameter name="Level Boundaries" type="int" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Textures/skies/bright_dusk.tga</DomeTexture>
+    <SunAngularRad>0.0737111</SunAngularRad>
+    <SunColorAngle>294.974</SunColorAngle>
+    <RayToSun r0="0.843168" r1="0.508385" r2="0.174962" />
+    <ExtraAO>0</ExtraAO>
+    <SkyRotation>0</SkyRotation>
+</Sky>
+<ActorObjects>
+    <ActorObject t0="69.9411" t1="-18.7745" t2="209.329" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" type_file="Data/Custom/timbles/therium-2/Objects/IGF_Characters/ghost.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Teams" type="string" val="player, Ghost" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="34.3814" t1="3.55422" t2="214.828" s0="1.73129" s1="1.73129" s2="1.73129" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/cat_town/babylon_tower.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="84.1515" t1="3.55422" t2="186.093" s0="1.73129" s1="1.73129" s2="1.73129" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="3" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/cat_town/babylon_tower.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="85.1262" t1="-12.3135" t2="192.098" s0="2.06783" s1="2.06783" s2="2.06783" r0="-0.46245" r1="0.318042" r2="0.827641" r3="0" r4="0.853237" r5="-0.0941902" r6="0.512947" r7="0" r8="0.241095" r9="0.943386" r10="-0.227807" r11="0" r12="0" r13="0" r14="0" r15="1" id="4" color_r="0.254902" color_g="0.219608" color_b="0.160784" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="77.2511" t1="-12.3822" t2="184.609" s0="2.06783" s1="2.06783" s2="2.06783" r0="-0.139735" r1="-0.990043" r2="0.0170324" r3="0" r4="-0.980527" r5="0.135953" r6="-0.141719" r7="0" r8="0.137992" r9="-0.0365037" r10="-0.989761" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="0.254902" color_g="0.219608" color_b="0.160784" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="73.5447" t1="-7.73268" t2="170.364" s0="3.16585" s1="3.16585" s2="3.16585" r0="0.46712" r1="-0.603376" r2="-0.646325" r3="0" r4="-0.185663" r5="0.647746" r6="-0.738887" r7="0" r8="0.864482" r9="0.465147" r10="0.190551" r11="0" r12="0" r13="0" r14="0" r15="1" id="6" color_r="0.254902" color_g="0.219608" color_b="0.160784" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="63.108" t1="-13.5278" t2="161.86" s0="3.16585" s1="3.16585" s2="3.16585" r0="-0.931003" r1="0.248928" r2="0.266961" r3="0" r4="0.281464" r5="0.0239228" r6="0.959273" r7="0" r8="0.232404" r9="0.968226" r10="-0.0923364" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" color_r="0.254902" color_g="0.219608" color_b="0.160784" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="42.2615" t1="-13.0189" t2="215.285" s0="2.48161" s1="2.48161" s2="2.48161" r0="0.0735917" r1="0.968587" r2="-0.237536" r3="0" r4="0.00706014" r5="-0.238682" r6="-0.971072" r7="0" r8="-0.997263" r9="0.0697858" r10="-0.0244034" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="0.254902" color_g="0.219608" color_b="0.160784" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="58.5258" t1="-0.345584" t2="198.41" s0="1.72996" s1="1.79005" s2="1" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/jims_ruin_set/jims_arch_01.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="64.1785" t1="-12.7762" t2="189.291" s0="1" s1="1" s2="1" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_pillar/jims_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="63.7929" t1="-11.2409" t2="188.786" s0="0.778158" s1="0.778158" s2="0.778158" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="0.623529" color_g="0.65098" color_b="0.215686" type_file="Data/Objects/Environment/cat_props/banner.xml">
+        <parameters />
+    </EnvObject>
+    <Group t0="49.6927" t1="-12.772" t2="197.534" s0="2.17846" s1="12.2752" s2="1.96134" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" version="1">
+        <parameters />
+        <EnvObject t0="49.7668" t1="-12.7762" t2="197.612" s0="1" s1="1" s2="1" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/twowolves/landmark_pillar/jims_pillar.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="49.4123" t1="-11.2409" t2="197.089" s0="0.778158" s1="0.778158" s2="0.778158" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" color_r="0.623529" color_g="0.65098" color_b="0.215686" type_file="Data/Objects/Environment/cat_props/banner.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <EnvObject t0="50.7692" t1="-6.58536" t2="196.96" s0="2.6312" s1="2.6312" s2="2.6312" r0="-1.78814e-007" r1="1" r2="-5.96046e-008" r3="0" r4="-0.866026" r5="-1.19209e-007" r6="0.5" r7="0" r8="0.5" r9="1.04308e-007" r10="0.866026" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="55.1812" t1="-6.58536" t2="194.413" s0="2.6312" s1="2.6312" s2="2.6312" r0="4.76837e-007" r1="1" r2="-1.63913e-007" r3="0" r4="-0.866025" r5="4.76837e-007" r6="0.5" r7="0" r8="0.5" r9="-5.96046e-008" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="16" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="59.7994" t1="-6.58536" t2="191.747" s0="2.6312" s1="2.6312" s2="2.6312" r0="-5.96046e-008" r1="1" r2="0" r3="0" r4="-0.866026" r5="-5.96046e-008" r6="0.5" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="17" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="63.9432" t1="-6.58536" t2="189.354" s0="2.6312" s1="2.13318" s2="2.63119" r0="-5.96046e-008" r1="1" r2="0" r3="0" r4="-0.866026" r5="-5.96046e-008" r6="0.5" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/pillar1.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="53.4884" t1="-18.2271" t2="187.856" s0="12.2723" s1="2.50801" s2="26.5377" r0="0.860092" r1="-0.00644045" r2="-0.510099" r3="0" r4="-0.000152407" r5="0.999917" r6="-0.0128818" r7="0" r8="0.510139" r9="0.0111573" r10="0.860019" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" type_file="Data/Objects/Decals/WhiteRocksAndDirt.xml" i="0" color_r="0.294118" color_g="0.278431" color_b="0.188235">
+        <parameters />
+    </Decal>
+    <Decal t0="43.2559" t1="-18.4452" t2="171.021" s0="12.2723" s1="2.50801" s2="26.5377" r0="0.860092" r1="-0.0064404" r2="-0.510099" r3="0" r4="-0.000152459" r5="0.999917" r6="-0.0128818" r7="0" r8="0.51014" r9="0.0111573" r10="0.860019" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" type_file="Data/Objects/Decals/WhiteRocksAndDirt.xml" i="0" color_r="0.294118" color_g="0.278431" color_b="0.188235">
+        <parameters />
+    </Decal>
+    <Decal t0="35.6835" t1="-17.4167" t2="157.352" s0="12.2723" s1="2.50801" s2="26.5377" r0="0.860092" r1="-0.0064404" r2="-0.510099" r3="0" r4="-0.000152459" r5="0.999917" r6="-0.0128818" r7="0" r8="0.51014" r9="0.0111573" r10="0.860019" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" type_file="Data/Objects/Decals/WhiteRocksAndDirt.xml" i="0" color_r="0.0901961" color_g="0.117647" color_b="0.0627451">
+        <parameters />
+    </Decal>
+    <EnvObject t0="51.2398" t1="-9.76023" t2="203.632" s0="14.7723" s1="14.7723" s2="14.7723" r0="-0.866025" r1="5.75737e-008" r2="0.5" r3="0" r4="5.75737e-008" r5="1" r6="-1.54268e-008" r7="0" r8="-0.5" r9="1.54268e-008" r10="-0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" color_r="0.247059" color_g="0.247059" color_b="0.247059" type_file="Data/Objects/Buildings/arena/arena_statue_standing.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="69.763" t1="-9.76023" t2="192.937" s0="14.7723" s1="14.7723" s2="14.7723" r0="-0.866025" r1="5.75737e-008" r2="0.5" r3="0" r4="5.75737e-008" r5="1" r6="-1.54268e-008" r7="0" r8="-0.5" r9="1.54268e-008" r10="-0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" color_r="0.247059" color_g="0.247059" color_b="0.247059" type_file="Data/Objects/Buildings/arena/arena_statue_standing.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="56.6453" t1="-6.19409" t2="192.68" s0="6.7123" s1="6.7123" s2="6.7123" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.5" r9="0" r10="0.866025" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/shops/sign_short_board.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="56.2656" t1="-6.21476" t2="192.051" s0="4.00435" s1="1.24486" s2="4.00435" r0="0.866025" r1="0" r2="-0.5" r3="0" r4="-0.5" r5="-2.38419e-007" r6="-0.866025" r7="0" r8="-1.19209e-007" r9="1" r10="-2.08616e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" type_file="Data/Objects/Decals/signs/icon_pot.xml" i="0" color_r="0.803922" color_g="0.803922" color_b="0.121569">
+        <parameters />
+    </Decal>
+</ActorObjects>
