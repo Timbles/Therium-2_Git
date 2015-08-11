@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Custom/markuss/river_fight/Water/Models/FogPlane_Large.obj</Model>
+	<ColorMap>Data/Custom/markuss/river_fight/Water/Textures/FogPlane_Color.tga</ColorMap>
+	<NormalMap>Data/Custom/markuss/river_fight/Water/Textures/Norm.tga</NormalMap>
+	<ShaderName>cubemapalpha</ShaderName>
+	<MaterialPath>Data/Materials/default.xml</MaterialPath>
+	<flags no_collision="false"/>
+</Object>

@@ -1,0 +1,46 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-4.73677" t1="0.297284" t2="-56.4127" s0="0.402879" s1="2.21553" s2="0.895658" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="66" version="1">
+        <parameters />
+        <EnvObject t0="-4.7546" t1="0.813448" t2="-56.4167" s0="0.575028" s1="0.575028" s2="0.575028" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="5.96046e-008" r6="-1" r7="0" r8="0" r9="1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.75106" t1="1.15148" t2="-56.3997" s0="0.309425" s1="0.309425" s2="0.309425" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.74082" t1="-0.288578" t2="-56.4008" s0="0.192389" s1="0.516903" s2="0.26703" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="56" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.72967" t1="0.575126" t2="-56.4155" s0="1.09628" s1="1.1825" s2="0.971766" r0="0.0558535" r1="8.66158e-008" r2="-0.998439" r3="0" r4="-8.66158e-008" r5="1" r6="8.19058e-008" r7="0" r8="0.998439" r9="8.19058e-008" r10="0.0558535" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/characters/rabbit_pants_camo_patch.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.73247" t1="1.04732" t2="-56.4162" s0="1.8525" s1="2.79364" s2="2.32727" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="58" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Objects\Gear\rabbit_gear\large_bag.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.71514" t1="1.05898" t2="-56.4124" s0="1.8943" s1="2.49437" s2="2.24789" r0="-2.70084e-008" r1="1.49012e-008" r2="1" r3="0" r4="-0.237348" r5="0.971425" r6="1.49012e-008" r7="0" r8="-0.971425" r9="-0.237348" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="59" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Objects\Gear\rabbit_gear\large_bag.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.74785" t1="1.16414" t2="-56.0925" s0="1.28768" s1="1.28768" s2="1.28768" r0="3.05474e-007" r1="0.5" r2="0.866025" r3="0" r4="1.49012e-008" r5="0.866025" r6="-0.5" r7="0" r8="-1" r9="5.96046e-008" r10="2.98023e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="60" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.74546" t1="1.16893" t2="-56.2449" s0="0.945485" s1="1.24949" s2="1.10968" r0="-1" r1="-8.74228e-008" r2="8.74228e-008" r3="0" r4="-8.74228e-008" r5="1.78814e-007" r6="-1" r7="0" r8="8.74228e-008" r9="-1" r10="1.78814e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="61" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Objects\Gear\rabbit_gear\large_bag.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.76991" t1="1.16849" t2="-56.7328" s0="1.28768" s1="1.28768" s2="1.28768" r0="-5.28991e-007" r1="0.5" r2="-0.866026" r3="0" r4="1.19209e-007" r5="0.866025" r6="0.5" r7="0" r8="1" r9="1.19209e-007" r10="-5.36442e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="62" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.7723" t1="1.17328" t2="-56.5805" s0="0.945485" s1="1.24949" s2="1.10968" r0="1" r1="8.11646e-008" r2="-8.11646e-008" r3="0" r4="8.11646e-008" r5="-1.19209e-007" r6="1" r7="0" r8="8.11646e-008" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="63" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Objects\Gear\rabbit_gear\large_bag.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.84083" t1="0.857718" t2="-56.343" s0="1.31787" s1="0.839274" s2="0.970706" r0="0.208966" r1="0" r2="0.977923" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-0.977923" r9="-0" r10="0.208966" r11="0" r12="0" r13="0" r14="0" r15="1" id="64" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_bag.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.6027" t1="0.877117" t2="-56.4095" s0="1.87984" s1="1.94567" s2="1.3987" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="65" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_straps.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.73701" t1="1.19886" t2="-56.4232" s0="1.46261" s1="0.660038" s2="2.05361" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="67" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/RopeBall1.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <character>
-    <appearance obj_path = "Data/Objects/characters/raider_rabbit.xml"
+    <appearance obj_path = "Data/Custom/timbles/therium-2/Objects/characters/ghostobj.xml"
                 skeleton = "Data/Skeletons/r_raider_rabbit.xml"
                 channel_0 = "fur"
                 channel_1 = "cloth"

@@ -1,0 +1,58 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-7.97689" t1="0.563972" t2="-49.8789" s0="0.440276" s1="1.93642" s2="0.861788" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="56" version="1">
+        <parameters />
+        <EnvObject t0="-8.02158" t1="1.22333" t2="-49.8833" s0="0.446571" s1="0.446571" s2="0.297859" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="-1.19209e-007" r6="-1" r7="0" r8="0" r9="1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.01883" t1="1.33414" t2="-49.8701" s0="0.240302" s1="0.240302" s2="0.240302" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.03656" t1="1.20168" t2="-49.8858" s0="0.287604" s1="0.284785" s2="0.331178" r0="1.19209e-007" r1="0" r2="-1" r3="0" r4="-1" r5="1.19209e-007" r6="0" r7="0" r8="0" r9="1" r10="1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="44" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/standard-buckler.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.03045" t1="0.829187" t2="-49.8838" s0="0.915609" s1="1" s2="1" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="0" r5="1" r6="0" r7="0" r8="1" r9="0" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="45" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/characters/rabbit_pants_ranchero.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.03883" t1="1.35378" t2="-49.6987" s0="1" s1="1" s2="1" r0="-5.21541e-008" r1="0.334707" r2="0.942322" r3="0" r4="0" r5="0.942322" r6="-0.334707" r7="0" r8="-1" r9="0" r10="-5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_a.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.02377" t1="1.35767" t2="-50.0603" s0="1" s1="1" s2="-1" r0="2.98023e-008" r1="0.234622" r2="-0.972087" r3="0" r4="5.96046e-008" r5="0.972087" r6="0.234622" r7="0" r8="1" r9="-1.04308e-007" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_a.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.89176" t1="0.735094" t2="-49.7904" s0="1.03363" s1="0.999997" s2="0.785391" r0="0.545003" r1="-0.837032" r2="0.0484732" r3="0" r4="0.803232" r5="0.537824" r6="0.256059" r7="0" r8="-0.240399" r9="-0.100618" r10="0.965445" r11="0" r12="0" r13="0" r14="0" r15="1" id="43" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_b.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.89408" t1="0.734515" t2="-49.959" s0="1.03363" s1="0.999997" s2="0.785391" r0="0.709348" r1="-0.666891" r2="0.228212" r3="0" r4="0.704855" r5="0.670352" r6="-0.231959" r7="0" r8="0.00170919" r9="0.325396" r10="0.945576" r11="0" r12="0" r13="0" r14="0" r15="1" id="46" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_b.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.98587" t1="1.09732" t2="-49.745" s0="1.4353" s1="0.962456" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="47" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_bag.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.89759" t1="1.08041" t2="-49.8812" s0="1.67916" s1="1.67916" s2="1.67916" r0="-2.65427e-008" r1="0" r2="-1" r3="0" r4="-0.165608" r5="0.986192" r6="0" r7="0" r8="0.986192" r9="0.165608" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="48" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_straps.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.03209" t1="1.33647" t2="-49.5482" s0="1" s1="1" s2="1" r0="3.05474e-007" r1="0.5" r2="0.866025" r3="0" r4="4.47035e-008" r5="0.866025" r6="-0.5" r7="0" r8="-1" r9="4.47035e-008" r10="2.98023e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="49" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.9157" t1="0.86193" t2="-49.7911" s0="1.30137" s1="1.30137" s2="1.30137" r0="0.693708" r1="-0.703921" r2="0.152527" r3="0" r4="0.601637" r5="0.682745" r6="0.4146" r7="0" r8="-0.395982" r9="-0.195846" r10="0.89713" r11="0" r12="0" r13="0" r14="0" r15="1" id="50" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.90478" t1="0.870802" t2="-49.9806" s0="1.30137" s1="1.30137" s2="1.30137" r0="0.687489" r1="-0.709145" r2="-0.156435" r3="0" r4="0.672692" r5="0.70304" r6="-0.230696" r7="0" r8="0.273577" r9="0.0533685" r10="0.960368" r11="0" r12="0" r13="0" r14="0" r15="1" id="51" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.0197" t1="1.32583" t2="-50.2112" s0="-1" s1="1" s2="1" r0="3.61353e-007" r1="-0.453153" r2="0.891433" r3="0" r4="6.25849e-007" r5="0.891433" r6="0.453153" r7="0" r8="-1" r9="3.57628e-007" r10="5.96046e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="52" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.9981" t1="0.660703" t2="-49.9605" s0="0.446571" s1="0.446571" s2="0.297859" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="-1.19209e-007" r6="-1" r7="0" r8="0" r9="1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="53" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.9981" t1="0.660703" t2="-49.8054" s0="0.446571" s1="0.446571" s2="0.29786" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="5.96046e-008" r6="-1" r7="0" r8="0" r9="1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="54" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-7.97757" t1="0.00219291" t2="-49.8777" s0="0.149411" s1="0.401431" s2="0.207377" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="55" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/blocks/blockinterlockingstone.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>
