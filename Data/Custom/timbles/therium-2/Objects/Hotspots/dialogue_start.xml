@@ -2,5 +2,5 @@
 <Type>generic</Type>
 <Hotspot>
 	<BillboardColorMap>Data/UI/spawner/thumbs/Hotspot/sign_icon.png</BillboardColorMap>
-	<Script>hotspots/timbles/dialogue.as</Script>
+	<Script>../Custom/timbles/therium-2/Scripts/dialogue.as</Script>
 </Hotspot>

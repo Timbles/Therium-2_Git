@@ -2,5 +2,5 @@
 <Type>generic</Type>
 <Hotspot>
 	<BillboardColorMap>Data/UI/spawner/thumbs/Hotspot/load_icon.png</BillboardColorMap>
-	<Script>hotspots/timbles/crashyourgame.as</Script>
+	<Script>../Custom/timbles/therium-2/Scripts/crashyourgame.as</Script>
 </Hotspot>

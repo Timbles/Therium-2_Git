@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<particle>
+    <textures color_map = "Data/Custom/Gyrth/rain/Textures/rain_c.png" 
+              shader = "theoraadd"
+              soft_shader = "theoraaddsoft"/>
+    <stretch velocity_axis = "true" speed_stretch = "true" min_squash = "true"/>
+    <size min = "0.3" max = "0.4"/>
+    <color red =   "1.0"
+           green = "1.0"
+           blue =  "1.0"
+           alpha_min = "1.0" alpha_max = "1.0"/>
+    <behavior inertia="0.99" gravity="3.5" wind="2.0" size_decay_rate="-0.1" opacity_decay_rate="0.0"/>
+    <no_rotation />
+    <collision decal_size_mult = "1.0" destroy="true"
+               character_collide="false" character_add_blood="false"/>
+</particle>

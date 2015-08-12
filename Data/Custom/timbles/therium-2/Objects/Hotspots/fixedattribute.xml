@@ -2,6 +2,6 @@
 <Type>generic</Type>
 <Hotspot>
 	<BillboardColorMap>Data/Custom/haphazzard/sky_temple/UI/spawner/thumbs/Hotspot/blank_icon.png</BillboardColorMap>
-	<Script>hotspots/timbles/fixedattribute.as</Script>
+	<Script>../Custom/timbles/therium-2/Scripts/fixedattribute.as</Script>
 </Hotspot>
 

@@ -1,0 +1,20 @@
+set_character_pos 1 104.915 146.235 304.537 0
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 105.869 147.092 304.495 1"
+set_cam 103.465 146.649 302.698 0 -132.48 0 56.5401
+#name "S1F1-F2"
+#participants 1
+
+say 0 "Ghost" "..."
+send_character_message 1 "set_head_target 106.251 146.848 304.495 1"
+set_character_pos 1 105.588 146.193 304.537 0
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+say 1 "Ghost" "Poo baby dumbhead."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_handneck.anm\""
+set_character_pos 1 104.797 146.193 304.537 0
+say 1 "Ghost" "...do I even need to say these things?"
+send_character_message 1 "set_head_target 105.405 146.953 304.666 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 1 "Ghost" "No, it seems it's being triggered just the same way..."
+set_cam 101.834 146.649 305.465 0 -86.16 0 56.5401
+say 0 "" "Please load therium2-s1-f2.xml"

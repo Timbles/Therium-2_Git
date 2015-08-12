@@ -1,0 +1,26 @@
+set_character_pos 1 22.1953 118.691 220.058 90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+send_character_message 1 "set_eye_dir 21.9575 118.894 219.188 1"
+send_character_message 1 "set_head_target 22.1681 119.408 219.002 0.889124"
+set_cam 20.9829 119.308 219.096 0 -125.3 0 35.9676
+#name "S1F1-S2B1"
+#participants 1
+
+say 0 "Ghost" "..."
+send_character_message 1 "set_eye_dir 22.5892 119.421 219.54 1"
+send_character_message 1 "set_head_target 22.5278 119.408 219.216 0.889124"
+say 1 "Ghost" "Yeah, I'd rather just stick to the normal path."
+set_character_pos 1 22.3625 118.691 219.476 90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_cam 21.1462 119.308 221.753 0 -16.07 0 45.8376
+send_character_message 1 "set_eye_dir 22.2303 119.421 218.946 1"
+send_character_message 1 "set_head_target 22.247 119.408 218.919 0.889124"
+say 1 "Ghost" "Poopie cootiedumb poo poo."
+send_character_message 1 "set_head_target 22.1533 119.205 219.602 0.889124"
+send_character_message 1 "set_eye_dir 22.1905 119.421 219.231 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_facepalm.anm\""
+set_character_pos 1 22.3625 118.691 220.067 105
+say 1 "Ghost" "Good god this is still stupid..."
+send_character_message 1 "set_head_target 22.1533 119.477 219.602 0.889124"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 0 "" "Please load therium2-s2-b.xml"
