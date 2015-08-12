@@ -1,0 +1,13 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="86.9938" t1="-17.6906" t2="175.542" s0="7.55105" s1="0.0709283" s2="7.55108" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="720" version="1">
+        <parameters />
+        <EnvObject t0="86.9938" t1="-17.6602" t2="175.542" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="717" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\ice.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="86.9938" t1="-17.7211" t2="175.542" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="719" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\ice.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>
