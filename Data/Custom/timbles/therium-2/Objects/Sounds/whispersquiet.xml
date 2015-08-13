@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<Sound path="Data/Custom/timbles/therium-2/Sounds/Ambient/whispers.wav"
+       type="occasional"
+       delay_min = "200.0"
+       delay_max = "300.0"/>

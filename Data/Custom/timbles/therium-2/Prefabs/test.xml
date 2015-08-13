@@ -1,0 +1,55 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="40.9095" t1="9.57841" t2="-67.8765" s0="26.1717" s1="14.1161" s2="17.2418" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" version="1">
+        <parameters />
+        <EnvObject t0="40.9095" t1="7.70133" t2="-67.8765" s0="0.849002" s1="0.142386" s2="0.68845" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/timbles/therium-2/Objects/Grass.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="39.422" t1="10.0834" t2="-67.739" s0="0.720736" s1="0.720736" s2="0.720736" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="39.4373" t1="14.2202" t2="-67.7212" s0="0.696739" s1="0.696739" s2="0.696739" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockBroken.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="39.9875" t1="13.6895" t2="-70.3903" s0="1" s1="1" s2="-0.763397" r0="1.78814e-007" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="1.78814e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockcorner.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="40.8521" t1="7.38154" t2="-65.2947" s0="0.377987" s1="0.281801" s2="0.279505" r0="0.981057" r1="0.192484" r2="-0.0218511" r3="0" r4="-0.192437" r5="0.9813" r6="0.00428625" r7="0" r8="0.0222675" r9="-9.52277e-008" r10="0.999752" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/timbles/therium-2/Objects/Grass.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="40.2461" t1="6.75801" t2="-71.181" s0="0.443538" s1="0.281801" s2="0.328317" r0="0.924439" r1="0.380774" r2="-0.02059" r3="0" r4="-0.38068" r5="0.924668" r6="0.00847894" r7="0" r8="0.0222675" r9="-5.02914e-008" r10="0.999752" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/timbles/therium-2/Objects/Grass.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="38.9641" t1="7.0292" t2="-71.7735" s0="0.443538" s1="0.281801" s2="0.328317" r0="0.99658" r1="-0.0795976" r2="-0.0221967" r3="0" r4="0.0795779" r5="0.996827" r6="-0.00177237" r7="0" r8="0.0222674" r9="-5.59376e-008" r10="0.999752" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="1" color_g="1" color_b="1" type_file="Data/Custom/timbles/therium-2/Objects/Grass.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="36.0228" t1="8.20268" t2="-69.0013" s0="0.823143" s1="0.823143" s2="0.823143" r0="0.420874" r1="-0.876772" r2="0.23267" r3="0" r4="0.803257" r5="0.241042" r6="-0.544681" r7="0" r8="0.421478" r9="0.416135" r10="0.805722" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" color_r="0.670588" color_g="0.670588" color_b="0.670588" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="39.3064" t1="8.57102" t2="-69.5896" s0="0.355873" s1="0.355873" s2="0.355873" r0="-0.352836" r1="-0.50285" r2="-0.789081" r3="0" r4="-0.916498" r5="0.355638" r6="0.183176" r7="0" r8="0.188518" r9="0.787822" r10="-0.586344" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="0.670588" color_g="0.670588" color_b="0.670588" type_file="Data/Objects/Environment/rocks/BlockyStone1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="39.422" t1="10.0834" t2="-62.8915" s0="0.720736" s1="0.720736" s2="0.720736" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="39.422" t1="14.4158" t2="-62.8915" s0="0.720736" s1="0.720736" s2="0.720736" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="42.186" t1="15.19" t2="-62.2325" s0="0.720737" s1="0.720737" s2="0.720737" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="5.96046e-008" r6="-1" r7="0" r8="0" r9="1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="42.186" t1="15.19" t2="-66.516" s0="0.720736" s1="0.720737" s2="0.720737" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="5.96046e-008" r6="-1" r7="0" r8="0" r9="1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="42.186" t1="15.19" t2="-70.8294" s0="0.720737" s1="0.720737" s2="0.720737" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="-1.19209e-007" r6="-1" r7="0" r8="0" r9="1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="44.3439" t1="10.0834" t2="-62.8915" s0="0.720736" s1="0.720736" s2="0.720736" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="44.3439" t1="14.3329" t2="-62.8915" s0="0.720736" s1="0.720736" s2="0.720736" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

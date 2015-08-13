@@ -1,0 +1,7 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <EnvObject t0="92.1307" t1="39.2684" t2="52.3596" s0="4.02678" s1="3.91726" s2="3.82427" r0="-0.847848" r1="-0.214034" r2="0.485111" r3="0" r4="-0.40562" r5="0.851055" r6="-0.333431" r7="0" r8="-0.34149" r9="-0.479472" r10="-0.808381" r11="0" r12="0" r13="0" r14="0" r15="1" id="609" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>
