@@ -1,0 +1,6 @@
+#name "Open to Indoor"
+#participants 1
+
+say 0 "" "..."
+say 0 "" "Used the Interiors Key."
+say 0 "" "..."

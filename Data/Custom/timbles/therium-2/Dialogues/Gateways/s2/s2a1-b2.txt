@@ -1,0 +1,8 @@
+#name "S2A1-B2"
+#participants 1
+
+say 1 "Ghost" "Do I even need to say childish insults?"
+say 0 "" "..."
+say 1 "Ghost" "I think I can just trigger it by talking..."
+say 1 "Ghost" "...[wait 0.5]Yeah, seems to be working."
+say 1 "Ghost" "Damnit, I totally fell for it too."

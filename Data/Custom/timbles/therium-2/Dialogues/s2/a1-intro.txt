@@ -1,0 +1,69 @@
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_eye_dir -130.223 37.0578 24.7785 1"
+send_character_message 2 "set_head_target -130.233 36.759 25.0636 3.75509e-006"
+set_character_pos 1 -133.116 36.408 24.3601 -24
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+send_character_message 1 "set_eye_dir -132.406 36.8865 24.6442 1"
+send_character_message 1 "set_head_target -131.61 36.9965 24.4698 1"
+set_cam -129.985 36.9446 25.2786 0 67.45 0 37.8203
+#name "Intro"
+#participants 2
+
+say 1 "Ghost" "Oh, hey Jared!"
+set_cam -129.985 36.9446 25.2786 0 67.45 0 37.8203
+send_character_message 2 "set_head_target -130.233 36.759 25.0636 3.75509e-006"
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999981"
+send_character_message 1 "set_animation \"Data/Animations/r_idle.anm\""
+say 1 "Ghost" "What's up with this place...[wait 0.5]?"
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999981"
+send_character_message 2 "set_head_target -130.471 36.9597 24.5436 0.74753"
+set_cam -130.341 36.9516 25.5726 0 33.53 0 37.8203
+say 2 "Jared" "Oh, it's just nothing."
+set_cam -130.341 36.9516 25.5726 0 33.53 0 37.8203
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999981"
+send_character_message 2 "set_head_target -130.438 37.1278 24.6168 0.74753"
+say 2 "Jared" "A lot of excess energy is spent here..."
+set_cam -130.341 36.9516 25.5726 0 33.53 0 37.8203
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999981"
+send_character_message 2 "set_head_target -131.246 37.1294 25.6448 0.74753"
+say 2 "Jared" "So the terrain and rocks are twisted like this."
+send_character_message 2 "set_head_target -131.246 37.1294 25.6448 0.74753"
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999981"
+set_cam -132.09 36.9516 25.0648 0 57.7 0 37.8203
+say 1 "Ghost" "Alright..."
+send_character_message 2 "set_head_target -131.246 37.1294 25.6448 0.74753"
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999981"
+set_cam -130.511 37.004 25.0555 0 66.28 0 37.8203
+say 2 "Jared" "Savor this sight, Ghost."
+set_cam -130.511 37.004 25.0555 0 66.28 0 37.8203
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.103877"
+send_character_message 2 "set_head_target -129.963 37.3891 25.0877 0.74753"
+say 0 "" "..."
+send_character_message 2 "set_head_target -129.963 37.3891 25.0877 0.74753"
+set_cam -130.511 37.004 25.0555 0 66.28 0 37.8203
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999966"
+say 2 "Jared" "Some people would kill for this."
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999966"
+send_character_message 2 "set_head_target -129.963 37.3891 25.0877 0.74753"
+set_cam -130.511 37.004 25.0555 0 66.28 0 37.8203
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_handneck.anm\""
+say 1 "Ghost" "Alright, well uh..."
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999966"
+send_character_message 2 "set_head_target -130.139 37.0867 25.5985 0.74753"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam -130.7 37.004 25.7001 0 20.68 0 37.8203
+say 2 "Jared" "Before you go, some info."
+set_cam -130.7 37.004 25.7001 0 20.68 0 37.8203
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.999966"
+send_character_message 2 "set_head_target -129.135 37.0867 24.931 0.74753"
+say 2 "Jared" "This area isn't really too well defended..."
+set_cam -130.7 37.004 25.7001 0 20.68 0 37.8203
+send_character_message 2 "set_eye_dir -129.444 36.4759 25.5199 0.579565"
+send_character_message 2 "set_head_target -129.233 36.8312 24.9704 0.74753"
+say 2 "Jared" "They're planning to build a city here."
+set_cam -130.7 37.004 25.7001 0 20.68 0 37.8203
+send_character_message 2 "set_eye_dir -129.444 36.6667 25.5199 1"
+say 2 "Jared" "Next to these spires!"
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_cam -131.995 37.0049 24.5792 0 83.61 0 37.8203
+say 1 "Ghost" "...[wait 0.5]alright."

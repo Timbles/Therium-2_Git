@@ -12,13 +12,16 @@ You can also go through a tutorial by typing therium2-tutorial.xml
 [spoiler=Installation Video]faewsfsedf[/spoiler]
 [spoiler=Important Gameplay Info]Before you load therium2.xml, try playing through the prologue! therium2-prologue.xml
 THERE IS A TUTORIAL LEVEL! therium2-tutorial.xml
-Baked Shadows will cause most levels to run slowly and have terrible framerate, so keep Baked Shadows to off for Dynamic Shadows instead. Baked Shadows is especially framerate hungry on indoors levels, so either keep baked shadows not calcualated on those levels or just have dynamic shadows.[/spoiler]
+Baked Shadows will cause most levels to run slowly and have terrible framerate, so keep Baked Shadows to off for Dynamic Shadows instead. Baked Shadows is especially framerate hungry on indoors levels, so either keep baked shadows not calcualated on those levels or just have dynamic shadows.
+If you're having trouble running some of the maps, try restarting your computer (and I mean holding the power button on your case down to force it to shut down). It definitely helps if you leave your computer on overnight.
+You can also disable Post Effects or Gamma Correction in the settings to increase performance. Most levels look bad with Gamma Correction off, though.[/spoiler]
 
 [spoiler=Requirements]- Ruined Arches
 - Watchtower
 - Sky Temple
 - Steelraven 7's Hotspot pack
-- River Fight[/spoiler]
+- River Fight
+- Landmark Lantern[/spoiler]
 
 [spoiler=Inspirations]- The Tower series by Elegaro
 - Jade: Diamask Pass (quite a while back)
@@ -32,7 +35,7 @@ Baked Shadows will cause most levels to run slowly and have terrible framerate, 
 -------------------------------------
 
 After being framed, you find yourself imprisoned in some place you barely recognize. Most of it is in disrepair, and a lot of people are going around, setting things up.
-Thankfully, you give them the slip and manage to escape your cell. Someone named Jared aids you and you go through the Therium, which seems to be a huge expanse of ruins being taken over by some civilization of Rabbits.
+Thankfully, you give them the slip and manage to escape your cell. Someone named Jared aids you and you go through the Therium, which seems to be a huge expanse of ruins being taken over by the Cinderbreathe Empire.
 
 [spoiler=Screenshots]yayaya[/spoiler]
 

@@ -1,0 +1,17 @@
+-- THERIUM-2 CHALLENGES --
+
+Here are some challenges that you can do on each level to make the game more challenging, or have more replay value.
+
+NO INJURIES: Don't get damaged once throughout the level.
+NO KILLS: Only knock enemies unconscious.
+COMBAT ONLY: You must engage every single enemy in combat, no stealth.
+UNDETECTED: You can't be seen once.
+INVISBILITY: You can't be seen or heard once.
+NO BLOCKING: You can't block enemy attacks; you can only dodge and take damage.
+NO FIRST HITS: The enemy has to hit you first before you hit them.
+DISTRACTION: Get every single enemy to move from their patrol or position at least once via distracting them.
+ASSASSIN: Split off every single enemy and attack them from stealth without failing. Only one at a time.
+DUCK: Complete the level only crouching.
+BROKEN LEG: Complete the level without jumping once.
+GRINDING: Only judo throws.
+WHIP THROW: You can only throw your weapons at the enemy.

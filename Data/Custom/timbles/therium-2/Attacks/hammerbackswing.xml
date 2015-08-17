@@ -8,7 +8,8 @@
            swap_stance_blocked = "false"
            mobile = "true"
 		   as_layer = "false"
-           alternate = "Data/Custom/timbles/therium-2/Attacks/hammerbackswing.xml.xml"/>
+           alternate = "Data/Custom/timbles/therium-2/Attacks/hammerswing.xml"
+           unblockable = "true"/>
     <reaction>Data/Attacks/reaction_highleft.xml</reaction>
     <impact_dir x="-1.0" y="0.0" z="0.0"/>
     <block_damage min="0.4" max="0.5"/>

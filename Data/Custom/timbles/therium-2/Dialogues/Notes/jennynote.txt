@@ -1,0 +1,28 @@
+set_character_pos 2 18.7884 -3.50738 96.0901 0
+set_character_pos 1 108.643 13.4551 104.134 -156
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target 108.07 13.5431 104.476 1"
+set_cam 110.567 13.6821 105.197 0 71.48 0 39.7457
+#name "Jenny Note"
+#participants 2
+
+say 1 "Ghost" "A note and a key."
+set_cam 110.567 13.6821 105.197 0 71.48 0 39.7457
+send_character_message 1 "set_head_target 108.07 13.5431 104.476 1"
+say 1 "Ghost" "Left behind by a supervisor..."
+send_character_message 1 "set_head_target 108.07 13.5431 104.476 1"
+set_cam 108.029 14.1265 104.442 -85.63 -171.87 -72.94 15.6202
+say 0 "" "..."
+send_character_message 1 "set_head_target 108.07 13.5431 104.476 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_cam 110.633 13.8552 106.101 0 54.53 0 29.4127
+say 0 "Ghost" "..."
+send_character_message 1 "set_head_target 108.204 13.9868 104.331 1"
+set_cam 108.268 14.1443 106.183 0 -3.63 0 24.0793
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+say 1 "Ghost" "Damn, I'm really doing a lot of harm to these guys..."
+send_character_message 1 "set_head_target 108.138 14.0738 104.059 1"
+say 1 "Ghost" "I just stole some of their stuff after beating them up."
+send_character_message 1 "set_head_target 108.138 14.3113 104.059 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 1 "Ghost" "Damn, that's badass."
