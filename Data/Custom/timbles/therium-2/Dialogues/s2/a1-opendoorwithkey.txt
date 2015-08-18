@@ -1,6 +1,12 @@
+set_character_pos 1 18.2375 7.2415 96.838 90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 19.2622 7.53402 97.6958 0 34.39 0 79.6248
 #name "Open to Indoor"
 #participants 1
 
 say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 18.2375 7.2415 96.272 90
 say 0 "" "Used the Interiors Key."
+set_character_pos 1 34.6232 -23.9802 103.805 -90
 say 0 "" "..."

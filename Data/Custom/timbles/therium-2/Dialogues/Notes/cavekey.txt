@@ -1,0 +1,30 @@
+set_character_pos 1 37.588 -30.0195 116.416 0
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 1 "set_eye_dir 38.5053 -29.7253 116.47 1"
+send_character_message 1 "set_head_target 38.2259 -29.4596 116.408 1"
+set_cam 37.134 -29.3928 115.16 -8.8 -137.77 0 60.7105
+#name "Cave Key"
+#participants 2
+
+say 1 "Ghost" "A note left behind by..."
+set_cam 37.134 -29.3928 115.16 -8.8 -137.77 0 60.7105
+send_character_message 1 "set_head_target 38.2259 -29.4596 116.408 1"
+send_character_message 1 "set_eye_dir 38.5053 -29.7253 116.47 1"
+say 1 "Ghost" "One of the higher-ups."
+send_character_message 1 "set_head_target 38.2259 -29.4596 116.408 1"
+send_character_message 1 "set_eye_dir 38.5053 -29.7253 116.47 1"
+set_cam 38.5145 -29.2393 116.534 -89.75 42.46 -132.81 61.6914
+say 0 "" "..."
+send_character_message 1 "set_head_target 38.2259 -29.4596 116.408 1"
+send_character_message 1 "set_eye_dir 38.5053 -29.7253 116.47 1"
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_cam 38.7797 -29.3783 116.55 0.17 89.65 0.18 61.6914
+say 0 "Ghost" "..."
+send_character_message 1 "set_head_target 38.3253 -29.6785 116.552 1"
+send_character_message 1 "set_eye_dir 38.4289 -29.904 116.519 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+say 0 "Ghost" "..."
+send_character_message 1 "set_eye_dir 37.79 -29.1735 115.564 1"
+send_character_message 1 "set_head_target 38.0416 -29.2553 116.244 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 0 "Ghost" "..."

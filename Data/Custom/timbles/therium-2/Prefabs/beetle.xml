@@ -1,7 +1,7 @@
 <?xml version="2.0" ?>
 <Type>saved</Type>
 <ActorObjects>
-    <ActorObject t0="-237.498" t1="-35.5767" t2="-18.4891" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="34" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\IGF_Characters\beetle.xml" is_player="0">
+    <ActorObject t0="60.5228" t1="-20.957" t2="-23.9141" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="346" type_file="Data/Custom/timbles/therium-2/Objects/IGF_Characters/beetle.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.75" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -21,7 +21,7 @@
             <parameter name="Teams" type="string" val="guard" />
         </parameters>
         <Connections>
-            <Connection id="-1" />
+            <Connection id="349" />
         </Connections>
         <ItemConnections />
         <Palette>
@@ -44,10 +44,10 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject t0="-237.095" t1="-36.0103" t2="-18.5076" s0="1.00002" s1="1.28524" s2="1.00011" r0="0.124986" r1="0.259715" r2="0.957563" r3="0" r4="0.0640446" r5="-0.96523" r6="0.253435" r7="0" r8="0.990089" r9="0.0296509" r10="-0.137273" r11="0" r12="0" r13="0" r14="0" r15="1" id="35" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Weapons/flint_knife_c2.xml">
+        <EnvObject t0="55.7009" t1="-20.3985" t2="-15.5894" s0="1.00002" s1="1.28524" s2="1.00011" r0="-0.819706" r1="0.376147" r2="0.431967" r3="0" r4="-0.225143" r5="-0.905039" r6="0.360855" r7="0" r8="0.526681" r9="0.198541" r10="0.826552" r11="0" r12="0" r13="0" r14="0" r15="1" id="347" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Weapons/flint_knife_c2.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="-237.548" t1="-35.4603" t2="-18.5361" s0="0.0185016" s1="0.00726178" s2="0.0214969" r0="0.367584" r1="0.0129564" r2="0.9299" r3="0" r4="-0.494906" r5="0.849285" r6="0.183801" r7="0" r8="-0.787369" r9="-0.527775" r10="0.318596" r11="0" r12="0" r13="0" r14="0" r15="1" id="36" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Rocks/rock1a.xml">
+        <EnvObject t0="55.4003" t1="-19.8718" t2="-15.9937" s0="0.0185016" s1="0.00726178" s2="0.0214969" r0="-0.462627" r1="-0.198405" r2="0.864067" r3="0" r4="-0.359214" r5="0.932998" r6="0.0219071" r7="0" r8="-0.81052" r9="-0.30025" r10="-0.5029" r11="0" r12="0" r13="0" r14="0" r15="1" id="348" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Rocks/rock1a.xml">
             <parameters />
         </EnvObject>
     </ActorObject>

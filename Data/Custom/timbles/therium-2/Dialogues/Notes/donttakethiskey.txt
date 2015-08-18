@@ -1,0 +1,7 @@
+#name "KeyNote"
+#participants 1
+
+say 1 "Ghost" "A note and a key left behind by a supervisor."
+say 0 "" "..."
+say 0 "Ghost" "..."
+say 1 "Ghost" "This should get me into the caverns nearby..."

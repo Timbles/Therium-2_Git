@@ -1,0 +1,6 @@
+#name "Enter Cave"
+#participants 1
+
+say 0 "Ghost" "..."
+say 0 "Ghost" "Used the Caverns Key."
+say 0 "" "Please load therium-s2-d.xml"

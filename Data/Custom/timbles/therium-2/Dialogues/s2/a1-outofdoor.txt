@@ -1,0 +1,12 @@
+set_character_pos 1 34.5037 -23.7729 102.078 90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 35.703 -23.6819 103.421 0 35.53 0 70.9741
+#name "Out of Door"
+#participants 1
+
+say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 34.5037 -23.7729 101.404 90
+say 0 "" "..."
+set_character_pos 1 18.2307 7.24592 98.0954 -90
+say 0 "" "..."

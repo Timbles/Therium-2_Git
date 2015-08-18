@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/box.obj</Model>
+	<ColorMap>Data/Textures/wall3_color.tga</ColorMap>
+	<NormalMap>Data/Custom/timbles/therium-2/Textures/normal.tga</NormalMap>
+	<ShaderName>invisible</ShaderName>
+</Object>
