@@ -1,0 +1,23 @@
+send_character_message 1 "set_eye_dir 26.4503 93.6044 -113.872 1"
+set_character_pos 3 69.6024 79.2846 -184.149 0
+set_character_pos 2 60.3051 104.805 -113.592 -180
+send_character_message 2 "set_animation \"Data/Animations/r_woundedidlethreat.anm\""
+send_character_message 2 "set_head_target 32.4885 93.7503 -114.097 0"
+set_character_pos 1 23.7034 93.2628 -113.907 0
+send_character_message 1 "set_animation \"Data/Animations/r_woundedidlethreat.anm\""
+send_character_message 1 "set_head_target 24.5938 93.0721 -114.094 0"
+set_cam 24.5301 93.5876 -113.25 0 38.69 0 45.3794
+#name "Halfway"
+#participants 3
+
+say 0 "" "..."
+set_character_pos 2 33.349 93.1786 -113.52 -180
+send_character_message 2 "set_head_target 31.9831 93.6268 -113.435 0.958269"
+set_cam 32.8053 93.814 -111.59 0 -3.2 0 45.3785
+say 2 "Trent" "I won't lose against some hoodlum..."
+send_character_message 1 "set_eye_dir 25.9652 93.5835 -113.955 1"
+set_cam 31.5324 93.6647 -112.873 0 -63.2 0 36.4936
+send_character_message 2 "set_head_target 32.0186 93.8799 -113.435 0.958269"
+say 2 "Trent" "I'm stronger against you and you know it."
+set_cam 25.4363 93.5959 -113.002 0 56.8 0 25.4363
+say 1 "Ghost" "Shut up and give it up now!"

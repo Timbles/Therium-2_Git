@@ -1,0 +1,13 @@
+set_character_pos 1 145.459 18.3738 71.2044 180
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_cam 146.903 18.8018 72.3758 0 65.73 0 40.587
+#name "Out Door A"
+#participants 1
+
+say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 145.049 18.3738 71.2044 180
+say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_character_pos 1 152.001 40.4372 33.0753 90
+say 0 "" "..."

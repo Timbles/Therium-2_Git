@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <particle>
-    <textures color_map = "Data/Custom/Gyrth/rain/Textures/rain_c.png" 
+    <textures color_map = "Data/Custom/timbles/therium-2/Textures/rain_c.png" 
               shader = "theoraadd"
               soft_shader = "theoraaddsoft"/>
     <stretch velocity_axis = "true" speed_stretch = "true" min_squash = "true"/>

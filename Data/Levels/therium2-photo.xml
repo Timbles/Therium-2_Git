@@ -1,0 +1,82 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Custom/aaorris/debug/Textures/heightmap.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Custom/aaorris/debug/Textures/white.tga</ColorMap>
+    <WeightMap>Data/Custom/aaorris/debug/Textures/black.tga</WeightMap>
+    <ModelOverride>Data/Custom/aaorris/debug/Models/terrain.obj</ModelOverride>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+        <DetailMap colorpath="Data/Custom/aaorris/debug/Textures/white.tga" normalpath="Data/Custom/aaorris/debug/Textures/normal.png" materialpath="Data/Custom/aaorris/debug/Objects/ground_material.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
+<OutOfDate Shadow="true" AO="true" NavMesh="true" />
+<SpawnPoints>
+    <SpawnPoint t0="0" t1="200" t2="0" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" />
+</SpawnPoints>
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="Extra AO" type="string" val="0.4" />
+    <parameter name="Level Boundaries" type="string" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Sky Rotation" type="string" val="0" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Custom/timbles/therium-2/Textures/level1.tga</DomeTexture>
+    <SunAngularRad>0.122851</SunAngularRad>
+    <SunColorAngle>350.578</SunColorAngle>
+    <RayToSun r0="0.55691" r1="0.77619" r2="0.295602" />
+    <ExtraAO>0</ExtraAO>
+    <SkyRotation>64</SkyRotation>
+</Sky>
+<ActorObjects>
+    <EnvObject t0="8.48741" t1="2.44379e-006" t2="-63.4478" s0="0.999443" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.48747" t1="-0.00846434" t2="-63.2869" s0="0.996323" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="3" color_r="1" color_g="0" color_b="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="8.4769" t1="4" t2="-63.3649" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" type_file="Data/Custom/timbles/therium-2/Objects/IGF_Characters/ghost.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Teams" type="string" val="player, Ghost" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <EnvObject t0="8.12354" t1="1.53721" t2="-47.8361" s0="1" s1="1" s2="1" r0="-1.19209e-007" r1="-1" r2="-0" r3="0" r4="1" r5="-1.19209e-007" r6="0" r7="0" r8="0" r9="-0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="4" color_r="1" color_g="0" color_b="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.48747" t1="-0.00846434" t2="-63.6514" s0="0.996323" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="0" color_g="0.133333" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.12354" t1="1.53721" t2="-77.9682" s0="1" s1="1" s2="1" r0="5.96046e-008" r1="-1" r2="-8.42937e-008" r3="0" r4="1" r5="5.96046e-008" r6="-8.42937e-008" r7="0" r8="8.42937e-008" r9="-8.42937e-008" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" color_r="0" color_g="0.101961" color_b="1" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>

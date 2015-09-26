@@ -1,0 +1,7 @@
+#name "Find Bomb"
+#participants 1
+
+say 1 "Ghost" "Here they are!"
+say 1 "Ghost" "This must be what Jared was talking about..."
+say 0 "" "..."
+say 0 "" "Please load AUISYUDFGEIRGEPGIS"

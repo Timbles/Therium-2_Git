@@ -1,0 +1,7 @@
+#name "Intro"
+#participants 1
+
+say 1 "Ghost" "Jared?"
+say 1 "Ghost" "Jared, are you there?"
+say 1 "Ghost" "Where the hell am I..."
+say 1 "Ghost" "I can barely see through this fog..."

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<attack>
+    <animations unblocked = "Data/Animations/r_sweep.anm"
+                blocked = "Data/Animations/r_sweepblocked.anm"/>
+    <flags height = "low"
+           direction = "right"/>
+    <reaction>Data/Attacks/reaction_lowright.xml</reaction>
+    <impact_dir x="1.0" y="0.0" z="0.0"/>
+    <block_damage min="0.05" max="0.15"/>
+    <damage min="0.5" max="0.7"/>
+    <force val="10000"/>
+    <materialevent>sweep</materialevent>
+</attack>

@@ -1,0 +1,45 @@
+set_character_pos 3 -167.45 -60.6863 42.4731 76
+send_character_message 3 "set_animation \"Data/Animations/r_sit_cross_legged.anm\""
+send_character_message 3 "set_head_target -166.854 -60.4803 40.7451 1"
+set_character_pos 2 -166.285 -60.4958 43.1412 121
+send_character_message 2 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 2 "set_head_target -167.986 -59.7246 40.1735 1"
+set_character_pos 1 -139.597 -42.6369 -14.9013 -180
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_shade.anm\""
+send_character_message 1 "set_eye_dir -142.661 -42.7207 -14.5109 1"
+send_character_message 1 "set_head_target -142.458 -42.5856 -14.2391 1"
+set_cam -137.698 -41.8424 -16.266 -11.67 115.36 -0.1 41.7404
+#name "Intro"
+#participants 3
+
+say 0 "Ghost" "..."
+set_cam -137.698 -41.8424 -16.266 -11.67 115.36 -0.1 41.7404
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 1 "Ghost" "Hey, there's Jared."
+set_cam -137.698 -41.8424 -16.266 -11.67 115.36 -0.1 41.7404
+say 1 "Ghost" "I better meet up with him."
+set_cam -169.057 -60.3723 39.6271 0.12 -144.25 -0.12 41.7404
+say 0 "" "..."
+send_character_message 2 "set_head_target -168.188 -59.393 40.2582 1"
+set_cam -166.651 -59.6994 41.4774 0.05 -173.44 -0.16 41.7404
+say 0 "" "..."
+say 2 "???" "Hey, look..."
+say 2 "???" "There's someone there."
+send_character_message 3 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam -166.672 -60.2 41.1019 -0.05 151.39 -0.16 41.7404
+say 3 "????" "And I think..."
+send_character_message 3 "set_head_target -168.155 -59.9222 38.8832 1"
+say 3 "????" "Yeah, I recognize this area."
+send_character_message 2 "set_head_target -167.14 -59.8425 42.5411 1"
+send_character_message 3 "set_head_target -166.326 -59.7897 42.4186 1"
+set_cam -166.659 -60.0413 39.9493 0.03 178.02 -0.17 41.7404
+say 2 "???" "You know the way back to base?"
+say 3 "????" "Well, not base, but the outpost we have to guard."
+send_character_message 2 "set_head_target -166.621 -59.5899 41.3192 1"
+send_character_message 3 "set_head_target -167.38 -59.7943 41.2384 1"
+say 2 "???" "Yeah, yeah, that's what I meant."
+set_cam -164.324 -59.9388 42.1017 -0.15 107.75 -0.09 41.7404
+say 3 "????" "Either way, we should ask that guy..."
+say 3 "????" "Ask him if he's seen the terrorists."
+send_character_message 3 "set_head_target -167.444 -59.8923 41.2347 1"
+say 2 "???" "Good idea..."

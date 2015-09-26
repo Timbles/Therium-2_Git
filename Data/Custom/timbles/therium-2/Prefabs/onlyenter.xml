@@ -1,0 +1,16 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="107.353" t1="49.8411" t2="72.1413" s0="0.879568" s1="1.27647" s2="1.06934" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="340" version="1">
+        <parameters />
+        <EnvObject t0="107.321" t1="49.8411" t2="72.1395" s0="1" s1="1" s2="1" r0="1.78814e-007" r1="-8.42937e-008" r2="1" r3="0" r4="2.52881e-007" r5="1" r6="8.42937e-008" r7="0" r8="-1" r9="2.52881e-007" r10="1.78814e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="338" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/shops/sign_post_a.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="107.544" t1="49.8262" t2="72.1325" s0="1.19623" s1="1.19623" s2="1.19623" r0="2.5332e-007" r1="1.49012e-008" r2="1" r3="0" r4="-0.176722" r5="0.984261" r6="1.49012e-008" r7="0" r8="-0.984261" r9="-0.176722" r10="2.38419e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="339" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/shops/sign_square_board.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="107.644" t1="49.8141" t2="72.1492" s0="1.04344" s1="0.117881" s2="1.04344" r0="-5.96046e-008" r1="0" r2="1" r3="0" r4="0.986414" r5="0.164276" r6="-8.9407e-008" r7="0" r8="-0.164276" r9="0.986414" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="187" type_file="Data/Custom/timbles/therium-2/Objects/Decals/onlyenter.xml" i="0" color_r="1" color_g="1" color_b="1">
+            <parameters />
+        </Decal>
+    </Group>
+</ActorObjects>

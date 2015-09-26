@@ -1,0 +1,50 @@
+set_character_pos 3 66.4383 79.7005 -162.508 0
+set_character_pos 2 35.6585 93.6122 -113.468 -180
+send_character_message 2 "set_eye_dir 32.8307 93.9956 -113.504 1"
+send_character_message 2 "set_head_target 34.2263 93.9979 -113.488 1"
+set_character_pos 1 21.6104 93.0641 -113.494 0
+send_character_message 1 "set_eye_dir 23.2135 94.0154 -113.439 1"
+send_character_message 1 "set_head_target 26.4321 93.8274 -113.445 1"
+set_cam 29.0617 93.805 -103.089 0 0 0 90
+#name "Intro"
+#participants 3
+
+say 0 "" "..."
+send_character_message 2 "set_head_target 34.2294 93.9037 -113.488 1"
+set_cam 34.0413 93.6589 -112.12 0 -39.89 0 52.2285
+say 2 "???" "I'd ask you to stop."
+send_character_message 2 "set_head_target 34.2256 94.1004 -113.488 1"
+say 2 "???" "But I know you wouldn't."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 23.677 93.6589 -113.188 0 80.11 0 52.2285
+say 1 "Ghost" "Well you're damn right."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+say 1 "Ghost" "I've beaten up your kind before!"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 34.1747 93.9167 -113.123 0 -69.89 0 40.6601
+say 2 "???" "Well, you've been beating up a bunch of mooks."
+send_character_message 2 "set_head_target 34.1967 93.7868 -113.61 1"
+set_cam 34.176 93.9167 -113.123 0 -69.89 0 40.6601
+say 2 "???" "People who just nudged their way into their job..."
+send_character_message 2 "set_head_target 34.2381 94.0219 -113.49 1"
+say 2 "???" "Amateurs, if you will."
+say 2 "???" "I'll bet you twenty bucks you're the same."
+send_character_message 2 "set_head_target 34.2664 94.0031 -113.357 1"
+say 2 "???" "...[wait 0.5]Do you even know who I am?"
+say 2 "???" "I'll clue you in."
+send_character_message 2 "set_head_target 34.2597 93.7976 -113.386 1"
+say 2 "???" "Just step out, you punk."
+set_cam 23.4235 93.6457 -113.098 0 80.11 0 40.6601
+say 1 "Ghost" "I've heard of you, Trent."
+send_character_message 1 "set_animation \"Data/Animations/r_combatidle2.anm\""
+say 1 "Ghost" "But I know you're nothing compared to me."
+send_character_message 2 "set_eye_dir 32.8307 93.9956 -113.504 0.79457"
+send_character_message 2 "set_head_target 34.3354 93.7596 -113.61 1"
+set_cam 34.3553 93.9226 -113.721 0 -99.89 0 32.4879
+say 2 "Trent" "You're a fiesty one..."
+send_character_message 2 "set_head_target 34.3481 93.9364 -113.61 1"
+send_character_message 2 "set_eye_dir 32.8307 93.9956 -113.504 1"
+say 2 "Trent" "I was planning to get a bit of backup..."
+send_character_message 2 "set_animation \"Data/Animations/r_combatidle.anm\""
+send_character_message 2 "set_head_target 34.3292 93.9566 -113.61 1"
+say 2 "Trent" "But now I'm certain I don't need it."

@@ -1,0 +1,6 @@
+#name "Bomb Door"
+#participants 1
+
+say 1 "Ghost" "This has gotta be where the bomb is..."
+say 0 "" "..."
+say 0 "" "..."

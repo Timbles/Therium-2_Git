@@ -1,0 +1,8 @@
+set_cam -125.383 119.927 -99.3056 4.6 -72.68 0 44.8998
+#name "A path"
+#participants 1
+
+say 0 "" "If you choose this path..."
+say 0 "" "Know that you will need strength."
+say 0 "" "If you choose this path..."
+say 0 "" "Load kekekekk"

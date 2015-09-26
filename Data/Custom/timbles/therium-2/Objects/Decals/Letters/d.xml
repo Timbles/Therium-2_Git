@@ -2,6 +2,6 @@
 <Type>generic</Type>
 <DecalObject>
         <ColorMap>Data/Custom/timbles/therium-2/Textures/Letters/d.tga</ColorMap>
-	<NormalMap>Data/Custom/timbles/therium-2/Textures/Notes/normal.tga</NormalMap>
+	<NormalMap>Data/Textures/diffusebump.tga</NormalMap>
 	<ShaderName>decal</ShaderName>
 </DecalObject>

@@ -1,0 +1,64 @@
+set_character_pos 4 -190.978 -59.3243 -0.976573 121
+send_character_message 4 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 4 "set_head_target -192.349 -58.3815 -2.65921 1"
+set_character_pos 3 -191.944 -59.2963 -0.508642 105
+send_character_message 3 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 3 "set_head_target -192.145 -58.5327 -1.6935 1"
+set_character_pos 2 -192.839 -58.5178 -3.21913 -60
+send_character_message 2 "set_animation \"Data/Animations/r_idle.anm\""
+send_character_message 2 "set_head_target -191.965 -58.3602 -1.66909 1"
+set_character_pos 1 -157.872 -47.774 -13.335 -163
+send_character_message 1 "set_head_target -161.886 -48.5107 -12.0922 1"
+set_cam -188.009 -58.7796 -4.18045 0 120 0.02 51.1172
+#name "Meet"
+#participants 4
+
+say 3 "???" "Hello there..."
+say 3 "???" "Have you seen anyone wearing a blue hoodie?"
+say 4 "????" "A bit of leather armor?"
+send_character_message 2 "set_head_target -191.789 -58.5363 -1.45211 1"
+send_character_message 3 "set_head_target -191.941 -58.4711 -1.78878 1"
+set_cam -191.999 -58.7696 -2.93577 -0.02 -164.11 0 42.825
+say 4 "????" "Yellow bits to his clothes..."
+send_character_message 4 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+say 3 "???" "Really pale tint of fur?"
+send_character_message 3 "set_head_target -191.295 -58.4872 -1.28112 1"
+send_character_message 2 "set_head_target -191.872 -58.4215 -1.3617 1"
+send_character_message 4 "set_head_target -192.619 -58.4483 -1.84757 1"
+send_character_message 4 "set_animation \"Data/Animations/r_idle.anm\""
+say 4 "????" "Show the poster."
+set_cam -67.1258 -6.06081 12.9819 0.02 1.77 0 29.5142
+say 3 "???" "Have you seen this rabbit?"
+send_character_message 3 "set_head_target -191.891 -58.4872 -1.19319 1"
+set_cam -189.947 -58.589 2.84211 0.02 25.77 0.01 29.5142
+say 2 "Jared" "I can't say I have..."
+say 3 "???" "Alright, well..."
+send_character_message 4 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 4 "set_head_target -191.513 -58.9907 -2.06265 1"
+send_character_message 3 "set_head_target -191.737 -58.4973 -1.11589 1"
+send_character_message 2 "set_head_target -191.926 -58.5092 -1.66508 1"
+say 3 "???" "What about this uh..."
+send_character_message 3 "set_head_target -192.038 -58.4973 -1.119 1"
+say 4 "????" "What about a big, muscular rabbit..."
+say 4 "????" "Wearing mostly rope and some pants?"
+say 3 "???" "Really, really dark fur color..."
+say 4 "????" "Blue pants?"
+send_character_message 4 "set_head_target -191.512 -58.9857 -2.06305 1"
+send_character_message 3 "set_head_target -191.016 -58.0476 -1.44687 1"
+send_character_message 2 "set_head_target -191.804 -58.5092 -1.41495 1"
+set_cam -195.191 -59.2805 -0.338396 11.43 -77.01 -0.02 29.5142
+say 2 "Jared" "Well-"
+send_character_message 4 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 4 "set_head_target -190.332 -58.1884 -1.87211 1"
+say 3 "???" "Wait."
+send_character_message 4 "set_animation \"Data/Animations/r_combatidle.anm\""
+say 4 "????" "Holy shit!"
+send_character_message 3 "set_animation \"Data/Animations/r_combatidle.anm\""
+say 3 "???" "It's the terrorist!"
+say 4 "????" "The new one!"
+send_character_message 3 "set_head_target -190.172 -57.7933 -1.39205 1"
+send_character_message 4 "set_head_target -189.734 -58.0468 -1.70366 1"
+set_character_pos 4 -190.978 -59.3243 -0.976573 27
+set_character_pos 3 -191.944 -59.2963 -0.508642 15
+send_character_message 4 "set_animation \"Data/Animations/r_combatidlethreat.anm\""
+say 3 "???" "Get him!"

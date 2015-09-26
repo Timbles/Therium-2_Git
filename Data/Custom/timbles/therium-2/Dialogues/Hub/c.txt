@@ -1,0 +1,8 @@
+set_cam -128.005 120.422 -107.146 0 122.43 0 52.754
+#name "C path"
+#participants 1
+
+say 0 "" "If you choose this path..."
+say 0 "" "Know that you will need clear vision."
+say 0 "" "If you choose this path..."
+say 0 "" "Load margarine butter"

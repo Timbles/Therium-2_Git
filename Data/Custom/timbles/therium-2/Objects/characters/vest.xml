@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/Characters/Rabbit/tops/flak_vest.obj</Model>
+	<ColorMap>Data/Textures/Characters/rabbit/tops/flak_vest_c.tga</ColorMap>
+	<NormalMap>Data/Textures/diffusebump.tga</NormalMap>
+	<ShaderName>cubemapobjchar</ShaderName>
+</Object>

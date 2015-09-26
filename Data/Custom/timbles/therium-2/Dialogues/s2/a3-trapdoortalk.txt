@@ -1,0 +1,29 @@
+set_character_pos 1 147.22 18.416 69.5755 121
+send_character_message 1 "set_head_target 146.782 18.6997 68.7196 1"
+set_cam 148.613 18.7365 70.0601 0 53.42 0 66.3986
+#name "Trapdoor Peekaboo"
+#participants 1
+
+say 1 "Ghost" "It's locked... I can't get in."
+say 1 "Ghost" "I can hear some people talking..."
+set_cam 149.167 19.4194 69.1499 -19.66 86.65 0 50.276
+say 0 "???" "Hey man..."
+say 0 "" "..."
+say 0 "???" "Turns out there's another terrorist."
+say 0 "????" "Damn... we gotta watch for two people now..."
+say 0 "???" "Some dude in a blue hood."
+say 0 "???" "He's even more hostile then that other guy."
+say 0 "????" "Well yeah, the other guy..."
+say 0 "????" "He's the most chill 'terrorist' ever."
+say 0 "???" "Yeah, more then anything, we're attacking him."
+say 0 "????" "Either way, orders are orders."
+say 0 "???" "And rewards are rewards."
+say 0 "????" "Oh man, I know..."
+say 0 "????" "The Empry must be an absolutely great place."
+say 0 "???" "I heard they just serve you food..."
+say 0 "???" "Right at your doorstep!"
+say 0 "????" "That sounds way too good to be true."
+say 0 "???" "Well, you see the captain himself..."
+say 0 "???" "Walk around a couple of times every day."
+say 0 "???" "Wherever that happens, I'm sure there's luxury."
+say 0 "????" "A free pass to retirement..."

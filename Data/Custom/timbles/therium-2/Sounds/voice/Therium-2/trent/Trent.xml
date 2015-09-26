@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<voice>
+	<attack path="Data/Custom/timbles/therium-2/Sounds/voice/Therium-2/trent/hiss.xml"/>
+	<death path="Data/Sounds/voice/animal2/voice_bunny_death.xml"/>
+</voice>

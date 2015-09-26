@@ -1,0 +1,11 @@
+set_character_pos 1 216.049 19.4029 17.2847 84
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_cam 216.641 19.995 18.1008 0 17.66 0 62.7894
+#name "See Poster"
+#participants 1
+
+say 1 "Ghost" "Hey..."
+say 1 "Ghost" "It's me!"
+set_character_pos 1 215.886 19.4029 18.8391 84
+set_cam 216.25 19.9909 18.5203 0 1.77 0 43.6986
+say 0 "" "..."

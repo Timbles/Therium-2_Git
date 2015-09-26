@@ -1,0 +1,49 @@
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+send_character_message 2 "set_eye_dir 169.492 34.7481 75.4406 1"
+send_character_message 2 "set_head_target 169.438 34.9703 75.7993 1"
+set_character_pos 1 169.387 33.9882 74.7597 -90
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_cam 169.7 35.1104 81.0241 0 16.4 0 55.3794
+set_character_pos 2 168.831 34.5575 79.6128 90
+#name "Intro"
+#participants 2
+
+say 2 "Jared" "Hey Ghost, I have something special."
+send_character_message 2 "set_head_target 167.268 35.5689 75.1001 1"
+set_cam 170.071 35.1104 78.4296 0 118.58 0 55.3794
+send_character_message 2 "set_animation \"Data/Animations/r_actionidle.anm\""
+say 2 "Jared" "So you see, I found something big..."
+send_character_message 2 "set_head_target 166.866 35.347 74.7347 1"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 169.339 35.2852 78.4922 0 148.58 0 38.6095
+say 2 "Jared" "It turns out, there's a huge tower near here..."
+send_character_message 2 "set_head_target 167.273 35.0047 74.9169 1"
+say 2 "Jared" "If we destroy that tower..."
+say 2 "Jared" "Not only will we completely rid this colony..."
+send_character_message 2 "set_head_target 169.477 34.9767 74.865 1"
+say 2 "Jared" "But there's a gateway that'll get you out of here!"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+set_cam 169.973 34.5056 76.4854 0 28.58 0 38.6095
+say 1 "Ghost" "Damn, really!?"
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target 166.539 34.9767 74.3545 1"
+set_cam 169.915 35.0935 77.8638 0 148.58 0 38.6095
+say 2 "Jared" "You'll have to find a set of explosives..."
+say 2 "Jared" "They're actually all very near here."s
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 1 "set_head_target 163.406 37.4399 75.4381 1"
+set_cam 177.802 34.9375 80.579 0 70.91 0 38.6095
+send_character_message 2 "set_head_target 164.569 36.0675 73.8232 1"
+say 2 "Jared" "Lucky you, you just need to cross this bridge."
+say 1 "Ghost" "Looks a little decrepit."
+send_character_message 2 "set_head_target 168.88 34.5638 75.5825 1"
+send_character_message 1 "set_head_target 166.219 35.574 73.258 1"
+say 2 "Jared" "Well, you know how it is with ancient buildings."
+set_cam 170.059 35.1511 78.4839 0 134.39 0 38.6095
+say 2 "Jared" "Oh, and by the way..."
+send_character_message 1 "set_head_target 165.241 33.8931 77.5592 1"
+set_cam 171.321 34.3132 74.6419 0 104.39 0 38.6095
+say 2 "Jared" "I left a knife for you."
+set_cam 169.645 34.4998 76.6708 0 14.39 0 38.6095
+send_character_message 1 "set_head_target 169.388 34.6732 75.7685 1"
+say 1 "Ghost" "Thanks! I'll do my best."

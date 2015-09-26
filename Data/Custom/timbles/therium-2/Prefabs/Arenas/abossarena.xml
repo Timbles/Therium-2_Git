@@ -1,0 +1,34 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-116.465" t1="-57.3709" t2="-105.998" s0="73.2924" s1="69.088" s2="74.2573" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="147" version="1">
+        <parameters />
+        <EnvObject t0="-116.186" t1="-36.8035" t2="-105.665" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="138" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/hanging_garden_arena/hanging_garden_arena_stands.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-116.245" t1="-54.8138" t2="-105.723" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="139" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/hanging_garden_arena/hanging_garden_arena_walls.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-116.743" t1="-37.3263" t2="-106.33" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="140" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/hanging_garden_arena/hanging_garden_arena_stands_back.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-116.06" t1="-74.4671" t2="-105.724" s0="0.515949" s1="0.515949" s2="0.515949" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="141" color_r="1" color_g="1" color_b="1" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\twowolves\fountain_of_death_arena\01_models\jims_fod.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-128.533" t1="-66.3917" t2="-94.0823" s0="5.82477" s1="5.82477" s2="5.82477" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="142" color_r="0.568627" color_g="0.568627" color_b="0.568627" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\Ground\sand.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-128.365" t1="-66.3917" t2="-117.093" s0="5.82477" s1="5.82477" s2="5.82477" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="143" color_r="0.568627" color_g="0.568627" color_b="0.568627" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\Ground\sand.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-105.558" t1="-66.3922" t2="-118.934" s0="5.82477" s1="5.82477" s2="5.82477" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="144" color_r="0.568627" color_g="0.568627" color_b="0.568627" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\Ground\sand.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-104.209" t1="-66.3922" t2="-93.4172" s0="5.82477" s1="5.82477" s2="5.82477" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="145" color_r="0.568627" color_g="0.568627" color_b="0.568627" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\Ground\sand.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-116.367" t1="-68.8105" t2="-105.684" s0="8.19901" s1="8.19901" s2="8.19901" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="146" color_r="0.568627" color_g="0.568627" color_b="0.568627" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Custom\timbles\therium-2\Objects\Ground\sand.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

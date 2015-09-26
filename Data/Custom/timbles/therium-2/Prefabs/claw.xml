@@ -1,0 +1,19 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="25.1843" t1="-0.759266" t2="38.9039" s0="28.6953" s1="27.6449" s2="13.0688" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="71" version="1">
+        <parameters />
+        <EnvObject t0="23.1183" t1="-0.37984" t2="37.8666" s0="0.771942" s1="0.269238" s2="0.907423" r0="0.896846" r1="0.442343" r2="-2.90236e-008" r3="0" r4="-0.442343" r5="0.896846" r6="6.76828e-009" r7="0" r8="2.90236e-008" r9="6.76828e-009" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="68" color_r="0.2" color_g="0.2" color_b="0.2" type_file="Data/Objects/Crete/sharp_coastal_crete.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="28.4273" t1="0.79114" t2="37.3966" s0="0.771942" s1="0.269238" s2="0.907422" r0="0.864947" r1="0.274808" r2="0.419936" r3="0" r4="-0.284223" r5="0.957863" r6="-0.0414125" r7="0" r8="-0.413621" r9="-0.083536" r10="0.906608" r11="0" r12="0" r13="0" r14="0" r15="1" id="69" color_r="0.2" color_g="0.2" color_b="0.2" type_file="Data/Objects/Crete/sharp_coastal_crete.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="33.1185" t1="0.737014" t2="40.1818" s0="0.771942" s1="0.269238" s2="0.907422" r0="0.662395" r1="-0.0845148" r2="0.744372" r3="0" r4="0.119373" r5="0.992828" r6="0.00649725" r7="0" r8="-0.739582" r9="0.0845545" r10="0.667733" r11="0" r12="0" r13="0" r14="0" r15="1" id="70" color_r="0.2" color_g="0.2" color_b="0.2" type_file="Data/Objects/Crete/sharp_coastal_crete.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="20.0646" t1="-4.35055" t2="39.3482" s0="-0.744751" s1="0.223507" s2="0.907423" r0="0.76029" r1="0.631982" r2="0.150197" r3="0" r4="-0.649483" r5="0.743673" r6="0.158504" r7="0" r8="-0.0115263" r9="-0.218059" r10="0.975868" r11="0" r12="0" r13="0" r14="0" r15="1" id="72" color_r="0.2" color_g="0.2" color_b="0.2" type_file="Data/Objects/Crete/sharp_coastal_crete.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

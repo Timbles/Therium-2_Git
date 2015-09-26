@@ -1,0 +1,11 @@
+set_character_pos 1 -119.938 109.049 -127.636 -90
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 1 "set_eye_dir -119.982 109.254 -126.582 1"
+send_character_message 1 "set_head_target -119.982 109.576 -126.516 1"
+set_cam -118.667 109.516 -126.432 0 60 0 55.0745
+#name "Crossroads"
+#participants 1
+
+say 1 "Ghost" "A note..."
+set_cam -119.97 110.25 -126.476 -89.98 -140.64 -37.35 61.4891
+say 0 "" "..."

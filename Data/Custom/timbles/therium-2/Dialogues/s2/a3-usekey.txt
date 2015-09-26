@@ -1,0 +1,6 @@
+#name "Use Key"
+#participants 1
+
+say 0 "" "..."
+say 0 "" "Used the key."
+say 0 "" "..."

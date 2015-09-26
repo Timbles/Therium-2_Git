@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/Buildings/RopeBall1.obj</Model>
+	<ColorMap>Data/Textures/Buildings/TrapDoor1/TrapDoor1_Color.tga</ColorMap>
+	<NormalMap>Data/Textures/Buildings/TrapDoor1/TrapDoor1_Normal.tga</NormalMap>
+	<ShaderPath>Data/GLSL/cubemapobj</ShaderPath>
+	<ShaderName>cubemapobj</ShaderName>
+	<flags no_collision = "true"/>
+</Object>

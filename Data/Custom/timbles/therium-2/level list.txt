@@ -1,0 +1,39 @@
+Level list
+
+
+
+
+BEGIN
+*-Level 1, *-Level 2
+
+
+S1
+*A1, *-A2
+*B1, *-B2
+*C1, C2
+
+
+S2
+*A1, %A2 *A3
+B1, B2
+C1, C2
+D1, D2, D3
+
+
+E
+A1, A2
+B1
+C1, C2
+D1, D2
+
+
+MISC
+*-Dream Cutscene
+*F1, F2, F3, F4
+*Hub
+
+
+
+*   = Completed
+*-  = Completed, needs to be remade
+%   = In progress

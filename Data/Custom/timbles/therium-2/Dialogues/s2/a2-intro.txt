@@ -1,0 +1,37 @@
+set_character_pos 2 156.402 51.0714 92.512 -105
+send_character_message 2 "set_eye_dir 154.249 51.984 95.4756 1"
+send_character_message 2 "set_head_target 154.849 52.2936 95.4426 1"
+set_character_pos 1 154.584 51.8448 96.5092 82
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 1 "set_eye_dir 156.358 51.6214 93.0688 1"
+send_character_message 1 "set_head_target 155.699 52.7912 93.7686 1"
+set_cam 154.148 52.1586 94.6579 0 -163.69 0 36.0613
+#name "Intro"
+#participants 2
+
+say 1 "Ghost" "Hey, Jared."
+send_character_message 2 "set_animation \"Data/Animations/r_dialogue_thoughtful.anm\""
+set_cam 154.745 51.556 93.5258 0 -57.97 0 36.0613
+say 2 "Jared" "They know you're coming here, by the way."
+send_character_message 2 "set_head_target 155.935 52.2118 95.0521 1"
+say 2 "Jared" "But that's because the bomb we can use is here!"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_welcome.anm\""
+set_cam 153.207 52.0058 97.7803 0 -34.23 0 36.0613
+say 1 "Ghost" "Damn, really!?"
+say 2 "Jared" "It's under high security, so expect swords and heavies..."
+say 2 "Jared" "But yeah, we're nearly there!"
+send_character_message 1 "set_head_target 156.127 52.1063 93.7349 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 154.032 52.1129 94.5354 0 -159.42 0 36.0613
+say 1 "Ghost" "Where do we go after I retrieve the bomb?"
+send_character_message 2 "set_head_target 155.077 52.2118 94.9682 1"
+set_cam 154.888 51.6024 93.5095 0 -62.53 0 36.0613
+say 2 "Jared" "Once you get the bomb, just get back here."
+send_character_message 2 "set_head_target 156.676 52.2118 94.0531 1"
+say 2 "Jared" "There's a shrine somewhere around here..."
+say 2 "Jared" "That'll take you to the tower."
+send_character_message 2 "set_animation \"Data/Animations/r_actionidle.anm\""
+send_character_message 2 "set_head_target 155.848 51.8369 93.6212 1"
+say 2 "Jared" "Either way, get ready... they sure are."
+set_cam 154.944 52.266 94.9251 0 169.71 0 26.3122
+say 1 "Ghost" "I'm sure I'll be fine."

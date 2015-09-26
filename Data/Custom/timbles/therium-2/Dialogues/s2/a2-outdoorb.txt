@@ -1,0 +1,6 @@
+#name "Out Door B"
+#participants 1
+
+say 0 "" "..."
+say 0 "" "..."
+say 0 "" "..."

@@ -1,0 +1,13 @@
+set_character_pos 1 169.618 40.4788 40.6006 0
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+set_cam 168.377 40.6678 41.6334 0 -60 0 70.4301
+#name "In Door C"
+#participants 1
+
+say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 170.245 40.4788 40.6006 0
+say 0 "" "..."
+send_character_message 1 "set_animation \"Data/Animations/r_actionidle.anm\""
+set_character_pos 1 209.428 20.0609 35.2937 0
+say 0 "" "..."

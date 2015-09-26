@@ -1,0 +1,7 @@
+<?xml version="2.0" ?>
+<Type>generic</Type>
+<Hotspot>
+		<BillboardColorMap>Data/Custom/haphazzard/sky_temple/UI/spawner/thumbs/Hotspot/blank_icon.png</BillboardColorMap>
+		<Script>../Custom/timbles/therium-2/Scripts/spiritfog.as</Script>
+</Hotspot>
+

@@ -1,0 +1,9 @@
+set_character_pos 1 158.718 8.30048 -22.94 -90
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_cam 161.5 8.75241 -28.1859 0 150 0 66.8571
+#name "Through Gate"
+#participants 1
+
+say 0 "" "..."
+set_character_pos 1 158.718 8.30048 -19.2238 -90
+say 0 "" "..."

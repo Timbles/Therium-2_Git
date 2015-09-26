@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<particle>
+    <textures color_map = "Data/Textures/smoke.tga" 
+              normal_map = "Data/Textures/smoke_normal.tga"
+              shader = "litsprite"
+              soft_shader = "litspritesoft"/>
+    <size min = "5.0" max = "7.0"/>
+    <rotation min = "-25.0" max = "25.0"/>
+    <color red =   "0.7"
+           green = "0.5"
+           blue =  "0.78"
+           alpha_min = "0.3" alpha_max = "0.4"/>
+    <behavior inertia="0.9" gravity="0.0" wind="1.0" size_decay_rate="0.01" opacity_decay_rate="0.01" opacity_ramp_time="3.0"/>
+</particle>

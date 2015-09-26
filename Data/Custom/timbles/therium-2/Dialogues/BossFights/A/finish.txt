@@ -1,0 +1,40 @@
+set_character_pos 4 17.9213 93.1073 -113.023 0
+set_character_pos 2 19.2516 60.3967 -181.628 0
+send_character_message 2 "set_animation \"Data/Animations/r_sleep.anm\""
+send_character_message 2 "set_head_target 19.7323 59.9691 -181.858 1"
+set_character_pos 1 21.8043 60.9333 -181.881 -180
+send_character_message 1 "set_eye_dir 20.8642 61.2671 -181.423 1"
+send_character_message 1 "set_head_target 20.4284 60.3804 -182.1 1"
+set_cam 22.9267 61.626 -180.689 -26.71 61.78 -1.11 45.1654
+#name "Finish"
+#participants 4
+
+say 1 "Ghost" "..."
+say 1 "Ghost" "Can't get back up?"
+send_character_message 2 "set_head_target 19.8334 60.3519 -181.858 1"
+set_cam 20.3693 60.4948 -182.153 -25.54 108.63 1.6 55.6095
+say 2 "Trent" "Shut up!"
+set_cam 20.3693 60.4948 -182.153 -25.56 109.29 1.32 55.6095
+send_character_message 1 "set_head_target 20.4257 60.3798 -182.1 1"
+set_character_pos 1 21.8013 60.9334 -181.881 -180
+send_character_message 2 "set_head_target 19.8356 60.3499 -182.099 1"
+say 2 "Trent" "You are weak![wait 0.5] You are small!"
+send_character_message 2 "set_head_target 19.8356 60.3499 -182.099 1"
+send_character_message 1 "set_head_target 20.4257 60.3798 -182.1 1"
+set_character_pos 1 21.8013 60.9334 -181.881 -180
+set_cam 19.4181 68.9725 -181.887 -86.8 -52.39 -56.71 34.7147
+say 1 "Ghost" "Doesn't matter."
+send_character_message 1 "set_head_target 20.4257 60.3798 -182.1 1"
+set_character_pos 1 21.8013 60.9334 -181.881 -180
+send_character_message 2 "set_head_target 19.8356 60.3499 -182.099 1"
+say 1 "Ghost" "You're done, mate."
+send_character_message 1 "set_head_target 19.2976 60.1798 -181.932 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_jeer.anm\""
+set_character_pos 1 20.2179 60.3635 -181.881 -180
+send_character_message 2 "set_head_target 20.0372 60.1609 -182.099 1"
+say 2 "Trent" "Fuck you!"
+send_character_message 2 "set_head_target 19.9513 60.4956 -182.099 1"
+send_character_message 1 "set_animation \"Data/Animations/r_dialogue_armcross.anm\""
+say 2 "Trent" "You are just a dirt thug!"
+say 1 "Ghost" "Thanks for the key, by the way."
+say 2 "Trent" "You are NOTHING!"

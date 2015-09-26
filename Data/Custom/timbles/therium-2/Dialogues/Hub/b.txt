@@ -1,0 +1,8 @@
+set_cam -125.387 119.038 -99.1488 5.94 176.73 0 65.3797
+#name "B path"
+#participants 1
+
+say 0 "" "If you choose this path..."
+say 0 "" "Know that you will need willpower."
+say 0 "" "If you choose this path..."
+say 0 "" "Load yayaya"

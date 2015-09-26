@@ -1,0 +1,7 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <EnvObject t0="143.362" t1="-52.151" t2="-24.9132" s0="1.75156" s1="2.77396" s2="1.62901" r0="-1" r1="-8.88178e-016" r2="1.19209e-007" r3="0" r4="8.88178e-016" r5="1" r6="1.49012e-008" r7="0" r8="-1.19209e-007" r9="1.49012e-008" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1126" color_r="0.356863" color_g="0.298039" color_b="0.490196" type_file="C:\Program Files (x86)\Steam\steamapps\common\Overgrowth\Data\Objects\Gear\rabbit_gear\large_bag.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>
