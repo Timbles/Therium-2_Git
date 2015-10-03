@@ -1,0 +1,88 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="170.06" t1="-31.3403" t2="150.031" s0="3.24686" s1="7.01289" s2="6.44568" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="304" version="1">
+        <parameters />
+        <EnvObject t0="168.741" t1="-31.0234" t2="152.944" s0="2.13917" s1="2.13917" s2="2.13917" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="277" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="170.074" t1="-31.5459" t2="150.008" s0="3.42984" s1="3.42984" s2="3.42984" r0="1" r1="0" r2="-0" r3="0" r4="-0" r5="5.96046e-008" r6="-1" r7="0" r8="0" r9="1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="278" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Fence1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="168.741" t1="-31.0234" t2="147.116" s0="2.13917" s1="2.13917" s2="2.13917" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="279" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="171.371" t1="-31.0234" t2="152.944" s0="2.13917" s1="2.13917" s2="2.13917" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="280" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="171.371" t1="-31.0234" t2="147.116" s0="2.13917" s1="2.13917" s2="2.13917" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="281" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="170.068" t1="-28.4225" t2="150.015" s0="0.527404" s1="0.835643" s2="0.9703" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="282" color_r="0.329412" color_g="0.329412" color_b="0.164706" type_file="Data/Objects/Buildings/shops/shop_tarp.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="168.693" t1="-31.3761" t2="150.043" s0="1.2506" s1="2.0624" s2="1.25061" r0="1" r1="0" r2="0" r3="0" r4="0" r5="5.96046e-008" r6="1" r7="0" r8="0" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="283" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="171.435" t1="-31.3761" t2="150.043" s0="1.2506" s1="2.06241" s2="1.25061" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="284" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="169.897" t1="-31.3734" t2="152.968" s0="1.25061" s1="0.956922" s2="1.25061" r0="1.19209e-007" r1="-1.19209e-007" r2="1" r3="0" r4="-1" r5="1.19209e-007" r6="0" r7="0" r8="0" r9="-1" r10="0" r11="0" r12="0" r13="0" r14="0" r15="1" id="285" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="169.897" t1="-31.3734" t2="147.094" s0="1.2506" s1="0.956922" s2="1.25061" r0="1.19209e-007" r1="5.96046e-008" r2="1" r3="0" r4="-1" r5="0" r6="2.98023e-007" r7="0" r8="-1.78814e-007" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="286" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="171.377" t1="-28.0023" t2="152.95" s0="2.61485" s1="0.219361" s2="1.72952" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="287" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="168.743" t1="-28.0023" t2="152.95" s0="2.61485" s1="0.219361" s2="1.72952" r0="1" r1="0" r2="0" r3="0" r4="0" r5="5.96046e-008" r6="1" r7="0" r8="0" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="288" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="171.377" t1="-28.0023" t2="147.112" s0="2.61485" s1="0.219361" s2="1.72952" r0="1" r1="0" r2="0" r3="0" r4="0" r5="5.96046e-008" r6="1" r7="0" r8="0" r9="-1" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="289" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="168.743" t1="-28.0023" t2="147.112" s0="2.61485" s1="0.219361" s2="1.72952" r0="1" r1="0" r2="0" r3="0" r4="0" r5="-1.19209e-007" r6="1" r7="0" r8="0" r9="-1" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="290" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <Group t0="170.068" t1="-32.4155" t2="147.755" s0="2.97033" s1="1.79872" s2="1.46786" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="293" version="1">
+            <parameters />
+            <EnvObject t0="168.734" t1="-32.4155" t2="147.755" s0="1.4655" s1="1.4655" s2="1.4655" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="291" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="171.402" t1="-32.4155" t2="147.755" s0="1.4655" s1="1.4655" s2="1.4655" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="292" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <EnvObject t0="171.402" t1="-32.4155" t2="152.266" s0="1.4655" s1="1.4655" s2="1.4655" r0="-1" r1="8.74228e-008" r2="0" r3="0" r4="8.74228e-008" r5="1" r6="-0" r7="0" r8="-0" r9="0" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="295" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="168.734" t1="-32.4155" t2="152.266" s0="1.4655" s1="1.4655" s2="1.4655" r0="-1" r1="8.74228e-008" r2="0" r3="0" r4="8.74228e-008" r5="1" r6="-0" r7="0" r8="-0" r9="0" r10="-1" r11="0" r12="0" r13="0" r14="0" r15="1" id="296" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="169.447" t1="-32.4155" t2="152.898" s0="1.4655" s1="1.4655" s2="1.4655" r0="5.96046e-008" r1="0" r2="-1" r3="0" r4="1.68587e-007" r5="1" r6="0" r7="0" r8="1" r9="-1.68587e-007" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="294" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="170.643" t1="-32.4116" t2="152.893" s0="1.45586" s1="1.45907" s2="1.4655" r0="-3.57628e-007" r1="2.13163e-014" r2="1" r3="0" r4="1.68587e-007" r5="1" r6="2.13163e-014" r7="0" r8="-1" r9="1.68587e-007" r10="-3.57628e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="297" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="169.447" t1="-32.4155" t2="147.16" s0="1.4655" s1="1.4655" s2="1.4655" r0="5.96046e-008" r1="-7.10543e-015" r2="-1" r3="0" r4="1.68587e-007" r5="1" r6="7.10543e-015" r7="0" r8="1" r9="-1.68587e-007" r10="5.96046e-008" r11="0" r12="0" r13="0" r14="0" r15="1" id="298" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="170.643" t1="-32.4116" t2="147.154" s0="1.45586" s1="1.45907" s2="1.4655" r0="-3.57628e-007" r1="2.84217e-014" r2="1" r3="0" r4="1.68587e-007" r5="1" r6="2.84217e-014" r7="0" r8="-1" r9="1.68587e-007" r10="-3.57628e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="299" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/window_boxes/box_base_angled.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="171.377" t1="-34.1892" t2="152.936" s0="2.61485" s1="0.478888" s2="2.63516" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="300" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="168.743" t1="-34.1892" t2="152.936" s0="2.61485" s1="0.478888" s2="2.63516" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="301" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="171.377" t1="-34.1892" t2="147.098" s0="2.61485" s1="0.478888" s2="2.63516" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="302" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="168.743" t1="-34.1892" t2="147.098" s0="2.61485" s1="0.478888" s2="2.63516" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="303" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

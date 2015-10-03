@@ -5,6 +5,7 @@ Here are some challenges that you can do on each level to make the game more cha
 NO INJURIES: Don't get damaged once throughout the level.
 NO KILLS: Only knock enemies unconscious.
 COMBAT ONLY: You must engage every single enemy in combat, no stealth.
+ELIMINATION: Defeat every single enemy in the level.
 UNDETECTED: You can't be seen once.
 INVISBILITY: You can't be seen or heard once.
 NO BLOCKING: You can't block enemy attacks; you can only dodge and take damage.
@@ -15,3 +16,15 @@ DUCK: Complete the level only crouching.
 BROKEN LEG: Complete the level without jumping once.
 GRINDING: Only judo throws.
 WHIP THROW: You can only throw your weapons at the enemy.
+
+
+- PRESET CHALLENGES -
+
+Flawless Combat
+No Injuries, No Kills, Combat Only, No Combat, No First Hits, Elimination
+
+Flawless Stealth
+No Kills, Invisibility, Assassin, Elimination
+
+Joker
+Combat Only, Elimination, No Blocking, No First Hits, Distraction, Duck, Broken Leg
