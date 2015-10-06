@@ -1,0 +1,22 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="83.2461" t1="-28.0239" t2="156.539" s0="0.723287" s1="4.96758" s2="4.94388" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="665" version="1">
+        <parameters />
+        <EnvObject t0="83.2461" t1="-29.7962" t2="154.428" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="660" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/shops/sign_post_i.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="83.247" t1="-27.3799" t2="154.435" s0="1" s1="1.34644" s2="0.999959" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="4.12464e-005" r7="0" r8="0" r9="-4.12464e-005" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="661" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="83.2461" t1="-29.7964" t2="158.649" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="662" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/shops/sign_post_i.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="83.247" t1="-27.3801" t2="158.656" s0="1" s1="1.34644" s2="0.999959" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="4.12464e-005" r7="0" r8="0" r9="-4.12464e-005" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="663" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="83.1909" t1="-27.8466" t2="156.511" s0="0.606417" s1="0.250006" s2="0.647198" r0="-1.19209e-007" r1="-1" r2="-8.42937e-008" r3="0" r4="1" r5="-1.19209e-007" r6="-8.42937e-008" r7="0" r8="8.42937e-008" r9="-8.42937e-008" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="664" color_r="0.356863" color_g="0.352941" color_b="0.286275" type_file="Data/Objects/Buildings/shops/shop_tarp.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

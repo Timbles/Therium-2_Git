@@ -7,8 +7,8 @@
     <color red =   "1.0"
            green = "1.0"
            blue =  "1.0"
-           alpha_min = "0.0" alpha_max = "5.0"/>
-    <behavior inertia="1.0" gravity="0.2" wind="0.5" size_decay_rate="0.0" opacity_decay_rate="0.0"/>
+           alpha_min = "3.0" alpha_max = "4.0"/>
+    <behavior inertia="1.0" gravity="0.1" wind="0.5" size_decay_rate="0.0" opacity_decay_rate="0.0"/>
     <collision decal_size_mult = "1.0" destroy="true"
                character_collide="false" character_add_blood="false"/>
 </particle>

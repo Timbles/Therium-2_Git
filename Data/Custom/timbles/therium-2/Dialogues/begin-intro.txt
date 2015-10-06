@@ -1,0 +1,9 @@
+#name "Begin Intro"
+#participants 1
+
+say 1 "You" "Damn..."
+say 1 "You" "Where am I?"
+say 1 "You" "I don't know the way back to the Empry..."
+say 1 "You" "Not from here."
+say 1 "You" "Oh hell..."
+say 1 "You" "I'm lost."
