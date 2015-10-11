@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Custom/timbles/therium-2/Models/Bell.obj</Model>
+	<ColorMap>Data/Custom/timbles/therium-2/Textures/Bell_c.tga</ColorMap>
+	<NormalMap>Data/Custom/timbles/therium-2/Textures/Bell_n.tga</NormalMap>
+	<ShaderName>cubemap</ShaderName>
+</Object>
