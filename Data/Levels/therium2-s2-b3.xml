@@ -1,0 +1,157 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Custom/timbles/therium-2/Textures/Terrain/hpzchallenge/hoppz_challengemap.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/Terrain/tree_canyon/tree_canyon_c.tga</ColorMap>
+    <WeightMap>Data/Textures/Terrain/tree_canyon/tree_canyon_w.tga</WeightMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_normal.png" materialpath="Data/Materials/grass.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass_stones_c.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_stones_n.tga" materialpath="Data/Materials/gravel.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/rubble_rocks_c.tga" normalpath="Data/Textures/Terrain/DetailTextures/rubble_rocks_n.tga" materialpath="Data/Materials/rocks.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/chipped_rock.tga" normalpath="Data/Textures/Terrain/DetailTextures/chipped_rock_normal.tga" materialpath="Data/Materials/rock.xml" />
+    </DetailMaps>
+    <DetailObjects>
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/WildGrass.xml" weight_path="Data/Textures/Terrain/tree_canyon/tree_canyon_grass.png" normal_conform="0.5" density="10" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="2" view_distance="40" jitter_degrees="10" overbright="0" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_c.xml" weight_path="Data/Textures/Terrain/tree_canyon/tree_canyon_rocks.png" normal_conform="0.9" density="0.5" min_embed="0.4" max_embed="0.8" min_scale="0.2" max_scale="0.8" view_distance="30" jitter_degrees="10" overbright="0.05" collision_type="static" />
+    </DetailObjects>
+</Terrain>
+<OutOfDate Shadow="true" AO="true" NavMesh="true" />
+<SpawnPoints>
+    <SpawnPoint t0="0" t1="200" t2="0" s0="1" s1="1" s2="1" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" />
+</SpawnPoints>
+<AmbientSounds>
+    <Ambient path="Data/Sounds/ambient/amb_deadvolcano_loop" />
+</AmbientSounds>
+<Script>Data/Scripts/challengelevel.as</Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="Extra AO" type="string" val="0" />
+    <parameter name="Level Boundaries" type="string" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Sky Rotation" type="string" val="-153" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Textures/skies/bright_dusk.tga</DomeTexture>
+    <SunAngularRad>0.129381</SunAngularRad>
+    <SunColorAngle>304.887</SunColorAngle>
+    <RayToSun r0="-0.86937" r1="0.430987" r2="0.241756" />
+    <ExtraAO>0</ExtraAO>
+    <SkyRotation>-153</SkyRotation>
+</Sky>
+<ActorObjects>
+    <EnvObject t0="-228.807" t1="92.7924" t2="460.609" s0="1.39333" s1="1.39333" s2="1.39333" r0="0.954752" r1="0.258927" r2="-0.146306" r3="0" r4="-0.269525" r5="0.961267" r6="-0.0576313" r7="0" r8="0.125717" r9="0.0944567" r10="0.987559" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-337.355" t1="76.6017" t2="474.243" s0="1.76692" s1="1.44493" s2="1.39333" r0="-0.97575" r1="-0.0473414" r2="-0.213709" r3="0" r4="-0.0215197" r5="0.992349" r6="-0.121574" r7="0" r8="0.217829" r9="-0.114027" r10="-0.969303" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-374.967" t1="74.4747" t2="337.347" s0="2.82504" s1="2.7482" s2="2.68297" r0="-0.648854" r1="0.334448" r2="0.683472" r3="0" r4="-0.121512" r5="0.841155" r6="-0.526965" r7="0" r8="-0.751148" r9="-0.424973" r10="-0.505147" r11="0" r12="0" r13="0" r14="0" r15="1" id="3" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-373.448" t1="44.0228" t2="408.305" s0="3.4523" s1="3.3584" s2="3.27868" r0="-0.95678" r1="0.264207" r2="-0.121516" r3="0" r4="0.0373521" r5="0.526038" r6="0.84964" r7="0" r8="0.288403" r9="0.80838" r10="-0.513172" r11="0" r12="0" r13="0" r14="0" r15="1" id="4" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-428.116" t1="86.1268" t2="391.052" s0="3.4523" s1="3.3584" s2="3.27868" r0="-0.86967" r1="0.120254" r2="0.478762" r3="0" r4="0.444169" r5="-0.232539" r6="0.86524" r7="0" r8="0.215379" r9="0.965124" r10="0.148819" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-416.961" t1="69.4476" t2="409.096" s0="3.4523" s1="3.3584" s2="3.27868" r0="-0.753483" r1="0.00336343" r2="0.65746" r3="0" r4="0.650385" r5="-0.142574" r6="0.746104" r7="0" r8="0.0962459" r9="0.989779" r10="0.105239" r11="0" r12="0" r13="0" r14="0" r15="1" id="6" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-452.735" t1="89.1854" t2="440.412" s0="3.4523" s1="3.3584" s2="3.27868" r0="0.48486" r1="-0.860507" r2="0.156328" r3="0" r4="0.76503" r5="0.330668" r6="-0.552619" r7="0" r8="0.42384" r9="0.387538" r10="0.818641" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-314.051" t1="65.4888" t2="261.705" s0="2.4021" s1="2.33677" s2="2.2813" r0="-0.99954" r1="0.0188166" r2="0.0238114" r3="0" r4="0.0185406" r5="-0.242555" r6="0.969961" r7="0" r8="0.0240269" r9="0.969955" r10="0.242094" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-318.081" t1="50.6818" t2="272.604" s0="2.4021" s1="2.33677" s2="2.2813" r0="-0.939191" r1="0.080104" r2="0.33392" r3="0" r4="0.301299" r5="-0.274267" r6="0.913234" r7="0" r8="0.164737" r9="0.958311" r10="0.233455" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-299.287" t1="100.369" t2="223.015" s0="2.4021" s1="2.33677" s2="2.2813" r0="-0.981925" r1="-0.0296537" r2="0.186932" r3="0" r4="-0.114772" r5="0.878633" r6="-0.4635" r7="0" r8="-0.1505" r9="-0.476577" r10="-0.866155" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-278.568" t1="77.9461" t2="243.266" s0="2.4021" s1="2.33677" s2="2.2813" r0="-0.981925" r1="-0.0296535" r2="0.186932" r3="0" r4="-0.114772" r5="0.878633" r6="-0.4635" r7="0" r8="-0.1505" r9="-0.476577" r10="-0.866155" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-228.442" t1="49.4741" t2="267.622" s0="2.4021" s1="2.33677" s2="2.2813" r0="0.909225" r1="-0.174662" r2="-0.377893" r3="0" r4="0.0128977" r5="0.919113" r6="-0.393782" r7="0" r8="0.416106" r9="0.353162" r10="0.837934" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-179.465" t1="58.8695" t2="216.446" s0="2.4021" s1="2.33677" s2="2.2813" r0="-0.570958" r1="-0.199319" r2="0.796416" r3="0" r4="0.790029" r5="-0.397243" r6="0.46696" r7="0" r8="0.223297" r9="0.895807" r10="0.384277" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-88.9777" t1="66.0132" t2="369.194" s0="2.4021" s1="2.33677" s2="2.2813" r0="0.970141" r1="0.0917319" r2="-0.224525" r3="0" r4="-0.0147153" r5="0.946275" r6="0.323027" r7="0" r8="0.242094" r9="-0.310078" r10="0.91937" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-43.9419" t1="60.6667" t2="333.946" s0="2.4021" s1="2.33677" s2="2.2813" r0="-0.0297537" r1="0.519417" r2="0.854003" r3="0" r4="0.482421" r5="0.755748" r6="-0.442849" r7="0" r8="-0.875434" r9="0.398812" r10="-0.273064" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-12.4523" t1="81.8154" t2="325.535" s0="2.4021" s1="2.33677" s2="2.2813" r0="-0.0785211" r1="-0.1682" r2="0.982621" r3="0" r4="0.0150505" r5="0.985352" r6="0.16987" r7="0" r8="-0.996799" r9="0.0281273" r10="-0.0748394" r11="0" r12="0" r13="0" r14="0" r15="1" id="16" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="52.8089" t1="110.952" t2="258.24" s0="2.84793" s1="2.77047" s2="2.70471" r0="-0.512394" r1="0.0213729" r2="0.858485" r3="0" r4="0.265322" r5="0.954719" r6="0.134591" r7="0" r8="-0.816736" r9="0.296739" r10="-0.494863" r11="0" r12="0" r13="0" r14="0" r15="1" id="17" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="44.3542" t1="90.6998" t2="244.867" s0="2.84793" s1="2.77047" s2="2.70471" r0="0.416322" r1="-0.221766" r2="-0.881757" r3="0" r4="0.449808" r5="0.893042" r6="-0.0122271" r7="0" r8="0.790158" r9="-0.391531" r10="0.471545" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-119.361" t1="84.0107" t2="14.145" s0="3.82737" s1="3.72327" s2="3.63489" r0="-0.975402" r1="0.218051" r2="0.0323128" r3="0" r4="0.216394" r5="0.975121" r6="-0.0480968" r7="0" r8="-0.0419964" r9="-0.0399214" r10="-0.99832" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-113.435" t1="65.034" t2="32.5277" s0="3.82737" s1="3.72327" s2="3.63489" r0="0.849237" r1="0.053759" r2="-0.525268" r3="0" r4="-0.205432" r5="0.950063" r6="-0.234901" r7="0" r8="0.48641" r9="0.307393" r10="0.817872" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-146.739" t1="80.856" t2="33.6179" s0="3.03999" s1="2.95731" s2="2.88711" r0="0.669919" r1="-0.0686727" r2="-0.739251" r3="0" r4="-0.223283" r5="0.930981" r6="-0.288825" r7="0" r8="0.708063" r9="0.358552" r10="0.608348" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="50.3133" t1="62.1947" t2="27.9688" s0="3.82737" s1="3.72327" s2="3.63489" r0="0.849237" r1="0.0537589" r2="-0.525268" r3="0" r4="-0.205432" r5="0.950063" r6="-0.234901" r7="0" r8="0.48641" r9="0.307393" r10="0.817872" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="102.777" t1="62.0562" t2="188.961" s0="1.76692" s1="1.44493" s2="1.39333" r0="-0.604452" r1="0.14834" r2="0.782709" r3="0" r4="0.197872" r5="0.979677" r6="-0.0328621" r7="0" r8="-0.771677" r9="0.135012" r10="-0.62152" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="165.731" t1="69.5719" t2="-51.4477" s0="1.21369" s1="0.992518" s2="0.957072" r0="-0.936231" r1="0.181697" r2="0.300761" r3="0" r4="0.16325" r5="0.982865" r6="-0.0855962" r7="0" r8="-0.31116" r9="-0.0310387" r10="-0.949851" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="191.374" t1="41.7806" t2="-35.8509" s0="1.21369" s1="0.992518" s2="0.957072" r0="0.963808" r1="-0.205128" r2="-0.170286" r3="0" r4="0.16804" r5="0.963303" r6="-0.209306" r7="0" r8="0.206972" r9="0.173116" r10="0.962909" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="210.441" t1="98.0446" t2="-184.911" s0="2.50593" s1="2.43778" s2="2.37991" r0="0.462921" r1="-0.637506" r2="0.615865" r3="0" r4="-0.883666" r5="-0.277385" r6="0.377083" r7="0" r8="-0.0695613" r9="-0.718779" r10="-0.69175" r11="0" r12="0" r13="0" r14="0" r15="1" id="26" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="200.579" t1="86.8066" t2="-170.523" s0="2.50593" s1="2.43778" s2="2.37991" r0="-0.737731" r1="-0.160132" r2="0.655829" r3="0" r4="-0.420223" r5="0.869236" r6="-0.260463" r7="0" r8="-0.528362" r9="-0.467746" r10="-0.708553" r11="0" r12="0" r13="0" r14="0" r15="1" id="27" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="355.948" t1="55.3456" t2="171.481" s0="1.76692" s1="1.44493" s2="1.39333" r0="-0.812719" r1="0.12803" r2="0.568415" r3="0" r4="0.0800194" r5="0.990841" r6="-0.108766" r7="0" r8="-0.577134" r9="-0.0429121" r10="-0.815521" r11="0" r12="0" r13="0" r14="0" r15="1" id="28" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="255.698" t1="50.2114" t2="166.921" s0="3.82737" s1="3.72327" s2="3.63489" r0="0.248515" r1="0.732422" r2="0.633876" r3="0" r4="-0.779306" r5="0.53983" r6="-0.318223" r7="0" r8="-0.575259" r9="-0.4149" r10="0.704936" r11="0" r12="0" r13="0" r14="0" r15="1" id="29" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="267.972" t1="64.1789" t2="180.811" s0="2.69633" s1="2.623" s2="2.56073" r0="-0.350649" r1="0.800074" r2="0.486751" r3="0" r4="0.855592" r5="0.0623429" r6="0.513884" r7="0" r8="0.3808" r9="0.596652" r10="-0.706397" r11="0" r12="0" r13="0" r14="0" r15="1" id="30" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-168.5" t1="66.4808" t2="66.1931" s0="3.82737" s1="3.72327" s2="3.63489" r0="0.139402" r1="0.214819" r2="-0.966654" r3="0" r4="-0.555514" r5="0.825073" r6="0.103245" r7="0" r8="0.819739" r9="0.522597" r10="0.234352" r11="0" r12="0" r13="0" r14="0" r15="1" id="31" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-10.0382" t1="72.0447" t2="269.55" s0="2.84793" s1="2.77047" s2="2.70471" r0="-0.491607" r1="-0.372401" r2="0.787172" r3="0" r4="0.00446963" r5="0.902855" r6="0.429921" r7="0" r8="-0.870806" r9="0.214871" r10="-0.442185" r11="0" r12="0" r13="0" r14="0" r15="1" id="32" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-361.085" t1="37.1499" t2="429.151" s0="3.4523" s1="3.3584" s2="3.27868" r0="-0.95678" r1="0.264207" r2="-0.121516" r3="0" r4="0.0373524" r5="0.526038" r6="0.84964" r7="0" r8="0.288403" r9="0.80838" r10="-0.513172" r11="0" r12="0" r13="0" r14="0" r15="1" id="33" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-344.589" t1="47.5349" t2="368.849" s0="0.736999" s1="0.716954" s2="0.699935" r0="-0.71104" r1="0.114944" r2="0.693693" r3="0" r4="0.636343" r5="-0.314526" r6="0.704373" r7="0" r8="0.299148" r9="0.942264" r10="0.150496" r11="0" r12="0" r13="0" r14="0" r15="1" id="34" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-361.509" t1="52.0981" t2="384.378" s0="0.89591" s1="0.871543" s2="0.850854" r0="-0.901011" r1="0.253066" r2="0.35233" r3="0" r4="0.105973" r5="0.916001" r6="-0.386927" r7="0" r8="-0.420653" r9="-0.311288" r10="-0.852145" r11="0" r12="0" r13="0" r14="0" r15="1" id="35" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-305.965" t1="29.4241" t2="415.512" s0="1.30183" s1="1.26642" s2="1.23636" r0="0.968978" r1="0.061853" r2="0.239282" r3="0" r4="0.230187" r5="0.126605" r6="-0.964878" r7="0" r8="-0.0899753" r9="0.990025" r10="0.108439" r11="0" r12="0" r13="0" r14="0" r15="1" id="36" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-322.72" t1="33.5829" t2="410.801" s0="1.30183" s1="1.26642" s2="1.23636" r0="0.206147" r1="-0.153244" r2="0.966446" r3="0" r4="0.974164" r5="0.125235" r6="-0.187935" r7="0" r8="-0.0922324" r9="0.98022" r10="0.175103" r11="0" r12="0" r13="0" r14="0" r15="1" id="37" color_r="0.670588" color_g="0.694118" color_b="0.717647" type_file="Data/Objects/Environment/Rocks/coast_rock_large.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>
